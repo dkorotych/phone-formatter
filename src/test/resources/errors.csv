@@ -1,0 +1,18 @@
+     ,INVALID_COUNTRY_CODE,Country calling code not found or was not recognised
+     ,NOT_A_NUMBER        ,The input string did not seem to be a phone number
+     ,TOO_LONG            ,Number has more digits than any valid phone number could have
+     ,TOO_SHORT_NSN       ,The entered string is too short to be a national phone number for selected country
+     ,TOO_SHORT_AFTER_IDD ,"Phone number has an International Direct Dial prefix, but after this prefix was not long enough to be a valid phone number"
+     ,UNKNOWN             ,Unknown error
+de-DE,INVALID_COUNTRY_CODE,Länderanrufcode nicht gefunden oder nicht erkannt
+de-DE,NOT_A_NUMBER        ,Die Eingabezeichenfolge schien keine Telefonnummer zu sein
+de-DE,TOO_LONG            ,Die Nummer hat mehr Ziffern als jede gültige Telefonnummer
+de-DE,TOO_SHORT_NSN       ,"Die eingegebene Zeichenfolge ist zu kurz, um eine nationale Telefonnummer für das ausgewählte Land zu sein"
+de-DE,TOO_SHORT_AFTER_IDD ,"Die Telefonnummer hat ein International Direct Dial-Präfix, aber danach war dieses Präfix nicht lang genug, um eine gültige Telefonnummer zu sein"
+de-DE,UNKNOWN             ,Unbekannter Fehler
+ru   ,INVALID_COUNTRY_CODE,Телефонный код страны не найден или не был распознан
+ru   ,NOT_A_NUMBER        ,Введенная строка не является номером телефона
+ru   ,TOO_LONG            ,"Номер имеет больше цифр, чем может иметь любой действующий номер телефона"
+ru   ,TOO_SHORT_NSN       ,"Введенная строка слишком коротка, чтобы быть национальным номером телефона для выбранной страны"
+ru   ,TOO_SHORT_AFTER_IDD ,"Номер телефона имеет префикс международного прямого набора, но после этого префикс не был достаточно длинным, чтобы быть действительным номером телефона"
+ru   ,UNKNOWN             ,Неизвестная ошибка

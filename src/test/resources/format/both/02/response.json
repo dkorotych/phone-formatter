@@ -1,0 +1,21 @@
+{
+  "numbers": [
+    {
+      "number": "+380504185123",
+      "valid": true,
+      "probability": 1.0,
+      "format": {
+        "e164": "+380504185123",
+        "international": "+380 50 418 5123",
+        "rfc3966": "tel:+380-50-418-5123",
+        "national": "050 418 5123"
+      },
+      "country": {
+        "name": "Ukraine",
+        "locale": "UA",
+        "code": 380
+      }
+    }
+  ],
+  "success": true
+}
