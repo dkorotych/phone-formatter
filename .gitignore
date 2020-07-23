@@ -35,3 +35,4 @@ out/
 .project
 .settings
 .classpath
+.env
