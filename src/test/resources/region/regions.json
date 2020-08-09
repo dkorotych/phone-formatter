@@ -1,0 +1,2697 @@
+{
+  "AC": {
+    "name": "AC",
+    "code": 247,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇦🇨",
+        "htmlCode": "&#127462;&#127464;"
+      }
+    }
+  },
+  "AD": {
+    "name": "AD",
+    "code": 376,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇦🇩",
+        "htmlCode": "&#127462;&#127465;"
+      }
+    }
+  },
+  "AE": {
+    "name": "AE",
+    "code": 971,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇦🇪",
+        "htmlCode": "&#127462;&#127466;"
+      }
+    }
+  },
+  "AF": {
+    "name": "AF",
+    "code": 93,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇦🇫",
+        "htmlCode": "&#127462;&#127467;"
+      }
+    }
+  },
+  "AG": {
+    "name": "AG",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇦🇬",
+        "htmlCode": "&#127462;&#127468;"
+      }
+    }
+  },
+  "AI": {
+    "name": "AI",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇦🇮",
+        "htmlCode": "&#127462;&#127470;"
+      }
+    }
+  },
+  "AL": {
+    "name": "AL",
+    "code": 355,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇦🇱",
+        "htmlCode": "&#127462;&#127473;"
+      }
+    }
+  },
+  "AM": {
+    "name": "AM",
+    "code": 374,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇦🇲",
+        "htmlCode": "&#127462;&#127474;"
+      }
+    }
+  },
+  "AO": {
+    "name": "AO",
+    "code": 244,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇦🇴",
+        "htmlCode": "&#127462;&#127476;"
+      }
+    }
+  },
+  "AR": {
+    "name": "AR",
+    "code": 54,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇦🇷",
+        "htmlCode": "&#127462;&#127479;"
+      }
+    }
+  },
+  "AS": {
+    "name": "AS",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇦🇸",
+        "htmlCode": "&#127462;&#127480;"
+      }
+    }
+  },
+  "AT": {
+    "name": "AT",
+    "code": 43,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇦🇹",
+        "htmlCode": "&#127462;&#127481;"
+      }
+    }
+  },
+  "AU": {
+    "name": "AU",
+    "code": 61,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇦🇺",
+        "htmlCode": "&#127462;&#127482;"
+      }
+    }
+  },
+  "AW": {
+    "name": "AW",
+    "code": 297,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇦🇼",
+        "htmlCode": "&#127462;&#127484;"
+      }
+    }
+  },
+  "AX": {
+    "name": "AX",
+    "code": 358,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇦🇽",
+        "htmlCode": "&#127462;&#127485;"
+      }
+    }
+  },
+  "AZ": {
+    "name": "AZ",
+    "code": 994,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇦🇿",
+        "htmlCode": "&#127462;&#127487;"
+      }
+    }
+  },
+  "BA": {
+    "name": "BA",
+    "code": 387,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇦",
+        "htmlCode": "&#127463;&#127462;"
+      }
+    }
+  },
+  "BB": {
+    "name": "BB",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇧",
+        "htmlCode": "&#127463;&#127463;"
+      }
+    }
+  },
+  "BD": {
+    "name": "BD",
+    "code": 880,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇩",
+        "htmlCode": "&#127463;&#127465;"
+      }
+    }
+  },
+  "BE": {
+    "name": "BE",
+    "code": 32,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇪",
+        "htmlCode": "&#127463;&#127466;"
+      }
+    }
+  },
+  "BF": {
+    "name": "BF",
+    "code": 226,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇫",
+        "htmlCode": "&#127463;&#127467;"
+      }
+    }
+  },
+  "BG": {
+    "name": "BG",
+    "code": 359,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇬",
+        "htmlCode": "&#127463;&#127468;"
+      }
+    }
+  },
+  "BH": {
+    "name": "BH",
+    "code": 973,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇭",
+        "htmlCode": "&#127463;&#127469;"
+      }
+    }
+  },
+  "BI": {
+    "name": "BI",
+    "code": 257,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇮",
+        "htmlCode": "&#127463;&#127470;"
+      }
+    }
+  },
+  "BJ": {
+    "name": "BJ",
+    "code": 229,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇯",
+        "htmlCode": "&#127463;&#127471;"
+      }
+    }
+  },
+  "BL": {
+    "name": "BL",
+    "code": 590,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇱",
+        "htmlCode": "&#127463;&#127473;"
+      }
+    }
+  },
+  "BM": {
+    "name": "BM",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇲",
+        "htmlCode": "&#127463;&#127474;"
+      }
+    }
+  },
+  "BN": {
+    "name": "BN",
+    "code": 673,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇳",
+        "htmlCode": "&#127463;&#127475;"
+      }
+    }
+  },
+  "BO": {
+    "name": "BO",
+    "code": 591,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇴",
+        "htmlCode": "&#127463;&#127476;"
+      }
+    }
+  },
+  "BQ": {
+    "name": "BQ",
+    "code": 599,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇶",
+        "htmlCode": "&#127463;&#127478;"
+      }
+    }
+  },
+  "BR": {
+    "name": "BR",
+    "code": 55,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇷",
+        "htmlCode": "&#127463;&#127479;"
+      }
+    }
+  },
+  "BS": {
+    "name": "BS",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇸",
+        "htmlCode": "&#127463;&#127480;"
+      }
+    }
+  },
+  "BT": {
+    "name": "BT",
+    "code": 975,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇹",
+        "htmlCode": "&#127463;&#127481;"
+      }
+    }
+  },
+  "BW": {
+    "name": "BW",
+    "code": 267,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇼",
+        "htmlCode": "&#127463;&#127484;"
+      }
+    }
+  },
+  "BY": {
+    "name": "BY",
+    "code": 375,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇾",
+        "htmlCode": "&#127463;&#127486;"
+      }
+    }
+  },
+  "BZ": {
+    "name": "BZ",
+    "code": 501,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇧🇿",
+        "htmlCode": "&#127463;&#127487;"
+      }
+    }
+  },
+  "CA": {
+    "name": "CA",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇦",
+        "htmlCode": "&#127464;&#127462;"
+      }
+    }
+  },
+  "CC": {
+    "name": "CC",
+    "code": 61,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇨",
+        "htmlCode": "&#127464;&#127464;"
+      }
+    }
+  },
+  "CD": {
+    "name": "CD",
+    "code": 243,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇩",
+        "htmlCode": "&#127464;&#127465;"
+      }
+    }
+  },
+  "CF": {
+    "name": "CF",
+    "code": 236,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇫",
+        "htmlCode": "&#127464;&#127467;"
+      }
+    }
+  },
+  "CG": {
+    "name": "CG",
+    "code": 242,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇬",
+        "htmlCode": "&#127464;&#127468;"
+      }
+    }
+  },
+  "CH": {
+    "name": "CH",
+    "code": 41,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇭",
+        "htmlCode": "&#127464;&#127469;"
+      }
+    }
+  },
+  "CI": {
+    "name": "CI",
+    "code": 225,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇮",
+        "htmlCode": "&#127464;&#127470;"
+      }
+    }
+  },
+  "CK": {
+    "name": "CK",
+    "code": 682,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇰",
+        "htmlCode": "&#127464;&#127472;"
+      }
+    }
+  },
+  "CL": {
+    "name": "CL",
+    "code": 56,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇱",
+        "htmlCode": "&#127464;&#127473;"
+      }
+    }
+  },
+  "CM": {
+    "name": "CM",
+    "code": 237,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇲",
+        "htmlCode": "&#127464;&#127474;"
+      }
+    }
+  },
+  "CN": {
+    "name": "CN",
+    "code": 86,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇳",
+        "htmlCode": "&#127464;&#127475;"
+      }
+    }
+  },
+  "CO": {
+    "name": "CO",
+    "code": 57,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇴",
+        "htmlCode": "&#127464;&#127476;"
+      }
+    }
+  },
+  "CR": {
+    "name": "CR",
+    "code": 506,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇷",
+        "htmlCode": "&#127464;&#127479;"
+      }
+    }
+  },
+  "CU": {
+    "name": "CU",
+    "code": 53,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇺",
+        "htmlCode": "&#127464;&#127482;"
+      }
+    }
+  },
+  "CV": {
+    "name": "CV",
+    "code": 238,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇻",
+        "htmlCode": "&#127464;&#127483;"
+      }
+    }
+  },
+  "CW": {
+    "name": "CW",
+    "code": 599,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇼",
+        "htmlCode": "&#127464;&#127484;"
+      }
+    }
+  },
+  "CX": {
+    "name": "CX",
+    "code": 61,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇽",
+        "htmlCode": "&#127464;&#127485;"
+      }
+    }
+  },
+  "CY": {
+    "name": "CY",
+    "code": 357,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇾",
+        "htmlCode": "&#127464;&#127486;"
+      }
+    }
+  },
+  "CZ": {
+    "name": "CZ",
+    "code": 420,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇨🇿",
+        "htmlCode": "&#127464;&#127487;"
+      }
+    }
+  },
+  "DE": {
+    "name": "DE",
+    "code": 49,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇩🇪",
+        "htmlCode": "&#127465;&#127466;"
+      }
+    }
+  },
+  "DJ": {
+    "name": "DJ",
+    "code": 253,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇩🇯",
+        "htmlCode": "&#127465;&#127471;"
+      }
+    }
+  },
+  "DK": {
+    "name": "DK",
+    "code": 45,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇩🇰",
+        "htmlCode": "&#127465;&#127472;"
+      }
+    }
+  },
+  "DM": {
+    "name": "DM",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇩🇲",
+        "htmlCode": "&#127465;&#127474;"
+      }
+    }
+  },
+  "DO": {
+    "name": "DO",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇩🇴",
+        "htmlCode": "&#127465;&#127476;"
+      }
+    }
+  },
+  "DZ": {
+    "name": "DZ",
+    "code": 213,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇩🇿",
+        "htmlCode": "&#127465;&#127487;"
+      }
+    }
+  },
+  "EC": {
+    "name": "EC",
+    "code": 593,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇪🇨",
+        "htmlCode": "&#127466;&#127464;"
+      }
+    }
+  },
+  "EE": {
+    "name": "EE",
+    "code": 372,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇪🇪",
+        "htmlCode": "&#127466;&#127466;"
+      }
+    }
+  },
+  "EG": {
+    "name": "EG",
+    "code": 20,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇪🇬",
+        "htmlCode": "&#127466;&#127468;"
+      }
+    }
+  },
+  "EH": {
+    "name": "EH",
+    "code": 212,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇪🇭",
+        "htmlCode": "&#127466;&#127469;"
+      }
+    }
+  },
+  "ER": {
+    "name": "ER",
+    "code": 291,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇪🇷",
+        "htmlCode": "&#127466;&#127479;"
+      }
+    }
+  },
+  "ES": {
+    "name": "ES",
+    "code": 34,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇪🇸",
+        "htmlCode": "&#127466;&#127480;"
+      }
+    }
+  },
+  "ET": {
+    "name": "ET",
+    "code": 251,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇪🇹",
+        "htmlCode": "&#127466;&#127481;"
+      }
+    }
+  },
+  "FI": {
+    "name": "FI",
+    "code": 358,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇫🇮",
+        "htmlCode": "&#127467;&#127470;"
+      }
+    }
+  },
+  "FJ": {
+    "name": "FJ",
+    "code": 679,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇫🇯",
+        "htmlCode": "&#127467;&#127471;"
+      }
+    }
+  },
+  "FK": {
+    "name": "FK",
+    "code": 500,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇫🇰",
+        "htmlCode": "&#127467;&#127472;"
+      }
+    }
+  },
+  "FM": {
+    "name": "FM",
+    "code": 691,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇫🇲",
+        "htmlCode": "&#127467;&#127474;"
+      }
+    }
+  },
+  "FO": {
+    "name": "FO",
+    "code": 298,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇫🇴",
+        "htmlCode": "&#127467;&#127476;"
+      }
+    }
+  },
+  "FR": {
+    "name": "FR",
+    "code": 33,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇫🇷",
+        "htmlCode": "&#127467;&#127479;"
+      }
+    }
+  },
+  "GA": {
+    "name": "GA",
+    "code": 241,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇬🇦",
+        "htmlCode": "&#127468;&#127462;"
+      }
+    }
+  },
+  "GB": {
+    "name": "GB",
+    "code": 44,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇬🇧",
+        "htmlCode": "&#127468;&#127463;"
+      }
+    }
+  },
+  "GD": {
+    "name": "GD",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇬🇩",
+        "htmlCode": "&#127468;&#127465;"
+      }
+    }
+  },
+  "GE": {
+    "name": "GE",
+    "code": 995,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇬🇪",
+        "htmlCode": "&#127468;&#127466;"
+      }
+    }
+  },
+  "GF": {
+    "name": "GF",
+    "code": 594,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇬🇫",
+        "htmlCode": "&#127468;&#127467;"
+      }
+    }
+  },
+  "GG": {
+    "name": "GG",
+    "code": 44,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇬🇬",
+        "htmlCode": "&#127468;&#127468;"
+      }
+    }
+  },
+  "GH": {
+    "name": "GH",
+    "code": 233,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇬🇭",
+        "htmlCode": "&#127468;&#127469;"
+      }
+    }
+  },
+  "GI": {
+    "name": "GI",
+    "code": 350,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇬🇮",
+        "htmlCode": "&#127468;&#127470;"
+      }
+    }
+  },
+  "GL": {
+    "name": "GL",
+    "code": 299,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇬🇱",
+        "htmlCode": "&#127468;&#127473;"
+      }
+    }
+  },
+  "GM": {
+    "name": "GM",
+    "code": 220,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇬🇲",
+        "htmlCode": "&#127468;&#127474;"
+      }
+    }
+  },
+  "GN": {
+    "name": "GN",
+    "code": 224,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇬🇳",
+        "htmlCode": "&#127468;&#127475;"
+      }
+    }
+  },
+  "GP": {
+    "name": "GP",
+    "code": 590,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇬🇵",
+        "htmlCode": "&#127468;&#127477;"
+      }
+    }
+  },
+  "GQ": {
+    "name": "GQ",
+    "code": 240,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇬🇶",
+        "htmlCode": "&#127468;&#127478;"
+      }
+    }
+  },
+  "GR": {
+    "name": "GR",
+    "code": 30,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇬🇷",
+        "htmlCode": "&#127468;&#127479;"
+      }
+    }
+  },
+  "GT": {
+    "name": "GT",
+    "code": 502,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇬🇹",
+        "htmlCode": "&#127468;&#127481;"
+      }
+    }
+  },
+  "GU": {
+    "name": "GU",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇬🇺",
+        "htmlCode": "&#127468;&#127482;"
+      }
+    }
+  },
+  "GW": {
+    "name": "GW",
+    "code": 245,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇬🇼",
+        "htmlCode": "&#127468;&#127484;"
+      }
+    }
+  },
+  "GY": {
+    "name": "GY",
+    "code": 592,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇬🇾",
+        "htmlCode": "&#127468;&#127486;"
+      }
+    }
+  },
+  "HK": {
+    "name": "HK",
+    "code": 852,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇭🇰",
+        "htmlCode": "&#127469;&#127472;"
+      }
+    }
+  },
+  "HN": {
+    "name": "HN",
+    "code": 504,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇭🇳",
+        "htmlCode": "&#127469;&#127475;"
+      }
+    }
+  },
+  "HR": {
+    "name": "HR",
+    "code": 385,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇭🇷",
+        "htmlCode": "&#127469;&#127479;"
+      }
+    }
+  },
+  "HT": {
+    "name": "HT",
+    "code": 509,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇭🇹",
+        "htmlCode": "&#127469;&#127481;"
+      }
+    }
+  },
+  "HU": {
+    "name": "HU",
+    "code": 36,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇭🇺",
+        "htmlCode": "&#127469;&#127482;"
+      }
+    }
+  },
+  "ID": {
+    "name": "ID",
+    "code": 62,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇮🇩",
+        "htmlCode": "&#127470;&#127465;"
+      }
+    }
+  },
+  "IE": {
+    "name": "IE",
+    "code": 353,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇮🇪",
+        "htmlCode": "&#127470;&#127466;"
+      }
+    }
+  },
+  "IL": {
+    "name": "IL",
+    "code": 972,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇮🇱",
+        "htmlCode": "&#127470;&#127473;"
+      }
+    }
+  },
+  "IM": {
+    "name": "IM",
+    "code": 44,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇮🇲",
+        "htmlCode": "&#127470;&#127474;"
+      }
+    }
+  },
+  "IN": {
+    "name": "IN",
+    "code": 91,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇮🇳",
+        "htmlCode": "&#127470;&#127475;"
+      }
+    }
+  },
+  "IO": {
+    "name": "IO",
+    "code": 246,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇮🇴",
+        "htmlCode": "&#127470;&#127476;"
+      }
+    }
+  },
+  "IQ": {
+    "name": "IQ",
+    "code": 964,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇮🇶",
+        "htmlCode": "&#127470;&#127478;"
+      }
+    }
+  },
+  "IR": {
+    "name": "IR",
+    "code": 98,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇮🇷",
+        "htmlCode": "&#127470;&#127479;"
+      }
+    }
+  },
+  "IS": {
+    "name": "IS",
+    "code": 354,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇮🇸",
+        "htmlCode": "&#127470;&#127480;"
+      }
+    }
+  },
+  "IT": {
+    "name": "IT",
+    "code": 39,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇮🇹",
+        "htmlCode": "&#127470;&#127481;"
+      }
+    }
+  },
+  "JE": {
+    "name": "JE",
+    "code": 44,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇯🇪",
+        "htmlCode": "&#127471;&#127466;"
+      }
+    }
+  },
+  "JM": {
+    "name": "JM",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇯🇲",
+        "htmlCode": "&#127471;&#127474;"
+      }
+    }
+  },
+  "JO": {
+    "name": "JO",
+    "code": 962,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇯🇴",
+        "htmlCode": "&#127471;&#127476;"
+      }
+    }
+  },
+  "JP": {
+    "name": "JP",
+    "code": 81,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🗾",
+        "htmlCode": "&#128510;"
+      }
+    }
+  },
+  "KE": {
+    "name": "KE",
+    "code": 254,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇰🇪",
+        "htmlCode": "&#127472;&#127466;"
+      }
+    }
+  },
+  "KG": {
+    "name": "KG",
+    "code": 996,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇰🇬",
+        "htmlCode": "&#127472;&#127468;"
+      }
+    }
+  },
+  "KH": {
+    "name": "KH",
+    "code": 855,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇰🇭",
+        "htmlCode": "&#127472;&#127469;"
+      }
+    }
+  },
+  "KI": {
+    "name": "KI",
+    "code": 686,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇰🇮",
+        "htmlCode": "&#127472;&#127470;"
+      }
+    }
+  },
+  "KM": {
+    "name": "KM",
+    "code": 269,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇰🇲",
+        "htmlCode": "&#127472;&#127474;"
+      }
+    }
+  },
+  "KN": {
+    "name": "KN",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇰🇳",
+        "htmlCode": "&#127472;&#127475;"
+      }
+    }
+  },
+  "KP": {
+    "name": "KP",
+    "code": 850,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇰🇵",
+        "htmlCode": "&#127472;&#127477;"
+      }
+    }
+  },
+  "KR": {
+    "name": "KR",
+    "code": 82,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇰🇷",
+        "htmlCode": "&#127472;&#127479;"
+      }
+    }
+  },
+  "KW": {
+    "name": "KW",
+    "code": 965,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇰🇼",
+        "htmlCode": "&#127472;&#127484;"
+      }
+    }
+  },
+  "KY": {
+    "name": "KY",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇰🇾",
+        "htmlCode": "&#127472;&#127486;"
+      }
+    }
+  },
+  "KZ": {
+    "name": "KZ",
+    "code": 7,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇰🇿",
+        "htmlCode": "&#127472;&#127487;"
+      }
+    }
+  },
+  "LA": {
+    "name": "LA",
+    "code": 856,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇱🇦",
+        "htmlCode": "&#127473;&#127462;"
+      }
+    }
+  },
+  "LB": {
+    "name": "LB",
+    "code": 961,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇱🇧",
+        "htmlCode": "&#127473;&#127463;"
+      }
+    }
+  },
+  "LC": {
+    "name": "LC",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇱🇨",
+        "htmlCode": "&#127473;&#127464;"
+      }
+    }
+  },
+  "LI": {
+    "name": "LI",
+    "code": 423,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇱🇮",
+        "htmlCode": "&#127473;&#127470;"
+      }
+    }
+  },
+  "LK": {
+    "name": "LK",
+    "code": 94,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇱🇰",
+        "htmlCode": "&#127473;&#127472;"
+      }
+    }
+  },
+  "LR": {
+    "name": "LR",
+    "code": 231,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇱🇷",
+        "htmlCode": "&#127473;&#127479;"
+      }
+    }
+  },
+  "LS": {
+    "name": "LS",
+    "code": 266,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇱🇸",
+        "htmlCode": "&#127473;&#127480;"
+      }
+    }
+  },
+  "LT": {
+    "name": "LT",
+    "code": 370,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇱🇹",
+        "htmlCode": "&#127473;&#127481;"
+      }
+    }
+  },
+  "LU": {
+    "name": "LU",
+    "code": 352,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇱🇺",
+        "htmlCode": "&#127473;&#127482;"
+      }
+    }
+  },
+  "LV": {
+    "name": "LV",
+    "code": 371,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇱🇻",
+        "htmlCode": "&#127473;&#127483;"
+      }
+    }
+  },
+  "LY": {
+    "name": "LY",
+    "code": 218,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇱🇾",
+        "htmlCode": "&#127473;&#127486;"
+      }
+    }
+  },
+  "MA": {
+    "name": "MA",
+    "code": 212,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇦",
+        "htmlCode": "&#127474;&#127462;"
+      }
+    }
+  },
+  "MC": {
+    "name": "MC",
+    "code": 377,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇨",
+        "htmlCode": "&#127474;&#127464;"
+      }
+    }
+  },
+  "MD": {
+    "name": "MD",
+    "code": 373,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇩",
+        "htmlCode": "&#127474;&#127465;"
+      }
+    }
+  },
+  "ME": {
+    "name": "ME",
+    "code": 382,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇪",
+        "htmlCode": "&#127474;&#127466;"
+      }
+    }
+  },
+  "MF": {
+    "name": "MF",
+    "code": 590,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇫",
+        "htmlCode": "&#127474;&#127467;"
+      }
+    }
+  },
+  "MG": {
+    "name": "MG",
+    "code": 261,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇬",
+        "htmlCode": "&#127474;&#127468;"
+      }
+    }
+  },
+  "MH": {
+    "name": "MH",
+    "code": 692,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇭",
+        "htmlCode": "&#127474;&#127469;"
+      }
+    }
+  },
+  "MK": {
+    "name": "MK",
+    "code": 389,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇰",
+        "htmlCode": "&#127474;&#127472;"
+      }
+    }
+  },
+  "ML": {
+    "name": "ML",
+    "code": 223,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇱",
+        "htmlCode": "&#127474;&#127473;"
+      }
+    }
+  },
+  "MM": {
+    "name": "MM",
+    "code": 95,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇲",
+        "htmlCode": "&#127474;&#127474;"
+      }
+    }
+  },
+  "MN": {
+    "name": "MN",
+    "code": 976,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇳",
+        "htmlCode": "&#127474;&#127475;"
+      }
+    }
+  },
+  "MO": {
+    "name": "MO",
+    "code": 853,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇴",
+        "htmlCode": "&#127474;&#127476;"
+      }
+    }
+  },
+  "MP": {
+    "name": "MP",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇵",
+        "htmlCode": "&#127474;&#127477;"
+      }
+    }
+  },
+  "MQ": {
+    "name": "MQ",
+    "code": 596,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇶",
+        "htmlCode": "&#127474;&#127478;"
+      }
+    }
+  },
+  "MR": {
+    "name": "MR",
+    "code": 222,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇷",
+        "htmlCode": "&#127474;&#127479;"
+      }
+    }
+  },
+  "MS": {
+    "name": "MS",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇸",
+        "htmlCode": "&#127474;&#127480;"
+      }
+    }
+  },
+  "MT": {
+    "name": "MT",
+    "code": 356,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇹",
+        "htmlCode": "&#127474;&#127481;"
+      }
+    }
+  },
+  "MU": {
+    "name": "MU",
+    "code": 230,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇺",
+        "htmlCode": "&#127474;&#127482;"
+      }
+    }
+  },
+  "MV": {
+    "name": "MV",
+    "code": 960,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇻",
+        "htmlCode": "&#127474;&#127483;"
+      }
+    }
+  },
+  "MW": {
+    "name": "MW",
+    "code": 265,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇼",
+        "htmlCode": "&#127474;&#127484;"
+      }
+    }
+  },
+  "MX": {
+    "name": "MX",
+    "code": 52,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇽",
+        "htmlCode": "&#127474;&#127485;"
+      }
+    }
+  },
+  "MY": {
+    "name": "MY",
+    "code": 60,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇾",
+        "htmlCode": "&#127474;&#127486;"
+      }
+    }
+  },
+  "MZ": {
+    "name": "MZ",
+    "code": 258,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇲🇿",
+        "htmlCode": "&#127474;&#127487;"
+      }
+    }
+  },
+  "NA": {
+    "name": "NA",
+    "code": 264,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇳🇦",
+        "htmlCode": "&#127475;&#127462;"
+      }
+    }
+  },
+  "NC": {
+    "name": "NC",
+    "code": 687,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇳🇨",
+        "htmlCode": "&#127475;&#127464;"
+      }
+    }
+  },
+  "NE": {
+    "name": "NE",
+    "code": 227,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇳🇪",
+        "htmlCode": "&#127475;&#127466;"
+      }
+    }
+  },
+  "NF": {
+    "name": "NF",
+    "code": 672,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇳🇫",
+        "htmlCode": "&#127475;&#127467;"
+      }
+    }
+  },
+  "NG": {
+    "name": "NG",
+    "code": 234,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇳🇬",
+        "htmlCode": "&#127475;&#127468;"
+      }
+    }
+  },
+  "NI": {
+    "name": "NI",
+    "code": 505,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇳🇮",
+        "htmlCode": "&#127475;&#127470;"
+      }
+    }
+  },
+  "NL": {
+    "name": "NL",
+    "code": 31,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇳🇱",
+        "htmlCode": "&#127475;&#127473;"
+      }
+    }
+  },
+  "NO": {
+    "name": "NO",
+    "code": 47,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇳🇴",
+        "htmlCode": "&#127475;&#127476;"
+      }
+    }
+  },
+  "NP": {
+    "name": "NP",
+    "code": 977,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇳🇵",
+        "htmlCode": "&#127475;&#127477;"
+      }
+    }
+  },
+  "NR": {
+    "name": "NR",
+    "code": 674,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇳🇷",
+        "htmlCode": "&#127475;&#127479;"
+      }
+    }
+  },
+  "NU": {
+    "name": "NU",
+    "code": 683,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇳🇺",
+        "htmlCode": "&#127475;&#127482;"
+      }
+    }
+  },
+  "NZ": {
+    "name": "NZ",
+    "code": 64,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇳🇿",
+        "htmlCode": "&#127475;&#127487;"
+      }
+    }
+  },
+  "OM": {
+    "name": "OM",
+    "code": 968,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇴🇲",
+        "htmlCode": "&#127476;&#127474;"
+      }
+    }
+  },
+  "PA": {
+    "name": "PA",
+    "code": 507,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇵🇦",
+        "htmlCode": "&#127477;&#127462;"
+      }
+    }
+  },
+  "PE": {
+    "name": "PE",
+    "code": 51,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇵🇪",
+        "htmlCode": "&#127477;&#127466;"
+      }
+    }
+  },
+  "PF": {
+    "name": "PF",
+    "code": 689,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇵🇫",
+        "htmlCode": "&#127477;&#127467;"
+      }
+    }
+  },
+  "PG": {
+    "name": "PG",
+    "code": 675,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇵🇬",
+        "htmlCode": "&#127477;&#127468;"
+      }
+    }
+  },
+  "PH": {
+    "name": "PH",
+    "code": 63,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇵🇭",
+        "htmlCode": "&#127477;&#127469;"
+      }
+    }
+  },
+  "PK": {
+    "name": "PK",
+    "code": 92,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇵🇰",
+        "htmlCode": "&#127477;&#127472;"
+      }
+    }
+  },
+  "PL": {
+    "name": "PL",
+    "code": 48,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇵🇱",
+        "htmlCode": "&#127477;&#127473;"
+      }
+    }
+  },
+  "PM": {
+    "name": "PM",
+    "code": 508,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇵🇲",
+        "htmlCode": "&#127477;&#127474;"
+      }
+    }
+  },
+  "PR": {
+    "name": "PR",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇵🇷",
+        "htmlCode": "&#127477;&#127479;"
+      }
+    }
+  },
+  "PS": {
+    "name": "PS",
+    "code": 970,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇵🇸",
+        "htmlCode": "&#127477;&#127480;"
+      }
+    }
+  },
+  "PT": {
+    "name": "PT",
+    "code": 351,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇵🇹",
+        "htmlCode": "&#127477;&#127481;"
+      }
+    }
+  },
+  "PW": {
+    "name": "PW",
+    "code": 680,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇵🇼",
+        "htmlCode": "&#127477;&#127484;"
+      }
+    }
+  },
+  "PY": {
+    "name": "PY",
+    "code": 595,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇵🇾",
+        "htmlCode": "&#127477;&#127486;"
+      }
+    }
+  },
+  "QA": {
+    "name": "QA",
+    "code": 974,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇶🇦",
+        "htmlCode": "&#127478;&#127462;"
+      }
+    }
+  },
+  "RE": {
+    "name": "RE",
+    "code": 262,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇷🇪",
+        "htmlCode": "&#127479;&#127466;"
+      }
+    }
+  },
+  "RO": {
+    "name": "RO",
+    "code": 40,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇷🇴",
+        "htmlCode": "&#127479;&#127476;"
+      }
+    }
+  },
+  "RS": {
+    "name": "RS",
+    "code": 381,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇷🇸",
+        "htmlCode": "&#127479;&#127480;"
+      }
+    }
+  },
+  "RU": {
+    "name": "RU",
+    "code": 7,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇷🇺",
+        "htmlCode": "&#127479;&#127482;"
+      }
+    }
+  },
+  "RW": {
+    "name": "RW",
+    "code": 250,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇷🇼",
+        "htmlCode": "&#127479;&#127484;"
+      }
+    }
+  },
+  "SA": {
+    "name": "SA",
+    "code": 966,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇦",
+        "htmlCode": "&#127480;&#127462;"
+      }
+    }
+  },
+  "SB": {
+    "name": "SB",
+    "code": 677,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇧",
+        "htmlCode": "&#127480;&#127463;"
+      }
+    }
+  },
+  "SC": {
+    "name": "SC",
+    "code": 248,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇨",
+        "htmlCode": "&#127480;&#127464;"
+      }
+    }
+  },
+  "SD": {
+    "name": "SD",
+    "code": 249,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇩",
+        "htmlCode": "&#127480;&#127465;"
+      }
+    }
+  },
+  "SE": {
+    "name": "SE",
+    "code": 46,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇪",
+        "htmlCode": "&#127480;&#127466;"
+      }
+    }
+  },
+  "SG": {
+    "name": "SG",
+    "code": 65,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇬",
+        "htmlCode": "&#127480;&#127468;"
+      }
+    }
+  },
+  "SH": {
+    "name": "SH",
+    "code": 290,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇭",
+        "htmlCode": "&#127480;&#127469;"
+      }
+    }
+  },
+  "SI": {
+    "name": "SI",
+    "code": 386,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇮",
+        "htmlCode": "&#127480;&#127470;"
+      }
+    }
+  },
+  "SJ": {
+    "name": "SJ",
+    "code": 47,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇯",
+        "htmlCode": "&#127480;&#127471;"
+      }
+    }
+  },
+  "SK": {
+    "name": "SK",
+    "code": 421,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇰",
+        "htmlCode": "&#127480;&#127472;"
+      }
+    }
+  },
+  "SL": {
+    "name": "SL",
+    "code": 232,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇱",
+        "htmlCode": "&#127480;&#127473;"
+      }
+    }
+  },
+  "SM": {
+    "name": "SM",
+    "code": 378,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇲",
+        "htmlCode": "&#127480;&#127474;"
+      }
+    }
+  },
+  "SN": {
+    "name": "SN",
+    "code": 221,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇳",
+        "htmlCode": "&#127480;&#127475;"
+      }
+    }
+  },
+  "SO": {
+    "name": "SO",
+    "code": 252,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇴",
+        "htmlCode": "&#127480;&#127476;"
+      }
+    }
+  },
+  "SR": {
+    "name": "SR",
+    "code": 597,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇷",
+        "htmlCode": "&#127480;&#127479;"
+      }
+    }
+  },
+  "SS": {
+    "name": "SS",
+    "code": 211,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇸",
+        "htmlCode": "&#127480;&#127480;"
+      }
+    }
+  },
+  "ST": {
+    "name": "ST",
+    "code": 239,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇹",
+        "htmlCode": "&#127480;&#127481;"
+      }
+    }
+  },
+  "SV": {
+    "name": "SV",
+    "code": 503,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇻",
+        "htmlCode": "&#127480;&#127483;"
+      }
+    }
+  },
+  "SX": {
+    "name": "SX",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇽",
+        "htmlCode": "&#127480;&#127485;"
+      }
+    }
+  },
+  "SY": {
+    "name": "SY",
+    "code": 963,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇾",
+        "htmlCode": "&#127480;&#127486;"
+      }
+    }
+  },
+  "SZ": {
+    "name": "SZ",
+    "code": 268,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇸🇿",
+        "htmlCode": "&#127480;&#127487;"
+      }
+    }
+  },
+  "TA": {
+    "name": "TA",
+    "code": 290,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇹🇦",
+        "htmlCode": "&#127481;&#127462;"
+      }
+    }
+  },
+  "TC": {
+    "name": "TC",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇹🇨",
+        "htmlCode": "&#127481;&#127464;"
+      }
+    }
+  },
+  "TD": {
+    "name": "TD",
+    "code": 235,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇹🇩",
+        "htmlCode": "&#127481;&#127465;"
+      }
+    }
+  },
+  "TG": {
+    "name": "TG",
+    "code": 228,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇹🇬",
+        "htmlCode": "&#127481;&#127468;"
+      }
+    }
+  },
+  "TH": {
+    "name": "TH",
+    "code": 66,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇹🇭",
+        "htmlCode": "&#127481;&#127469;"
+      }
+    }
+  },
+  "TJ": {
+    "name": "TJ",
+    "code": 992,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇹🇯",
+        "htmlCode": "&#127481;&#127471;"
+      }
+    }
+  },
+  "TK": {
+    "name": "TK",
+    "code": 690,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇹🇰",
+        "htmlCode": "&#127481;&#127472;"
+      }
+    }
+  },
+  "TL": {
+    "name": "TL",
+    "code": 670,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇹🇱",
+        "htmlCode": "&#127481;&#127473;"
+      }
+    }
+  },
+  "TM": {
+    "name": "TM",
+    "code": 993,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇹🇲",
+        "htmlCode": "&#127481;&#127474;"
+      }
+    }
+  },
+  "TN": {
+    "name": "TN",
+    "code": 216,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇹🇳",
+        "htmlCode": "&#127481;&#127475;"
+      }
+    }
+  },
+  "TO": {
+    "name": "TO",
+    "code": 676,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇹🇴",
+        "htmlCode": "&#127481;&#127476;"
+      }
+    }
+  },
+  "TR": {
+    "name": "TR",
+    "code": 90,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🦃",
+        "htmlCode": "&#129411;"
+      }
+    }
+  },
+  "TT": {
+    "name": "TT",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇹🇹",
+        "htmlCode": "&#127481;&#127481;"
+      }
+    }
+  },
+  "TV": {
+    "name": "TV",
+    "code": 688,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇹🇻",
+        "htmlCode": "&#127481;&#127483;"
+      }
+    }
+  },
+  "TW": {
+    "name": "TW",
+    "code": 886,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇹🇼",
+        "htmlCode": "&#127481;&#127484;"
+      }
+    }
+  },
+  "TZ": {
+    "name": "TZ",
+    "code": 255,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇹🇿",
+        "htmlCode": "&#127481;&#127487;"
+      }
+    }
+  },
+  "UA": {
+    "name": "UA",
+    "code": 380,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇺🇦",
+        "htmlCode": "&#127482;&#127462;"
+      }
+    }
+  },
+  "UG": {
+    "name": "UG",
+    "code": 256,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇺🇬",
+        "htmlCode": "&#127482;&#127468;"
+      }
+    }
+  },
+  "US": {
+    "name": "US",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇺🇸",
+        "htmlCode": "&#127482;&#127480;"
+      }
+    }
+  },
+  "UY": {
+    "name": "UY",
+    "code": 598,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇺🇾",
+        "htmlCode": "&#127482;&#127486;"
+      }
+    }
+  },
+  "UZ": {
+    "name": "UZ",
+    "code": 998,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇺🇿",
+        "htmlCode": "&#127482;&#127487;"
+      }
+    }
+  },
+  "VA": {
+    "name": "VA",
+    "code": 39,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇻🇦",
+        "htmlCode": "&#127483;&#127462;"
+      }
+    }
+  },
+  "VC": {
+    "name": "VC",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇻🇨",
+        "htmlCode": "&#127483;&#127464;"
+      }
+    }
+  },
+  "VE": {
+    "name": "VE",
+    "code": 58,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇻🇪",
+        "htmlCode": "&#127483;&#127466;"
+      }
+    }
+  },
+  "VG": {
+    "name": "VG",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇻🇬",
+        "htmlCode": "&#127483;&#127468;"
+      }
+    }
+  },
+  "VI": {
+    "name": "VI",
+    "code": 1,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇻🇮",
+        "htmlCode": "&#127483;&#127470;"
+      }
+    }
+  },
+  "VN": {
+    "name": "VN",
+    "code": 84,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇻🇳",
+        "htmlCode": "&#127483;&#127475;"
+      }
+    }
+  },
+  "VU": {
+    "name": "VU",
+    "code": 678,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇻🇺",
+        "htmlCode": "&#127483;&#127482;"
+      }
+    }
+  },
+  "WF": {
+    "name": "WF",
+    "code": 681,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇼🇫",
+        "htmlCode": "&#127484;&#127467;"
+      }
+    }
+  },
+  "WS": {
+    "name": "WS",
+    "code": 685,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇼🇸",
+        "htmlCode": "&#127484;&#127480;"
+      }
+    }
+  },
+  "XK": {
+    "name": "XK",
+    "code": 383,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇽🇰",
+        "htmlCode": "&#127485;&#127472;"
+      }
+    }
+  },
+  "YE": {
+    "name": "YE",
+    "code": 967,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇾🇪",
+        "htmlCode": "&#127486;&#127466;"
+      }
+    }
+  },
+  "YT": {
+    "name": "YT",
+    "code": 262,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇾🇹",
+        "htmlCode": "&#127486;&#127481;"
+      }
+    }
+  },
+  "ZA": {
+    "name": "ZA",
+    "code": 27,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇿🇦",
+        "htmlCode": "&#127487;&#127462;"
+      }
+    }
+  },
+  "ZM": {
+    "name": "ZM",
+    "code": 260,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇿🇲",
+        "htmlCode": "&#127487;&#127474;"
+      }
+    }
+  },
+  "ZW": {
+    "name": "ZW",
+    "code": 263,
+    "country": {
+      "name": null,
+      "flag": {
+        "code": "🇿🇼",
+        "htmlCode": "&#127487;&#127484;"
+      }
+    }
+  }
+}

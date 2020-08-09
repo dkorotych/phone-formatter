@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "NOT_A_NUMBER",
+    "message": "Die Eingabezeichenfolge schien keine Telefonnummer zu sein"
+  },
+  "success": false
+}

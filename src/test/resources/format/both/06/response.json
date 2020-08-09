@@ -1,0 +1,313 @@
+{
+  "numbers": [
+    {
+      "number": "+27180056325",
+      "valid": true,
+      "probability": 0.071,
+      "format": {
+        "e164": "+27180056325",
+        "international": "+27 18 005 6325",
+        "rfc3966": "tel:+27-18-005-6325",
+        "national": "018 005 6325"
+      },
+      "region": {
+        "name": "ZA",
+        "code": 27,
+        "country": {
+          "name": "South Africa",
+          "flag": {
+            "code": "\uD83C\uDDFF\uD83C\uDDE6",
+            "htmlCode": "&#127487;&#127462;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+31180056325",
+      "valid": true,
+      "probability": 0.071,
+      "format": {
+        "e164": "+31180056325",
+        "international": "+31 180 056 325",
+        "rfc3966": "tel:+31-180-056-325",
+        "national": "0180 056 325"
+      },
+      "region": {
+        "name": "NL",
+        "code": 31,
+        "country": {
+          "name": "Netherlands",
+          "flag": {
+            "code": "\uD83C\uDDF3\uD83C\uDDF1",
+            "htmlCode": "&#127475;&#127473;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+33180056325",
+      "valid": true,
+      "probability": 0.071,
+      "format": {
+        "e164": "+33180056325",
+        "international": "+33 1 80 05 63 25",
+        "rfc3966": "tel:+33-1-80-05-63-25",
+        "national": "01 80 05 63 25"
+      },
+      "region": {
+        "name": "FR",
+        "code": 33,
+        "country": {
+          "name": "France",
+          "flag": {
+            "code": "\uD83C\uDDEB\uD83C\uDDF7",
+            "htmlCode": "&#127467;&#127479;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+43180056325",
+      "valid": true,
+      "probability": 0.071,
+      "format": {
+        "e164": "+43180056325",
+        "international": "+43 1 80056325",
+        "rfc3966": "tel:+43-1-80056325",
+        "national": "01 80056325"
+      },
+      "region": {
+        "name": "AT",
+        "code": 43,
+        "country": {
+          "name": "Austria",
+          "flag": {
+            "code": "\uD83C\uDDE6\uD83C\uDDF9",
+            "htmlCode": "&#127462;&#127481;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+46180056325",
+      "valid": true,
+      "probability": 0.071,
+      "format": {
+        "e164": "+46180056325",
+        "international": "+46 18 005 63 25",
+        "rfc3966": "tel:+46-18-005-63-25",
+        "national": "018-005 63 25"
+      },
+      "region": {
+        "name": "SE",
+        "code": 46,
+        "country": {
+          "name": "Sweden",
+          "flag": {
+            "code": "\uD83C\uDDF8\uD83C\uDDEA",
+            "htmlCode": "&#127480;&#127466;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+48180056325",
+      "valid": true,
+      "probability": 0.071,
+      "format": {
+        "e164": "+48180056325",
+        "international": "+48 18 005 63 25",
+        "rfc3966": "tel:+48-18-005-63-25",
+        "national": "18 005 63 25"
+      },
+      "region": {
+        "name": "PL",
+        "code": 48,
+        "country": {
+          "name": "Poland",
+          "flag": {
+            "code": "\uD83C\uDDF5\uD83C\uDDF1",
+            "htmlCode": "&#127477;&#127473;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+49180056325",
+      "valid": true,
+      "probability": 0.071,
+      "format": {
+        "e164": "+49180056325",
+        "international": "+49 180 0 56325",
+        "rfc3966": "tel:+49-180-0-56325",
+        "national": "0180 0 56325"
+      },
+      "region": {
+        "name": "DE",
+        "code": 49,
+        "country": {
+          "name": "Germany",
+          "flag": {
+            "code": "\uD83C\uDDE9\uD83C\uDDEA",
+            "htmlCode": "&#127465;&#127466;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+82180056325",
+      "valid": true,
+      "probability": 0.071,
+      "format": {
+        "e164": "+82180056325",
+        "international": "+82 18-005-6325",
+        "rfc3966": "tel:+82-18-005-6325",
+        "national": "018-005-6325"
+      },
+      "region": {
+        "name": "KR",
+        "code": 82,
+        "country": {
+          "name": "South Korea",
+          "flag": {
+            "code": "\uD83C\uDDF0\uD83C\uDDF7",
+            "htmlCode": "&#127472;&#127479;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+84180056325",
+      "valid": true,
+      "probability": 0.071,
+      "format": {
+        "e164": "+84180056325",
+        "international": "+84 1800 56325",
+        "rfc3966": "tel:+84-1800-56325",
+        "national": "1800 56325"
+      },
+      "region": {
+        "name": "VN",
+        "code": 84,
+        "country": {
+          "name": "Vietnam",
+          "flag": {
+            "code": "\uD83C\uDDFB\uD83C\uDDF3",
+            "htmlCode": "&#127483;&#127475;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+91180056325",
+      "valid": true,
+      "probability": 0.071,
+      "format": {
+        "e164": "+91180056325",
+        "international": "+91 1800 56325",
+        "rfc3966": "tel:+91-1800-56325",
+        "national": "1800 56325"
+      },
+      "region": {
+        "name": "IN",
+        "code": 91,
+        "country": {
+          "name": "India",
+          "flag": {
+            "code": "\uD83C\uDDEE\uD83C\uDDF3",
+            "htmlCode": "&#127470;&#127475;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+211180056325",
+      "valid": true,
+      "probability": 0.071,
+      "format": {
+        "e164": "+211180056325",
+        "international": "+211 180 056 325",
+        "rfc3966": "tel:+211-180-056-325",
+        "national": "0180 056 325"
+      },
+      "region": {
+        "name": "SS",
+        "code": 211,
+        "country": {
+          "name": "South Sudan",
+          "flag": {
+            "code": "\uD83C\uDDF8\uD83C\uDDF8",
+            "htmlCode": "&#127480;&#127480;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+353180056325",
+      "valid": true,
+      "probability": 0.071,
+      "format": {
+        "e164": "+353180056325",
+        "international": "+353 1 8005 6325",
+        "rfc3966": "tel:+353-1-8005-6325",
+        "national": "(01) 8005 6325"
+      },
+      "region": {
+        "name": "IE",
+        "code": 353,
+        "country": {
+          "name": "Ireland",
+          "flag": {
+            "code": "\uD83C\uDDEE\uD83C\uDDEA",
+            "htmlCode": "&#127470;&#127466;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+855180056325",
+      "valid": true,
+      "probability": 0.071,
+      "format": {
+        "e164": "+855180056325",
+        "international": "+855 18 005 6325",
+        "rfc3966": "tel:+855-18-005-6325",
+        "national": "018 005 6325"
+      },
+      "region": {
+        "name": "KH",
+        "code": 855,
+        "country": {
+          "name": "Cambodia",
+          "flag": {
+            "code": "\uD83C\uDDF0\uD83C\uDDED",
+            "htmlCode": "&#127472;&#127469;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+994180056325",
+      "valid": true,
+      "probability": 0.071,
+      "format": {
+        "e164": "+994180056325",
+        "international": "+994 18 005 63 25",
+        "rfc3966": "tel:+994-18-005-63-25",
+        "national": "(018) 005 63 25"
+      },
+      "region": {
+        "name": "AZ",
+        "code": 994,
+        "country": {
+          "name": "Azerbaijan",
+          "flag": {
+            "code": "\uD83C\uDDE6\uD83C\uDDFF",
+            "htmlCode": "&#127462;&#127487;"
+          }
+        }
+      }
+    }
+  ],
+  "success": true
+}

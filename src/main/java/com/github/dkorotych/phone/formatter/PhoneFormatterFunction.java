@@ -1,17 +1,19 @@
 package com.github.dkorotych.phone.formatter;
 
-import com.github.dkorotych.phone.formatter.domain.PhoneFormatterRequest;
-import com.github.dkorotych.phone.formatter.domain.PhoneFormatterResponse;
-import com.github.dkorotych.phone.formatter.domain.PhoneFormatterResponse.Number.Country;
-import com.github.dkorotych.phone.formatter.domain.PhoneFormatterResponse.Number.Format;
+import com.github.dkorotych.phone.formatter.domain.Number;
+import com.github.dkorotych.phone.formatter.domain.*;
 import com.github.dkorotych.phone.formatter.utils.ErrorBuilder;
-import com.github.dkorotych.phone.formatter.utils.Utilities;
+import com.github.dkorotych.phone.region.LocalesKeeper;
+import com.github.dkorotych.phone.region.SupportedRegionsKeeper;
+import com.github.dkorotych.phone.utils.Utilities;
 import com.google.i18n.phonenumbers.NumberParseException;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber.PhoneNumber;
 import io.micronaut.core.util.CollectionUtils;
 import io.micronaut.core.util.StringUtils;
+import io.sentry.Sentry;
 
+import javax.inject.Inject;
 import javax.inject.Singleton;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -24,19 +26,23 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static com.github.dkorotych.phone.formatter.domain.PhoneFormatterResponse.Error.Code.INVALID_COUNTRY_CODE;
-import static com.github.dkorotych.phone.formatter.domain.PhoneFormatterResponse.Error.Code.NOT_A_NUMBER;
+import static com.github.dkorotych.phone.formatter.domain.ErrorCode.INVALID_COUNTRY_CODE;
+import static com.github.dkorotych.phone.formatter.domain.ErrorCode.NOT_A_NUMBER;
 import static com.google.i18n.phonenumbers.PhoneNumberUtil.PhoneNumberFormat.*;
 
 @Singleton
-public class PhoneFormatterFunction implements Function<PhoneFormatterRequest, PhoneFormatterResponse> {
+public class PhoneFormatterFunction implements Function<Request, Response> {
     private static final PhoneNumberUtil PHONE_NUMBER_UTIL = PhoneNumberUtil.getInstance();
+    @Inject
+    private SupportedRegionsKeeper keeper;
+    @Inject
+    private LocalesKeeper localesKeeper;
 
     @Override
-    public PhoneFormatterResponse apply(PhoneFormatterRequest request) {
+    public Response apply(Request request) {
         final String phoneNumber = request.getPhoneNumber();
-        final String region = request.getCountry();
-        final Locale outputLocale = createLocale(region);
+        final String region = request.getRegion();
+        final Locale outputLocale = createLocale(request);
         if (StringUtils.hasText(phoneNumber)) {
             final Stream<String> regions;
             if (StringUtils.hasText(region)) {
@@ -48,7 +54,7 @@ public class PhoneFormatterFunction implements Function<PhoneFormatterRequest, P
             } else {
                 regions = PHONE_NUMBER_UTIL.getSupportedRegions().stream();
             }
-            final PhoneFormatterResponse response = new PhoneFormatterResponse();
+            final Response response = new Response();
             final Map<PhoneNumber, Long> numbers = regions.
                     filter(name -> PHONE_NUMBER_UTIL.isPossibleNumber(phoneNumber, name)).
                     map(name -> {
@@ -56,6 +62,7 @@ public class PhoneFormatterFunction implements Function<PhoneFormatterRequest, P
                             final PhoneNumber number = PHONE_NUMBER_UTIL.parse(phoneNumber, name);
                             return PHONE_NUMBER_UTIL.format(number, E164);
                         } catch (NumberParseException exception) {
+                            Sentry.capture(exception);
                             if (StringUtils.hasText(region)) {
                                 response.setError(new ErrorBuilder().create(exception, outputLocale));
                                 return null;
@@ -83,7 +90,7 @@ public class PhoneFormatterFunction implements Function<PhoneFormatterRequest, P
                                 divide(BigDecimal.valueOf(sum), 3, RoundingMode.HALF_UP).
                                 doubleValue();
                         final PhoneNumber number = entry.getKey();
-                        final PhoneFormatterResponse.Number currentNumber = new PhoneFormatterResponse.Number();
+                        final Number currentNumber = new Number();
                         currentNumber.setProbability(probability);
                         final Format format = new Format();
                         format.setE164(PHONE_NUMBER_UTIL.format(number, E164));
@@ -93,14 +100,7 @@ public class PhoneFormatterFunction implements Function<PhoneFormatterRequest, P
                         currentNumber.setFormat(format);
                         currentNumber.setNumber(format.getE164());
                         currentNumber.setValid(PHONE_NUMBER_UTIL.isValidNumber(number));
-                        Utilities.createOptionalLocaleForRegion(PHONE_NUMBER_UTIL.getRegionCodeForNumber(number)).
-                                ifPresent(locale -> {
-                                    final Country country = new Country();
-                                    country.setLocale(locale.getCountry());
-                                    country.setName(locale.getDisplayCountry(outputLocale));
-                                    country.setCode(number.getCountryCode());
-                                    currentNumber.setCountry(country);
-                                });
+                        currentNumber.setRegion(keeper.get(PHONE_NUMBER_UTIL.getRegionCodeForNumber(number), outputLocale));
                         return currentNumber;
                     }).
                     sorted().
@@ -114,16 +114,23 @@ public class PhoneFormatterFunction implements Function<PhoneFormatterRequest, P
         }
     }
 
-    private static Locale createLocale(String region) {
-        return Utilities.createLocaleForRegion(region);
+    private Locale createLocale(Request request) {
+        if (StringUtils.hasText(request.getLanguage())) {
+            return Locale.forLanguageTag(request.getLanguage());
+        }
+        final Locale locale = localesKeeper.get(request.getRegion());
+        if (Objects.isNull(locale)) {
+            return Utilities.DEFAULT_LOCALE;
+        }
+        return locale;
     }
 
     private static Predicate<PhoneNumber> createValidationPredicate(boolean onlyValid) {
         return phoneNumber -> !onlyValid || PHONE_NUMBER_UTIL.isValidNumber(phoneNumber);
     }
 
-    private PhoneFormatterResponse createErrorResponse(PhoneFormatterResponse.Error.Code code, Locale outputLocale) {
-        final PhoneFormatterResponse response = new PhoneFormatterResponse();
+    private Response createErrorResponse(ErrorCode code, Locale outputLocale) {
+        final Response response = new Response();
         response.setError(new ErrorBuilder().create(code, outputLocale));
         return response;
     }

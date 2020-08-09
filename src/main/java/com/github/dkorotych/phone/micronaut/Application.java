@@ -1,4 +1,4 @@
-package com.github.dkorotych.phone.formatter;
+package com.github.dkorotych.phone.micronaut;
 
 import io.micronaut.runtime.Micronaut;
 

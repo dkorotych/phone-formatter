@@ -1,0 +1,27 @@
+{
+  "numbers": [
+    {
+      "number": "+380954185123",
+      "valid": true,
+      "probability": 1.0,
+      "format": {
+        "e164": "+380954185123",
+        "international": "+380 95 418 5123",
+        "rfc3966": "tel:+380-95-418-5123",
+        "national": "095 418 5123"
+      },
+      "region": {
+        "name": "UA",
+        "code": 380,
+        "country": {
+          "name": "Ucrania",
+          "flag": {
+            "code": "\uD83C\uDDFA\uD83C\uDDE6",
+            "htmlCode": "&#127482;&#127462;"
+          }
+        }
+      }
+    }
+  ],
+  "success": true
+}

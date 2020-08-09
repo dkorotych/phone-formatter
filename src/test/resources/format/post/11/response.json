@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "NOT_A_NUMBER",
+    "message": "Введенная строка не является номером телефона"
+  },
+  "success": false
+}

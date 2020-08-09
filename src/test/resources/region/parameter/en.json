@@ -1,0 +1,2697 @@
+[
+  {
+    "name": "AC",
+    "code": 247,
+    "country": {
+      "name": "Ascension Island",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDE8",
+        "htmlCode": "&#127462;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "AD",
+    "code": 376,
+    "country": {
+      "name": "Andorra",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDE9",
+        "htmlCode": "&#127462;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "AE",
+    "code": 971,
+    "country": {
+      "name": "United Arab Emirates",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDEA",
+        "htmlCode": "&#127462;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "AF",
+    "code": 93,
+    "country": {
+      "name": "Afghanistan",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDEB",
+        "htmlCode": "&#127462;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "AG",
+    "code": 1,
+    "country": {
+      "name": "Antigua & Barbuda",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDEC",
+        "htmlCode": "&#127462;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "AI",
+    "code": 1,
+    "country": {
+      "name": "Anguilla",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDEE",
+        "htmlCode": "&#127462;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "AL",
+    "code": 355,
+    "country": {
+      "name": "Albania",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDF1",
+        "htmlCode": "&#127462;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "AM",
+    "code": 374,
+    "country": {
+      "name": "Armenia",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDF2",
+        "htmlCode": "&#127462;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "AO",
+    "code": 244,
+    "country": {
+      "name": "Angola",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDF4",
+        "htmlCode": "&#127462;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "AR",
+    "code": 54,
+    "country": {
+      "name": "Argentina",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDF7",
+        "htmlCode": "&#127462;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "AS",
+    "code": 1,
+    "country": {
+      "name": "American Samoa",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDF8",
+        "htmlCode": "&#127462;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "AT",
+    "code": 43,
+    "country": {
+      "name": "Austria",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDF9",
+        "htmlCode": "&#127462;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "AU",
+    "code": 61,
+    "country": {
+      "name": "Australia",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDFA",
+        "htmlCode": "&#127462;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "AW",
+    "code": 297,
+    "country": {
+      "name": "Aruba",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDFC",
+        "htmlCode": "&#127462;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "AX",
+    "code": 358,
+    "country": {
+      "name": "Åland Islands",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDFD",
+        "htmlCode": "&#127462;&#127485;"
+      }
+    }
+  },
+  {
+    "name": "AZ",
+    "code": 994,
+    "country": {
+      "name": "Azerbaijan",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDFF",
+        "htmlCode": "&#127462;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "BA",
+    "code": 387,
+    "country": {
+      "name": "Bosnia & Herzegovina",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDE6",
+        "htmlCode": "&#127463;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "BB",
+    "code": 1,
+    "country": {
+      "name": "Barbados",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDE7",
+        "htmlCode": "&#127463;&#127463;"
+      }
+    }
+  },
+  {
+    "name": "BD",
+    "code": 880,
+    "country": {
+      "name": "Bangladesh",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDE9",
+        "htmlCode": "&#127463;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "BE",
+    "code": 32,
+    "country": {
+      "name": "Belgium",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDEA",
+        "htmlCode": "&#127463;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "BF",
+    "code": 226,
+    "country": {
+      "name": "Burkina Faso",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDEB",
+        "htmlCode": "&#127463;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "BG",
+    "code": 359,
+    "country": {
+      "name": "Bulgaria",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDEC",
+        "htmlCode": "&#127463;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "BH",
+    "code": 973,
+    "country": {
+      "name": "Bahrain",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDED",
+        "htmlCode": "&#127463;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "BI",
+    "code": 257,
+    "country": {
+      "name": "Burundi",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDEE",
+        "htmlCode": "&#127463;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "BJ",
+    "code": 229,
+    "country": {
+      "name": "Benin",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDEF",
+        "htmlCode": "&#127463;&#127471;"
+      }
+    }
+  },
+  {
+    "name": "BL",
+    "code": 590,
+    "country": {
+      "name": "St. Barthélemy",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF1",
+        "htmlCode": "&#127463;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "BM",
+    "code": 1,
+    "country": {
+      "name": "Bermuda",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF2",
+        "htmlCode": "&#127463;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "BN",
+    "code": 673,
+    "country": {
+      "name": "Brunei",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF3",
+        "htmlCode": "&#127463;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "BO",
+    "code": 591,
+    "country": {
+      "name": "Bolivia",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF4",
+        "htmlCode": "&#127463;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "BQ",
+    "code": 599,
+    "country": {
+      "name": "Caribbean Netherlands",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF6",
+        "htmlCode": "&#127463;&#127478;"
+      }
+    }
+  },
+  {
+    "name": "BR",
+    "code": 55,
+    "country": {
+      "name": "Brazil",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF7",
+        "htmlCode": "&#127463;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "BS",
+    "code": 1,
+    "country": {
+      "name": "Bahamas",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF8",
+        "htmlCode": "&#127463;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "BT",
+    "code": 975,
+    "country": {
+      "name": "Bhutan",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF9",
+        "htmlCode": "&#127463;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "BW",
+    "code": 267,
+    "country": {
+      "name": "Botswana",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDFC",
+        "htmlCode": "&#127463;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "BY",
+    "code": 375,
+    "country": {
+      "name": "Belarus",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDFE",
+        "htmlCode": "&#127463;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "BZ",
+    "code": 501,
+    "country": {
+      "name": "Belize",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDFF",
+        "htmlCode": "&#127463;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "CA",
+    "code": 1,
+    "country": {
+      "name": "Canada",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDE6",
+        "htmlCode": "&#127464;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "CC",
+    "code": 61,
+    "country": {
+      "name": "Cocos (Keeling) Islands",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDE8",
+        "htmlCode": "&#127464;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "CD",
+    "code": 243,
+    "country": {
+      "name": "Congo - Kinshasa",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDE9",
+        "htmlCode": "&#127464;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "CF",
+    "code": 236,
+    "country": {
+      "name": "Central African Republic",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDEB",
+        "htmlCode": "&#127464;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "CG",
+    "code": 242,
+    "country": {
+      "name": "Congo - Brazzaville",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDEC",
+        "htmlCode": "&#127464;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "CH",
+    "code": 41,
+    "country": {
+      "name": "Switzerland",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDED",
+        "htmlCode": "&#127464;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "CI",
+    "code": 225,
+    "country": {
+      "name": "Côte d’Ivoire",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDEE",
+        "htmlCode": "&#127464;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "CK",
+    "code": 682,
+    "country": {
+      "name": "Cook Islands",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDF0",
+        "htmlCode": "&#127464;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "CL",
+    "code": 56,
+    "country": {
+      "name": "Chile",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDF1",
+        "htmlCode": "&#127464;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "CM",
+    "code": 237,
+    "country": {
+      "name": "Cameroon",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDF2",
+        "htmlCode": "&#127464;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "CN",
+    "code": 86,
+    "country": {
+      "name": "China",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDF3",
+        "htmlCode": "&#127464;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "CO",
+    "code": 57,
+    "country": {
+      "name": "Colombia",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDF4",
+        "htmlCode": "&#127464;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "CR",
+    "code": 506,
+    "country": {
+      "name": "Costa Rica",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDF7",
+        "htmlCode": "&#127464;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "CU",
+    "code": 53,
+    "country": {
+      "name": "Cuba",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDFA",
+        "htmlCode": "&#127464;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "CV",
+    "code": 238,
+    "country": {
+      "name": "Cape Verde",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDFB",
+        "htmlCode": "&#127464;&#127483;"
+      }
+    }
+  },
+  {
+    "name": "CW",
+    "code": 599,
+    "country": {
+      "name": "Curaçao",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDFC",
+        "htmlCode": "&#127464;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "CX",
+    "code": 61,
+    "country": {
+      "name": "Christmas Island",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDFD",
+        "htmlCode": "&#127464;&#127485;"
+      }
+    }
+  },
+  {
+    "name": "CY",
+    "code": 357,
+    "country": {
+      "name": "Cyprus",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDFE",
+        "htmlCode": "&#127464;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "CZ",
+    "code": 420,
+    "country": {
+      "name": "Czechia",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDFF",
+        "htmlCode": "&#127464;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "DE",
+    "code": 49,
+    "country": {
+      "name": "Germany",
+      "flag": {
+        "code": "\uD83C\uDDE9\uD83C\uDDEA",
+        "htmlCode": "&#127465;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "DJ",
+    "code": 253,
+    "country": {
+      "name": "Djibouti",
+      "flag": {
+        "code": "\uD83C\uDDE9\uD83C\uDDEF",
+        "htmlCode": "&#127465;&#127471;"
+      }
+    }
+  },
+  {
+    "name": "DK",
+    "code": 45,
+    "country": {
+      "name": "Denmark",
+      "flag": {
+        "code": "\uD83C\uDDE9\uD83C\uDDF0",
+        "htmlCode": "&#127465;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "DM",
+    "code": 1,
+    "country": {
+      "name": "Dominica",
+      "flag": {
+        "code": "\uD83C\uDDE9\uD83C\uDDF2",
+        "htmlCode": "&#127465;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "DO",
+    "code": 1,
+    "country": {
+      "name": "Dominican Republic",
+      "flag": {
+        "code": "\uD83C\uDDE9\uD83C\uDDF4",
+        "htmlCode": "&#127465;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "DZ",
+    "code": 213,
+    "country": {
+      "name": "Algeria",
+      "flag": {
+        "code": "\uD83C\uDDE9\uD83C\uDDFF",
+        "htmlCode": "&#127465;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "EC",
+    "code": 593,
+    "country": {
+      "name": "Ecuador",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDE8",
+        "htmlCode": "&#127466;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "EE",
+    "code": 372,
+    "country": {
+      "name": "Estonia",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDEA",
+        "htmlCode": "&#127466;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "EG",
+    "code": 20,
+    "country": {
+      "name": "Egypt",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDEC",
+        "htmlCode": "&#127466;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "EH",
+    "code": 212,
+    "country": {
+      "name": "Western Sahara",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDED",
+        "htmlCode": "&#127466;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "ER",
+    "code": 291,
+    "country": {
+      "name": "Eritrea",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDF7",
+        "htmlCode": "&#127466;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "ES",
+    "code": 34,
+    "country": {
+      "name": "Spain",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDF8",
+        "htmlCode": "&#127466;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "ET",
+    "code": 251,
+    "country": {
+      "name": "Ethiopia",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDF9",
+        "htmlCode": "&#127466;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "FI",
+    "code": 358,
+    "country": {
+      "name": "Finland",
+      "flag": {
+        "code": "\uD83C\uDDEB\uD83C\uDDEE",
+        "htmlCode": "&#127467;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "FJ",
+    "code": 679,
+    "country": {
+      "name": "Fiji",
+      "flag": {
+        "code": "\uD83C\uDDEB\uD83C\uDDEF",
+        "htmlCode": "&#127467;&#127471;"
+      }
+    }
+  },
+  {
+    "name": "FK",
+    "code": 500,
+    "country": {
+      "name": "Falkland Islands",
+      "flag": {
+        "code": "\uD83C\uDDEB\uD83C\uDDF0",
+        "htmlCode": "&#127467;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "FM",
+    "code": 691,
+    "country": {
+      "name": "Micronesia",
+      "flag": {
+        "code": "\uD83C\uDDEB\uD83C\uDDF2",
+        "htmlCode": "&#127467;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "FO",
+    "code": 298,
+    "country": {
+      "name": "Faroe Islands",
+      "flag": {
+        "code": "\uD83C\uDDEB\uD83C\uDDF4",
+        "htmlCode": "&#127467;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "FR",
+    "code": 33,
+    "country": {
+      "name": "France",
+      "flag": {
+        "code": "\uD83C\uDDEB\uD83C\uDDF7",
+        "htmlCode": "&#127467;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "GA",
+    "code": 241,
+    "country": {
+      "name": "Gabon",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDE6",
+        "htmlCode": "&#127468;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "GB",
+    "code": 44,
+    "country": {
+      "name": "United Kingdom",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDE7",
+        "htmlCode": "&#127468;&#127463;"
+      }
+    }
+  },
+  {
+    "name": "GD",
+    "code": 1,
+    "country": {
+      "name": "Grenada",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDE9",
+        "htmlCode": "&#127468;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "GE",
+    "code": 995,
+    "country": {
+      "name": "Georgia",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDEA",
+        "htmlCode": "&#127468;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "GF",
+    "code": 594,
+    "country": {
+      "name": "French Guiana",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDEB",
+        "htmlCode": "&#127468;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "GG",
+    "code": 44,
+    "country": {
+      "name": "Guernsey",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDEC",
+        "htmlCode": "&#127468;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "GH",
+    "code": 233,
+    "country": {
+      "name": "Ghana",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDED",
+        "htmlCode": "&#127468;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "GI",
+    "code": 350,
+    "country": {
+      "name": "Gibraltar",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDEE",
+        "htmlCode": "&#127468;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "GL",
+    "code": 299,
+    "country": {
+      "name": "Greenland",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF1",
+        "htmlCode": "&#127468;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "GM",
+    "code": 220,
+    "country": {
+      "name": "Gambia",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF2",
+        "htmlCode": "&#127468;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "GN",
+    "code": 224,
+    "country": {
+      "name": "Guinea",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF3",
+        "htmlCode": "&#127468;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "GP",
+    "code": 590,
+    "country": {
+      "name": "Guadeloupe",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF5",
+        "htmlCode": "&#127468;&#127477;"
+      }
+    }
+  },
+  {
+    "name": "GQ",
+    "code": 240,
+    "country": {
+      "name": "Equatorial Guinea",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF6",
+        "htmlCode": "&#127468;&#127478;"
+      }
+    }
+  },
+  {
+    "name": "GR",
+    "code": 30,
+    "country": {
+      "name": "Greece",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF7",
+        "htmlCode": "&#127468;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "GT",
+    "code": 502,
+    "country": {
+      "name": "Guatemala",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF9",
+        "htmlCode": "&#127468;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "GU",
+    "code": 1,
+    "country": {
+      "name": "Guam",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDFA",
+        "htmlCode": "&#127468;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "GW",
+    "code": 245,
+    "country": {
+      "name": "Guinea-Bissau",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDFC",
+        "htmlCode": "&#127468;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "GY",
+    "code": 592,
+    "country": {
+      "name": "Guyana",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDFE",
+        "htmlCode": "&#127468;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "HK",
+    "code": 852,
+    "country": {
+      "name": "Hong Kong SAR China",
+      "flag": {
+        "code": "\uD83C\uDDED\uD83C\uDDF0",
+        "htmlCode": "&#127469;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "HN",
+    "code": 504,
+    "country": {
+      "name": "Honduras",
+      "flag": {
+        "code": "\uD83C\uDDED\uD83C\uDDF3",
+        "htmlCode": "&#127469;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "HR",
+    "code": 385,
+    "country": {
+      "name": "Croatia",
+      "flag": {
+        "code": "\uD83C\uDDED\uD83C\uDDF7",
+        "htmlCode": "&#127469;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "HT",
+    "code": 509,
+    "country": {
+      "name": "Haiti",
+      "flag": {
+        "code": "\uD83C\uDDED\uD83C\uDDF9",
+        "htmlCode": "&#127469;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "HU",
+    "code": 36,
+    "country": {
+      "name": "Hungary",
+      "flag": {
+        "code": "\uD83C\uDDED\uD83C\uDDFA",
+        "htmlCode": "&#127469;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "ID",
+    "code": 62,
+    "country": {
+      "name": "Indonesia",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDE9",
+        "htmlCode": "&#127470;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "IE",
+    "code": 353,
+    "country": {
+      "name": "Ireland",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDEA",
+        "htmlCode": "&#127470;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "IL",
+    "code": 972,
+    "country": {
+      "name": "Israel",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF1",
+        "htmlCode": "&#127470;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "IM",
+    "code": 44,
+    "country": {
+      "name": "Isle of Man",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF2",
+        "htmlCode": "&#127470;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "IN",
+    "code": 91,
+    "country": {
+      "name": "India",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF3",
+        "htmlCode": "&#127470;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "IO",
+    "code": 246,
+    "country": {
+      "name": "British Indian Ocean Territory",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF4",
+        "htmlCode": "&#127470;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "IQ",
+    "code": 964,
+    "country": {
+      "name": "Iraq",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF6",
+        "htmlCode": "&#127470;&#127478;"
+      }
+    }
+  },
+  {
+    "name": "IR",
+    "code": 98,
+    "country": {
+      "name": "Iran",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF7",
+        "htmlCode": "&#127470;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "IS",
+    "code": 354,
+    "country": {
+      "name": "Iceland",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF8",
+        "htmlCode": "&#127470;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "IT",
+    "code": 39,
+    "country": {
+      "name": "Italy",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF9",
+        "htmlCode": "&#127470;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "JE",
+    "code": 44,
+    "country": {
+      "name": "Jersey",
+      "flag": {
+        "code": "\uD83C\uDDEF\uD83C\uDDEA",
+        "htmlCode": "&#127471;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "JM",
+    "code": 1,
+    "country": {
+      "name": "Jamaica",
+      "flag": {
+        "code": "\uD83C\uDDEF\uD83C\uDDF2",
+        "htmlCode": "&#127471;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "JO",
+    "code": 962,
+    "country": {
+      "name": "Jordan",
+      "flag": {
+        "code": "\uD83C\uDDEF\uD83C\uDDF4",
+        "htmlCode": "&#127471;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "JP",
+    "code": 81,
+    "country": {
+      "name": "Japan",
+      "flag": {
+        "code": "\uD83D\uDDFE",
+        "htmlCode": "&#128510;"
+      }
+    }
+  },
+  {
+    "name": "KE",
+    "code": 254,
+    "country": {
+      "name": "Kenya",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDEA",
+        "htmlCode": "&#127472;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "KG",
+    "code": 996,
+    "country": {
+      "name": "Kyrgyzstan",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDEC",
+        "htmlCode": "&#127472;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "KH",
+    "code": 855,
+    "country": {
+      "name": "Cambodia",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDED",
+        "htmlCode": "&#127472;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "KI",
+    "code": 686,
+    "country": {
+      "name": "Kiribati",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDEE",
+        "htmlCode": "&#127472;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "KM",
+    "code": 269,
+    "country": {
+      "name": "Comoros",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDF2",
+        "htmlCode": "&#127472;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "KN",
+    "code": 1,
+    "country": {
+      "name": "St. Kitts & Nevis",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDF3",
+        "htmlCode": "&#127472;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "KP",
+    "code": 850,
+    "country": {
+      "name": "North Korea",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDF5",
+        "htmlCode": "&#127472;&#127477;"
+      }
+    }
+  },
+  {
+    "name": "KR",
+    "code": 82,
+    "country": {
+      "name": "South Korea",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDF7",
+        "htmlCode": "&#127472;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "KW",
+    "code": 965,
+    "country": {
+      "name": "Kuwait",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDFC",
+        "htmlCode": "&#127472;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "KY",
+    "code": 1,
+    "country": {
+      "name": "Cayman Islands",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDFE",
+        "htmlCode": "&#127472;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "KZ",
+    "code": 7,
+    "country": {
+      "name": "Kazakhstan",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDFF",
+        "htmlCode": "&#127472;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "LA",
+    "code": 856,
+    "country": {
+      "name": "Laos",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDE6",
+        "htmlCode": "&#127473;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "LB",
+    "code": 961,
+    "country": {
+      "name": "Lebanon",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDE7",
+        "htmlCode": "&#127473;&#127463;"
+      }
+    }
+  },
+  {
+    "name": "LC",
+    "code": 1,
+    "country": {
+      "name": "St. Lucia",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDE8",
+        "htmlCode": "&#127473;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "LI",
+    "code": 423,
+    "country": {
+      "name": "Liechtenstein",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDEE",
+        "htmlCode": "&#127473;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "LK",
+    "code": 94,
+    "country": {
+      "name": "Sri Lanka",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDF0",
+        "htmlCode": "&#127473;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "LR",
+    "code": 231,
+    "country": {
+      "name": "Liberia",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDF7",
+        "htmlCode": "&#127473;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "LS",
+    "code": 266,
+    "country": {
+      "name": "Lesotho",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDF8",
+        "htmlCode": "&#127473;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "LT",
+    "code": 370,
+    "country": {
+      "name": "Lithuania",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDF9",
+        "htmlCode": "&#127473;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "LU",
+    "code": 352,
+    "country": {
+      "name": "Luxembourg",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDFA",
+        "htmlCode": "&#127473;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "LV",
+    "code": 371,
+    "country": {
+      "name": "Latvia",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDFB",
+        "htmlCode": "&#127473;&#127483;"
+      }
+    }
+  },
+  {
+    "name": "LY",
+    "code": 218,
+    "country": {
+      "name": "Libya",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDFE",
+        "htmlCode": "&#127473;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "MA",
+    "code": 212,
+    "country": {
+      "name": "Morocco",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDE6",
+        "htmlCode": "&#127474;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "MC",
+    "code": 377,
+    "country": {
+      "name": "Monaco",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDE8",
+        "htmlCode": "&#127474;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "MD",
+    "code": 373,
+    "country": {
+      "name": "Moldova",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDE9",
+        "htmlCode": "&#127474;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "ME",
+    "code": 382,
+    "country": {
+      "name": "Montenegro",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDEA",
+        "htmlCode": "&#127474;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "MF",
+    "code": 590,
+    "country": {
+      "name": "St. Martin",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDEB",
+        "htmlCode": "&#127474;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "MG",
+    "code": 261,
+    "country": {
+      "name": "Madagascar",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDEC",
+        "htmlCode": "&#127474;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "MH",
+    "code": 692,
+    "country": {
+      "name": "Marshall Islands",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDED",
+        "htmlCode": "&#127474;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "MK",
+    "code": 389,
+    "country": {
+      "name": "Macedonia",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF0",
+        "htmlCode": "&#127474;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "ML",
+    "code": 223,
+    "country": {
+      "name": "Mali",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF1",
+        "htmlCode": "&#127474;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "MM",
+    "code": 95,
+    "country": {
+      "name": "Myanmar (Burma)",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF2",
+        "htmlCode": "&#127474;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "MN",
+    "code": 976,
+    "country": {
+      "name": "Mongolia",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF3",
+        "htmlCode": "&#127474;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "MO",
+    "code": 853,
+    "country": {
+      "name": "Macau SAR China",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF4",
+        "htmlCode": "&#127474;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "MP",
+    "code": 1,
+    "country": {
+      "name": "Northern Mariana Islands",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF5",
+        "htmlCode": "&#127474;&#127477;"
+      }
+    }
+  },
+  {
+    "name": "MQ",
+    "code": 596,
+    "country": {
+      "name": "Martinique",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF6",
+        "htmlCode": "&#127474;&#127478;"
+      }
+    }
+  },
+  {
+    "name": "MR",
+    "code": 222,
+    "country": {
+      "name": "Mauritania",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF7",
+        "htmlCode": "&#127474;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "MS",
+    "code": 1,
+    "country": {
+      "name": "Montserrat",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF8",
+        "htmlCode": "&#127474;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "MT",
+    "code": 356,
+    "country": {
+      "name": "Malta",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF9",
+        "htmlCode": "&#127474;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "MU",
+    "code": 230,
+    "country": {
+      "name": "Mauritius",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDFA",
+        "htmlCode": "&#127474;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "MV",
+    "code": 960,
+    "country": {
+      "name": "Maldives",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDFB",
+        "htmlCode": "&#127474;&#127483;"
+      }
+    }
+  },
+  {
+    "name": "MW",
+    "code": 265,
+    "country": {
+      "name": "Malawi",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDFC",
+        "htmlCode": "&#127474;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "MX",
+    "code": 52,
+    "country": {
+      "name": "Mexico",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDFD",
+        "htmlCode": "&#127474;&#127485;"
+      }
+    }
+  },
+  {
+    "name": "MY",
+    "code": 60,
+    "country": {
+      "name": "Malaysia",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDFE",
+        "htmlCode": "&#127474;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "MZ",
+    "code": 258,
+    "country": {
+      "name": "Mozambique",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDFF",
+        "htmlCode": "&#127474;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "NA",
+    "code": 264,
+    "country": {
+      "name": "Namibia",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDE6",
+        "htmlCode": "&#127475;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "NC",
+    "code": 687,
+    "country": {
+      "name": "New Caledonia",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDE8",
+        "htmlCode": "&#127475;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "NE",
+    "code": 227,
+    "country": {
+      "name": "Niger",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDEA",
+        "htmlCode": "&#127475;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "NF",
+    "code": 672,
+    "country": {
+      "name": "Norfolk Island",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDEB",
+        "htmlCode": "&#127475;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "NG",
+    "code": 234,
+    "country": {
+      "name": "Nigeria",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDEC",
+        "htmlCode": "&#127475;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "NI",
+    "code": 505,
+    "country": {
+      "name": "Nicaragua",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDEE",
+        "htmlCode": "&#127475;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "NL",
+    "code": 31,
+    "country": {
+      "name": "Netherlands",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDF1",
+        "htmlCode": "&#127475;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "NO",
+    "code": 47,
+    "country": {
+      "name": "Norway",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDF4",
+        "htmlCode": "&#127475;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "NP",
+    "code": 977,
+    "country": {
+      "name": "Nepal",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDF5",
+        "htmlCode": "&#127475;&#127477;"
+      }
+    }
+  },
+  {
+    "name": "NR",
+    "code": 674,
+    "country": {
+      "name": "Nauru",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDF7",
+        "htmlCode": "&#127475;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "NU",
+    "code": 683,
+    "country": {
+      "name": "Niue",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDFA",
+        "htmlCode": "&#127475;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "NZ",
+    "code": 64,
+    "country": {
+      "name": "New Zealand",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDFF",
+        "htmlCode": "&#127475;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "OM",
+    "code": 968,
+    "country": {
+      "name": "Oman",
+      "flag": {
+        "code": "\uD83C\uDDF4\uD83C\uDDF2",
+        "htmlCode": "&#127476;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "PA",
+    "code": 507,
+    "country": {
+      "name": "Panama",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDE6",
+        "htmlCode": "&#127477;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "PE",
+    "code": 51,
+    "country": {
+      "name": "Peru",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDEA",
+        "htmlCode": "&#127477;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "PF",
+    "code": 689,
+    "country": {
+      "name": "French Polynesia",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDEB",
+        "htmlCode": "&#127477;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "PG",
+    "code": 675,
+    "country": {
+      "name": "Papua New Guinea",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDEC",
+        "htmlCode": "&#127477;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "PH",
+    "code": 63,
+    "country": {
+      "name": "Philippines",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDED",
+        "htmlCode": "&#127477;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "PK",
+    "code": 92,
+    "country": {
+      "name": "Pakistan",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDF0",
+        "htmlCode": "&#127477;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "PL",
+    "code": 48,
+    "country": {
+      "name": "Poland",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDF1",
+        "htmlCode": "&#127477;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "PM",
+    "code": 508,
+    "country": {
+      "name": "St. Pierre & Miquelon",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDF2",
+        "htmlCode": "&#127477;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "PR",
+    "code": 1,
+    "country": {
+      "name": "Puerto Rico",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDF7",
+        "htmlCode": "&#127477;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "PS",
+    "code": 970,
+    "country": {
+      "name": "Palestinian Territories",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDF8",
+        "htmlCode": "&#127477;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "PT",
+    "code": 351,
+    "country": {
+      "name": "Portugal",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDF9",
+        "htmlCode": "&#127477;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "PW",
+    "code": 680,
+    "country": {
+      "name": "Palau",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDFC",
+        "htmlCode": "&#127477;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "PY",
+    "code": 595,
+    "country": {
+      "name": "Paraguay",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDFE",
+        "htmlCode": "&#127477;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "QA",
+    "code": 974,
+    "country": {
+      "name": "Qatar",
+      "flag": {
+        "code": "\uD83C\uDDF6\uD83C\uDDE6",
+        "htmlCode": "&#127478;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "RE",
+    "code": 262,
+    "country": {
+      "name": "Réunion",
+      "flag": {
+        "code": "\uD83C\uDDF7\uD83C\uDDEA",
+        "htmlCode": "&#127479;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "RO",
+    "code": 40,
+    "country": {
+      "name": "Romania",
+      "flag": {
+        "code": "\uD83C\uDDF7\uD83C\uDDF4",
+        "htmlCode": "&#127479;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "RS",
+    "code": 381,
+    "country": {
+      "name": "Serbia",
+      "flag": {
+        "code": "\uD83C\uDDF7\uD83C\uDDF8",
+        "htmlCode": "&#127479;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "RU",
+    "code": 7,
+    "country": {
+      "name": "Russia",
+      "flag": {
+        "code": "\uD83C\uDDF7\uD83C\uDDFA",
+        "htmlCode": "&#127479;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "RW",
+    "code": 250,
+    "country": {
+      "name": "Rwanda",
+      "flag": {
+        "code": "\uD83C\uDDF7\uD83C\uDDFC",
+        "htmlCode": "&#127479;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "SA",
+    "code": 966,
+    "country": {
+      "name": "Saudi Arabia",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDE6",
+        "htmlCode": "&#127480;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "SB",
+    "code": 677,
+    "country": {
+      "name": "Solomon Islands",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDE7",
+        "htmlCode": "&#127480;&#127463;"
+      }
+    }
+  },
+  {
+    "name": "SC",
+    "code": 248,
+    "country": {
+      "name": "Seychelles",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDE8",
+        "htmlCode": "&#127480;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "SD",
+    "code": 249,
+    "country": {
+      "name": "Sudan",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDE9",
+        "htmlCode": "&#127480;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "SE",
+    "code": 46,
+    "country": {
+      "name": "Sweden",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDEA",
+        "htmlCode": "&#127480;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "SG",
+    "code": 65,
+    "country": {
+      "name": "Singapore",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDEC",
+        "htmlCode": "&#127480;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "SH",
+    "code": 290,
+    "country": {
+      "name": "St. Helena",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDED",
+        "htmlCode": "&#127480;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "SI",
+    "code": 386,
+    "country": {
+      "name": "Slovenia",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDEE",
+        "htmlCode": "&#127480;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "SJ",
+    "code": 47,
+    "country": {
+      "name": "Svalbard & Jan Mayen",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDEF",
+        "htmlCode": "&#127480;&#127471;"
+      }
+    }
+  },
+  {
+    "name": "SK",
+    "code": 421,
+    "country": {
+      "name": "Slovakia",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF0",
+        "htmlCode": "&#127480;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "SL",
+    "code": 232,
+    "country": {
+      "name": "Sierra Leone",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF1",
+        "htmlCode": "&#127480;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "SM",
+    "code": 378,
+    "country": {
+      "name": "San Marino",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF2",
+        "htmlCode": "&#127480;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "SN",
+    "code": 221,
+    "country": {
+      "name": "Senegal",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF3",
+        "htmlCode": "&#127480;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "SO",
+    "code": 252,
+    "country": {
+      "name": "Somalia",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF4",
+        "htmlCode": "&#127480;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "SR",
+    "code": 597,
+    "country": {
+      "name": "Suriname",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF7",
+        "htmlCode": "&#127480;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "SS",
+    "code": 211,
+    "country": {
+      "name": "South Sudan",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF8",
+        "htmlCode": "&#127480;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "ST",
+    "code": 239,
+    "country": {
+      "name": "São Tomé & Príncipe",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF9",
+        "htmlCode": "&#127480;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "SV",
+    "code": 503,
+    "country": {
+      "name": "El Salvador",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDFB",
+        "htmlCode": "&#127480;&#127483;"
+      }
+    }
+  },
+  {
+    "name": "SX",
+    "code": 1,
+    "country": {
+      "name": "Sint Maarten",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDFD",
+        "htmlCode": "&#127480;&#127485;"
+      }
+    }
+  },
+  {
+    "name": "SY",
+    "code": 963,
+    "country": {
+      "name": "Syria",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDFE",
+        "htmlCode": "&#127480;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "SZ",
+    "code": 268,
+    "country": {
+      "name": "Swaziland",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDFF",
+        "htmlCode": "&#127480;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "TA",
+    "code": 290,
+    "country": {
+      "name": "Tristan da Cunha",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDE6",
+        "htmlCode": "&#127481;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "TC",
+    "code": 1,
+    "country": {
+      "name": "Turks & Caicos Islands",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDE8",
+        "htmlCode": "&#127481;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "TD",
+    "code": 235,
+    "country": {
+      "name": "Chad",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDE9",
+        "htmlCode": "&#127481;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "TG",
+    "code": 228,
+    "country": {
+      "name": "Togo",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDEC",
+        "htmlCode": "&#127481;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "TH",
+    "code": 66,
+    "country": {
+      "name": "Thailand",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDED",
+        "htmlCode": "&#127481;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "TJ",
+    "code": 992,
+    "country": {
+      "name": "Tajikistan",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDEF",
+        "htmlCode": "&#127481;&#127471;"
+      }
+    }
+  },
+  {
+    "name": "TK",
+    "code": 690,
+    "country": {
+      "name": "Tokelau",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDF0",
+        "htmlCode": "&#127481;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "TL",
+    "code": 670,
+    "country": {
+      "name": "Timor-Leste",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDF1",
+        "htmlCode": "&#127481;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "TM",
+    "code": 993,
+    "country": {
+      "name": "Turkmenistan",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDF2",
+        "htmlCode": "&#127481;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "TN",
+    "code": 216,
+    "country": {
+      "name": "Tunisia",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDF3",
+        "htmlCode": "&#127481;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "TO",
+    "code": 676,
+    "country": {
+      "name": "Tonga",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDF4",
+        "htmlCode": "&#127481;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "TR",
+    "code": 90,
+    "country": {
+      "name": "Turkey",
+      "flag": {
+        "code": "\uD83E\uDD83",
+        "htmlCode": "&#129411;"
+      }
+    }
+  },
+  {
+    "name": "TT",
+    "code": 1,
+    "country": {
+      "name": "Trinidad & Tobago",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDF9",
+        "htmlCode": "&#127481;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "TV",
+    "code": 688,
+    "country": {
+      "name": "Tuvalu",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDFB",
+        "htmlCode": "&#127481;&#127483;"
+      }
+    }
+  },
+  {
+    "name": "TW",
+    "code": 886,
+    "country": {
+      "name": "Taiwan",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDFC",
+        "htmlCode": "&#127481;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "TZ",
+    "code": 255,
+    "country": {
+      "name": "Tanzania",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDFF",
+        "htmlCode": "&#127481;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "UA",
+    "code": 380,
+    "country": {
+      "name": "Ukraine",
+      "flag": {
+        "code": "\uD83C\uDDFA\uD83C\uDDE6",
+        "htmlCode": "&#127482;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "UG",
+    "code": 256,
+    "country": {
+      "name": "Uganda",
+      "flag": {
+        "code": "\uD83C\uDDFA\uD83C\uDDEC",
+        "htmlCode": "&#127482;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "US",
+    "code": 1,
+    "country": {
+      "name": "United States",
+      "flag": {
+        "code": "\uD83C\uDDFA\uD83C\uDDF8",
+        "htmlCode": "&#127482;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "UY",
+    "code": 598,
+    "country": {
+      "name": "Uruguay",
+      "flag": {
+        "code": "\uD83C\uDDFA\uD83C\uDDFE",
+        "htmlCode": "&#127482;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "UZ",
+    "code": 998,
+    "country": {
+      "name": "Uzbekistan",
+      "flag": {
+        "code": "\uD83C\uDDFA\uD83C\uDDFF",
+        "htmlCode": "&#127482;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "VA",
+    "code": 39,
+    "country": {
+      "name": "Vatican City",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDE6",
+        "htmlCode": "&#127483;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "VC",
+    "code": 1,
+    "country": {
+      "name": "St. Vincent & Grenadines",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDE8",
+        "htmlCode": "&#127483;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "VE",
+    "code": 58,
+    "country": {
+      "name": "Venezuela",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDEA",
+        "htmlCode": "&#127483;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "VG",
+    "code": 1,
+    "country": {
+      "name": "British Virgin Islands",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDEC",
+        "htmlCode": "&#127483;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "VI",
+    "code": 1,
+    "country": {
+      "name": "U.S. Virgin Islands",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDEE",
+        "htmlCode": "&#127483;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "VN",
+    "code": 84,
+    "country": {
+      "name": "Vietnam",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDF3",
+        "htmlCode": "&#127483;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "VU",
+    "code": 678,
+    "country": {
+      "name": "Vanuatu",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDFA",
+        "htmlCode": "&#127483;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "WF",
+    "code": 681,
+    "country": {
+      "name": "Wallis & Futuna",
+      "flag": {
+        "code": "\uD83C\uDDFC\uD83C\uDDEB",
+        "htmlCode": "&#127484;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "WS",
+    "code": 685,
+    "country": {
+      "name": "Samoa",
+      "flag": {
+        "code": "\uD83C\uDDFC\uD83C\uDDF8",
+        "htmlCode": "&#127484;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "XK",
+    "code": 383,
+    "country": {
+      "name": "Kosovo",
+      "flag": {
+        "code": "\uD83C\uDDFD\uD83C\uDDF0",
+        "htmlCode": "&#127485;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "YE",
+    "code": 967,
+    "country": {
+      "name": "Yemen",
+      "flag": {
+        "code": "\uD83C\uDDFE\uD83C\uDDEA",
+        "htmlCode": "&#127486;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "YT",
+    "code": 262,
+    "country": {
+      "name": "Mayotte",
+      "flag": {
+        "code": "\uD83C\uDDFE\uD83C\uDDF9",
+        "htmlCode": "&#127486;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "ZA",
+    "code": 27,
+    "country": {
+      "name": "South Africa",
+      "flag": {
+        "code": "\uD83C\uDDFF\uD83C\uDDE6",
+        "htmlCode": "&#127487;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "ZM",
+    "code": 260,
+    "country": {
+      "name": "Zambia",
+      "flag": {
+        "code": "\uD83C\uDDFF\uD83C\uDDF2",
+        "htmlCode": "&#127487;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "ZW",
+    "code": 263,
+    "country": {
+      "name": "Zimbabwe",
+      "flag": {
+        "code": "\uD83C\uDDFF\uD83C\uDDFC",
+        "htmlCode": "&#127487;&#127484;"
+      }
+    }
+  }
+]

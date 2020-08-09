@@ -1,8 +1,8 @@
 package com.github.dkorotych.phone.formatter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.dkorotych.phone.formatter.domain.PhoneFormatterRequest;
-import io.micronaut.core.util.StringUtils;
+import com.github.dkorotych.phone.formatter.domain.Request;
+import io.micronaut.http.client.HttpClient;
 import io.micronaut.test.annotation.MicronautTest;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
@@ -29,6 +29,8 @@ public class PhoneFormatterControllerTest {
 
     @Inject
     private PhoneFormatterControllerClient client;
+    @Inject
+    HttpClient httpClient;
     private ObjectMapper objectMapper;
 
     private static List<Path> getDirectoriesAsParameters(String path) {
@@ -72,27 +74,32 @@ public class PhoneFormatterControllerTest {
     @ParameterizedTest
     @MethodSource
     void get(Path path) throws Exception {
-        final PhoneFormatterRequest request = readRequest(path);
+        final Request request = readRequest(path);
         final String expected = readString(path, false);
-        final String number = request.getPhoneNumber();
-        if (StringUtils.hasText(number)) {
-            final String actual = client.format(number);
+        final String actual = client.format(request.getPhoneNumber());
+        try {
             JSONAssert.assertEquals(expected, actual, true);
+        } catch (Throwable e) {
+            throw e;
         }
     }
 
     @ParameterizedTest
     @MethodSource
     void post(Path path) throws Exception {
-        final PhoneFormatterRequest request = readRequest(path);
+        final Request request = readRequest(path);
         final String expected = readString(path, false);
         final String actual = client.format(request);
-        JSONAssert.assertEquals(expected, actual, true);
+        try {
+            JSONAssert.assertEquals(expected, actual, true);
+        } catch (Throwable e) {
+            throw e;
+        }
     }
 
-    private PhoneFormatterRequest readRequest(Path path) throws IOException {
+    private Request readRequest(Path path) throws IOException {
         final String content = readString(path, true);
-        return objectMapper.readValue(content, PhoneFormatterRequest.class);
+        return objectMapper.readValue(content, Request.class);
     }
 
     private String readString(Path path, boolean request) throws IOException {

@@ -1,0 +1,2697 @@
+[
+  {
+    "name": "AC",
+    "code": 247,
+    "country": {
+      "name": "阿森松島",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDE8",
+        "htmlCode": "&#127462;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "AD",
+    "code": 376,
+    "country": {
+      "name": "安道爾",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDE9",
+        "htmlCode": "&#127462;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "AE",
+    "code": 971,
+    "country": {
+      "name": "阿拉伯聯合大公國",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDEA",
+        "htmlCode": "&#127462;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "AF",
+    "code": 93,
+    "country": {
+      "name": "阿富汗",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDEB",
+        "htmlCode": "&#127462;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "AG",
+    "code": 1,
+    "country": {
+      "name": "安地卡及巴布達",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDEC",
+        "htmlCode": "&#127462;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "AI",
+    "code": 1,
+    "country": {
+      "name": "安奎拉",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDEE",
+        "htmlCode": "&#127462;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "AL",
+    "code": 355,
+    "country": {
+      "name": "阿爾巴尼亞",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDF1",
+        "htmlCode": "&#127462;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "AM",
+    "code": 374,
+    "country": {
+      "name": "亞美尼亞",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDF2",
+        "htmlCode": "&#127462;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "AO",
+    "code": 244,
+    "country": {
+      "name": "安哥拉",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDF4",
+        "htmlCode": "&#127462;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "AR",
+    "code": 54,
+    "country": {
+      "name": "阿根廷",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDF7",
+        "htmlCode": "&#127462;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "AS",
+    "code": 1,
+    "country": {
+      "name": "美屬薩摩亞",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDF8",
+        "htmlCode": "&#127462;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "AT",
+    "code": 43,
+    "country": {
+      "name": "奧地利",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDF9",
+        "htmlCode": "&#127462;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "AU",
+    "code": 61,
+    "country": {
+      "name": "澳洲",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDFA",
+        "htmlCode": "&#127462;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "AW",
+    "code": 297,
+    "country": {
+      "name": "荷屬阿魯巴",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDFC",
+        "htmlCode": "&#127462;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "AX",
+    "code": 358,
+    "country": {
+      "name": "奧蘭群島",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDFD",
+        "htmlCode": "&#127462;&#127485;"
+      }
+    }
+  },
+  {
+    "name": "AZ",
+    "code": 994,
+    "country": {
+      "name": "亞塞拜然",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDFF",
+        "htmlCode": "&#127462;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "BA",
+    "code": 387,
+    "country": {
+      "name": "波士尼亞與赫塞哥維納",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDE6",
+        "htmlCode": "&#127463;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "BB",
+    "code": 1,
+    "country": {
+      "name": "巴貝多",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDE7",
+        "htmlCode": "&#127463;&#127463;"
+      }
+    }
+  },
+  {
+    "name": "BD",
+    "code": 880,
+    "country": {
+      "name": "孟加拉",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDE9",
+        "htmlCode": "&#127463;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "BE",
+    "code": 32,
+    "country": {
+      "name": "比利時",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDEA",
+        "htmlCode": "&#127463;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "BF",
+    "code": 226,
+    "country": {
+      "name": "布吉納法索",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDEB",
+        "htmlCode": "&#127463;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "BG",
+    "code": 359,
+    "country": {
+      "name": "保加利亞",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDEC",
+        "htmlCode": "&#127463;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "BH",
+    "code": 973,
+    "country": {
+      "name": "巴林",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDED",
+        "htmlCode": "&#127463;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "BI",
+    "code": 257,
+    "country": {
+      "name": "蒲隆地",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDEE",
+        "htmlCode": "&#127463;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "BJ",
+    "code": 229,
+    "country": {
+      "name": "貝南",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDEF",
+        "htmlCode": "&#127463;&#127471;"
+      }
+    }
+  },
+  {
+    "name": "BL",
+    "code": 590,
+    "country": {
+      "name": "聖巴瑟米",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF1",
+        "htmlCode": "&#127463;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "BM",
+    "code": 1,
+    "country": {
+      "name": "百慕達",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF2",
+        "htmlCode": "&#127463;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "BN",
+    "code": 673,
+    "country": {
+      "name": "汶萊",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF3",
+        "htmlCode": "&#127463;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "BO",
+    "code": 591,
+    "country": {
+      "name": "玻利維亞",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF4",
+        "htmlCode": "&#127463;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "BQ",
+    "code": 599,
+    "country": {
+      "name": "荷蘭加勒比區",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF6",
+        "htmlCode": "&#127463;&#127478;"
+      }
+    }
+  },
+  {
+    "name": "BR",
+    "code": 55,
+    "country": {
+      "name": "巴西",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF7",
+        "htmlCode": "&#127463;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "BS",
+    "code": 1,
+    "country": {
+      "name": "巴哈馬",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF8",
+        "htmlCode": "&#127463;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "BT",
+    "code": 975,
+    "country": {
+      "name": "不丹",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF9",
+        "htmlCode": "&#127463;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "BW",
+    "code": 267,
+    "country": {
+      "name": "波札那",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDFC",
+        "htmlCode": "&#127463;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "BY",
+    "code": 375,
+    "country": {
+      "name": "白俄羅斯",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDFE",
+        "htmlCode": "&#127463;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "BZ",
+    "code": 501,
+    "country": {
+      "name": "貝里斯",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDFF",
+        "htmlCode": "&#127463;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "CA",
+    "code": 1,
+    "country": {
+      "name": "加拿大",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDE6",
+        "htmlCode": "&#127464;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "CC",
+    "code": 61,
+    "country": {
+      "name": "科克斯（基靈）群島",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDE8",
+        "htmlCode": "&#127464;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "CD",
+    "code": 243,
+    "country": {
+      "name": "剛果（金夏沙）",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDE9",
+        "htmlCode": "&#127464;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "CF",
+    "code": 236,
+    "country": {
+      "name": "中非共和國",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDEB",
+        "htmlCode": "&#127464;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "CG",
+    "code": 242,
+    "country": {
+      "name": "剛果（布拉薩）",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDEC",
+        "htmlCode": "&#127464;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "CH",
+    "code": 41,
+    "country": {
+      "name": "瑞士",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDED",
+        "htmlCode": "&#127464;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "CI",
+    "code": 225,
+    "country": {
+      "name": "象牙海岸",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDEE",
+        "htmlCode": "&#127464;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "CK",
+    "code": 682,
+    "country": {
+      "name": "庫克群島",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDF0",
+        "htmlCode": "&#127464;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "CL",
+    "code": 56,
+    "country": {
+      "name": "智利",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDF1",
+        "htmlCode": "&#127464;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "CM",
+    "code": 237,
+    "country": {
+      "name": "喀麥隆",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDF2",
+        "htmlCode": "&#127464;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "CN",
+    "code": 86,
+    "country": {
+      "name": "中國",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDF3",
+        "htmlCode": "&#127464;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "CO",
+    "code": 57,
+    "country": {
+      "name": "哥倫比亞",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDF4",
+        "htmlCode": "&#127464;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "CR",
+    "code": 506,
+    "country": {
+      "name": "哥斯大黎加",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDF7",
+        "htmlCode": "&#127464;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "CU",
+    "code": 53,
+    "country": {
+      "name": "古巴",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDFA",
+        "htmlCode": "&#127464;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "CV",
+    "code": 238,
+    "country": {
+      "name": "維德角",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDFB",
+        "htmlCode": "&#127464;&#127483;"
+      }
+    }
+  },
+  {
+    "name": "CW",
+    "code": 599,
+    "country": {
+      "name": "庫拉索",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDFC",
+        "htmlCode": "&#127464;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "CX",
+    "code": 61,
+    "country": {
+      "name": "聖誕島",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDFD",
+        "htmlCode": "&#127464;&#127485;"
+      }
+    }
+  },
+  {
+    "name": "CY",
+    "code": 357,
+    "country": {
+      "name": "賽普勒斯",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDFE",
+        "htmlCode": "&#127464;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "CZ",
+    "code": 420,
+    "country": {
+      "name": "捷克",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDFF",
+        "htmlCode": "&#127464;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "DE",
+    "code": 49,
+    "country": {
+      "name": "德國",
+      "flag": {
+        "code": "\uD83C\uDDE9\uD83C\uDDEA",
+        "htmlCode": "&#127465;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "DJ",
+    "code": 253,
+    "country": {
+      "name": "吉布地",
+      "flag": {
+        "code": "\uD83C\uDDE9\uD83C\uDDEF",
+        "htmlCode": "&#127465;&#127471;"
+      }
+    }
+  },
+  {
+    "name": "DK",
+    "code": 45,
+    "country": {
+      "name": "丹麥",
+      "flag": {
+        "code": "\uD83C\uDDE9\uD83C\uDDF0",
+        "htmlCode": "&#127465;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "DM",
+    "code": 1,
+    "country": {
+      "name": "多米尼克",
+      "flag": {
+        "code": "\uD83C\uDDE9\uD83C\uDDF2",
+        "htmlCode": "&#127465;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "DO",
+    "code": 1,
+    "country": {
+      "name": "多明尼加共和國",
+      "flag": {
+        "code": "\uD83C\uDDE9\uD83C\uDDF4",
+        "htmlCode": "&#127465;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "DZ",
+    "code": 213,
+    "country": {
+      "name": "阿爾及利亞",
+      "flag": {
+        "code": "\uD83C\uDDE9\uD83C\uDDFF",
+        "htmlCode": "&#127465;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "EC",
+    "code": 593,
+    "country": {
+      "name": "厄瓜多",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDE8",
+        "htmlCode": "&#127466;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "EE",
+    "code": 372,
+    "country": {
+      "name": "愛沙尼亞",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDEA",
+        "htmlCode": "&#127466;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "EG",
+    "code": 20,
+    "country": {
+      "name": "埃及",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDEC",
+        "htmlCode": "&#127466;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "EH",
+    "code": 212,
+    "country": {
+      "name": "西撒哈拉",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDED",
+        "htmlCode": "&#127466;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "ER",
+    "code": 291,
+    "country": {
+      "name": "厄利垂亞",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDF7",
+        "htmlCode": "&#127466;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "ES",
+    "code": 34,
+    "country": {
+      "name": "西班牙",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDF8",
+        "htmlCode": "&#127466;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "ET",
+    "code": 251,
+    "country": {
+      "name": "衣索比亞",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDF9",
+        "htmlCode": "&#127466;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "FI",
+    "code": 358,
+    "country": {
+      "name": "芬蘭",
+      "flag": {
+        "code": "\uD83C\uDDEB\uD83C\uDDEE",
+        "htmlCode": "&#127467;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "FJ",
+    "code": 679,
+    "country": {
+      "name": "斐濟",
+      "flag": {
+        "code": "\uD83C\uDDEB\uD83C\uDDEF",
+        "htmlCode": "&#127467;&#127471;"
+      }
+    }
+  },
+  {
+    "name": "FK",
+    "code": 500,
+    "country": {
+      "name": "福克蘭群島",
+      "flag": {
+        "code": "\uD83C\uDDEB\uD83C\uDDF0",
+        "htmlCode": "&#127467;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "FM",
+    "code": 691,
+    "country": {
+      "name": "密克羅尼西亞",
+      "flag": {
+        "code": "\uD83C\uDDEB\uD83C\uDDF2",
+        "htmlCode": "&#127467;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "FO",
+    "code": 298,
+    "country": {
+      "name": "法羅群島",
+      "flag": {
+        "code": "\uD83C\uDDEB\uD83C\uDDF4",
+        "htmlCode": "&#127467;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "FR",
+    "code": 33,
+    "country": {
+      "name": "法國",
+      "flag": {
+        "code": "\uD83C\uDDEB\uD83C\uDDF7",
+        "htmlCode": "&#127467;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "GA",
+    "code": 241,
+    "country": {
+      "name": "加彭",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDE6",
+        "htmlCode": "&#127468;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "GB",
+    "code": 44,
+    "country": {
+      "name": "英國",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDE7",
+        "htmlCode": "&#127468;&#127463;"
+      }
+    }
+  },
+  {
+    "name": "GD",
+    "code": 1,
+    "country": {
+      "name": "格瑞那達",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDE9",
+        "htmlCode": "&#127468;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "GE",
+    "code": 995,
+    "country": {
+      "name": "喬治亞",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDEA",
+        "htmlCode": "&#127468;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "GF",
+    "code": 594,
+    "country": {
+      "name": "法屬圭亞那",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDEB",
+        "htmlCode": "&#127468;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "GG",
+    "code": 44,
+    "country": {
+      "name": "根息",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDEC",
+        "htmlCode": "&#127468;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "GH",
+    "code": 233,
+    "country": {
+      "name": "迦納",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDED",
+        "htmlCode": "&#127468;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "GI",
+    "code": 350,
+    "country": {
+      "name": "直布羅陀",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDEE",
+        "htmlCode": "&#127468;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "GL",
+    "code": 299,
+    "country": {
+      "name": "格陵蘭",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF1",
+        "htmlCode": "&#127468;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "GM",
+    "code": 220,
+    "country": {
+      "name": "甘比亞",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF2",
+        "htmlCode": "&#127468;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "GN",
+    "code": 224,
+    "country": {
+      "name": "幾內亞",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF3",
+        "htmlCode": "&#127468;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "GP",
+    "code": 590,
+    "country": {
+      "name": "瓜地洛普",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF5",
+        "htmlCode": "&#127468;&#127477;"
+      }
+    }
+  },
+  {
+    "name": "GQ",
+    "code": 240,
+    "country": {
+      "name": "赤道幾內亞",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF6",
+        "htmlCode": "&#127468;&#127478;"
+      }
+    }
+  },
+  {
+    "name": "GR",
+    "code": 30,
+    "country": {
+      "name": "希臘",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF7",
+        "htmlCode": "&#127468;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "GT",
+    "code": 502,
+    "country": {
+      "name": "瓜地馬拉",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF9",
+        "htmlCode": "&#127468;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "GU",
+    "code": 1,
+    "country": {
+      "name": "關島",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDFA",
+        "htmlCode": "&#127468;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "GW",
+    "code": 245,
+    "country": {
+      "name": "幾內亞比索",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDFC",
+        "htmlCode": "&#127468;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "GY",
+    "code": 592,
+    "country": {
+      "name": "蓋亞那",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDFE",
+        "htmlCode": "&#127468;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "HK",
+    "code": 852,
+    "country": {
+      "name": "中國香港特別行政區",
+      "flag": {
+        "code": "\uD83C\uDDED\uD83C\uDDF0",
+        "htmlCode": "&#127469;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "HN",
+    "code": 504,
+    "country": {
+      "name": "宏都拉斯",
+      "flag": {
+        "code": "\uD83C\uDDED\uD83C\uDDF3",
+        "htmlCode": "&#127469;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "HR",
+    "code": 385,
+    "country": {
+      "name": "克羅埃西亞",
+      "flag": {
+        "code": "\uD83C\uDDED\uD83C\uDDF7",
+        "htmlCode": "&#127469;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "HT",
+    "code": 509,
+    "country": {
+      "name": "海地",
+      "flag": {
+        "code": "\uD83C\uDDED\uD83C\uDDF9",
+        "htmlCode": "&#127469;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "HU",
+    "code": 36,
+    "country": {
+      "name": "匈牙利",
+      "flag": {
+        "code": "\uD83C\uDDED\uD83C\uDDFA",
+        "htmlCode": "&#127469;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "ID",
+    "code": 62,
+    "country": {
+      "name": "印尼",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDE9",
+        "htmlCode": "&#127470;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "IE",
+    "code": 353,
+    "country": {
+      "name": "愛爾蘭",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDEA",
+        "htmlCode": "&#127470;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "IL",
+    "code": 972,
+    "country": {
+      "name": "以色列",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF1",
+        "htmlCode": "&#127470;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "IM",
+    "code": 44,
+    "country": {
+      "name": "曼島",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF2",
+        "htmlCode": "&#127470;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "IN",
+    "code": 91,
+    "country": {
+      "name": "印度",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF3",
+        "htmlCode": "&#127470;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "IO",
+    "code": 246,
+    "country": {
+      "name": "英屬印度洋領地",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF4",
+        "htmlCode": "&#127470;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "IQ",
+    "code": 964,
+    "country": {
+      "name": "伊拉克",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF6",
+        "htmlCode": "&#127470;&#127478;"
+      }
+    }
+  },
+  {
+    "name": "IR",
+    "code": 98,
+    "country": {
+      "name": "伊朗",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF7",
+        "htmlCode": "&#127470;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "IS",
+    "code": 354,
+    "country": {
+      "name": "冰島",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF8",
+        "htmlCode": "&#127470;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "IT",
+    "code": 39,
+    "country": {
+      "name": "義大利",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF9",
+        "htmlCode": "&#127470;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "JE",
+    "code": 44,
+    "country": {
+      "name": "澤西島",
+      "flag": {
+        "code": "\uD83C\uDDEF\uD83C\uDDEA",
+        "htmlCode": "&#127471;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "JM",
+    "code": 1,
+    "country": {
+      "name": "牙買加",
+      "flag": {
+        "code": "\uD83C\uDDEF\uD83C\uDDF2",
+        "htmlCode": "&#127471;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "JO",
+    "code": 962,
+    "country": {
+      "name": "約旦",
+      "flag": {
+        "code": "\uD83C\uDDEF\uD83C\uDDF4",
+        "htmlCode": "&#127471;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "JP",
+    "code": 81,
+    "country": {
+      "name": "日本",
+      "flag": {
+        "code": "\uD83D\uDDFE",
+        "htmlCode": "&#128510;"
+      }
+    }
+  },
+  {
+    "name": "KE",
+    "code": 254,
+    "country": {
+      "name": "肯亞",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDEA",
+        "htmlCode": "&#127472;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "KG",
+    "code": 996,
+    "country": {
+      "name": "吉爾吉斯",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDEC",
+        "htmlCode": "&#127472;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "KH",
+    "code": 855,
+    "country": {
+      "name": "柬埔寨",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDED",
+        "htmlCode": "&#127472;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "KI",
+    "code": 686,
+    "country": {
+      "name": "吉里巴斯",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDEE",
+        "htmlCode": "&#127472;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "KM",
+    "code": 269,
+    "country": {
+      "name": "葛摩",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDF2",
+        "htmlCode": "&#127472;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "KN",
+    "code": 1,
+    "country": {
+      "name": "聖克里斯多福及尼維斯",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDF3",
+        "htmlCode": "&#127472;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "KP",
+    "code": 850,
+    "country": {
+      "name": "北韓",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDF5",
+        "htmlCode": "&#127472;&#127477;"
+      }
+    }
+  },
+  {
+    "name": "KR",
+    "code": 82,
+    "country": {
+      "name": "南韓",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDF7",
+        "htmlCode": "&#127472;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "KW",
+    "code": 965,
+    "country": {
+      "name": "科威特",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDFC",
+        "htmlCode": "&#127472;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "KY",
+    "code": 1,
+    "country": {
+      "name": "開曼群島",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDFE",
+        "htmlCode": "&#127472;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "KZ",
+    "code": 7,
+    "country": {
+      "name": "哈薩克",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDFF",
+        "htmlCode": "&#127472;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "LA",
+    "code": 856,
+    "country": {
+      "name": "寮國",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDE6",
+        "htmlCode": "&#127473;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "LB",
+    "code": 961,
+    "country": {
+      "name": "黎巴嫩",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDE7",
+        "htmlCode": "&#127473;&#127463;"
+      }
+    }
+  },
+  {
+    "name": "LC",
+    "code": 1,
+    "country": {
+      "name": "聖露西亞",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDE8",
+        "htmlCode": "&#127473;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "LI",
+    "code": 423,
+    "country": {
+      "name": "列支敦斯登",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDEE",
+        "htmlCode": "&#127473;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "LK",
+    "code": 94,
+    "country": {
+      "name": "斯里蘭卡",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDF0",
+        "htmlCode": "&#127473;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "LR",
+    "code": 231,
+    "country": {
+      "name": "賴比瑞亞",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDF7",
+        "htmlCode": "&#127473;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "LS",
+    "code": 266,
+    "country": {
+      "name": "賴索托",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDF8",
+        "htmlCode": "&#127473;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "LT",
+    "code": 370,
+    "country": {
+      "name": "立陶宛",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDF9",
+        "htmlCode": "&#127473;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "LU",
+    "code": 352,
+    "country": {
+      "name": "盧森堡",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDFA",
+        "htmlCode": "&#127473;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "LV",
+    "code": 371,
+    "country": {
+      "name": "拉脫維亞",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDFB",
+        "htmlCode": "&#127473;&#127483;"
+      }
+    }
+  },
+  {
+    "name": "LY",
+    "code": 218,
+    "country": {
+      "name": "利比亞",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDFE",
+        "htmlCode": "&#127473;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "MA",
+    "code": 212,
+    "country": {
+      "name": "摩洛哥",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDE6",
+        "htmlCode": "&#127474;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "MC",
+    "code": 377,
+    "country": {
+      "name": "摩納哥",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDE8",
+        "htmlCode": "&#127474;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "MD",
+    "code": 373,
+    "country": {
+      "name": "摩爾多瓦",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDE9",
+        "htmlCode": "&#127474;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "ME",
+    "code": 382,
+    "country": {
+      "name": "蒙特內哥羅",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDEA",
+        "htmlCode": "&#127474;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "MF",
+    "code": 590,
+    "country": {
+      "name": "法屬聖馬丁",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDEB",
+        "htmlCode": "&#127474;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "MG",
+    "code": 261,
+    "country": {
+      "name": "馬達加斯加",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDEC",
+        "htmlCode": "&#127474;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "MH",
+    "code": 692,
+    "country": {
+      "name": "馬紹爾群島",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDED",
+        "htmlCode": "&#127474;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "MK",
+    "code": 389,
+    "country": {
+      "name": "馬其頓",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF0",
+        "htmlCode": "&#127474;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "ML",
+    "code": 223,
+    "country": {
+      "name": "馬利",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF1",
+        "htmlCode": "&#127474;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "MM",
+    "code": 95,
+    "country": {
+      "name": "緬甸",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF2",
+        "htmlCode": "&#127474;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "MN",
+    "code": 976,
+    "country": {
+      "name": "蒙古",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF3",
+        "htmlCode": "&#127474;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "MO",
+    "code": 853,
+    "country": {
+      "name": "中國澳門特別行政區",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF4",
+        "htmlCode": "&#127474;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "MP",
+    "code": 1,
+    "country": {
+      "name": "北馬利安納群島",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF5",
+        "htmlCode": "&#127474;&#127477;"
+      }
+    }
+  },
+  {
+    "name": "MQ",
+    "code": 596,
+    "country": {
+      "name": "馬丁尼克",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF6",
+        "htmlCode": "&#127474;&#127478;"
+      }
+    }
+  },
+  {
+    "name": "MR",
+    "code": 222,
+    "country": {
+      "name": "茅利塔尼亞",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF7",
+        "htmlCode": "&#127474;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "MS",
+    "code": 1,
+    "country": {
+      "name": "蒙哲臘",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF8",
+        "htmlCode": "&#127474;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "MT",
+    "code": 356,
+    "country": {
+      "name": "馬爾他",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF9",
+        "htmlCode": "&#127474;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "MU",
+    "code": 230,
+    "country": {
+      "name": "模里西斯",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDFA",
+        "htmlCode": "&#127474;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "MV",
+    "code": 960,
+    "country": {
+      "name": "馬爾地夫",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDFB",
+        "htmlCode": "&#127474;&#127483;"
+      }
+    }
+  },
+  {
+    "name": "MW",
+    "code": 265,
+    "country": {
+      "name": "馬拉威",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDFC",
+        "htmlCode": "&#127474;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "MX",
+    "code": 52,
+    "country": {
+      "name": "墨西哥",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDFD",
+        "htmlCode": "&#127474;&#127485;"
+      }
+    }
+  },
+  {
+    "name": "MY",
+    "code": 60,
+    "country": {
+      "name": "馬來西亞",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDFE",
+        "htmlCode": "&#127474;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "MZ",
+    "code": 258,
+    "country": {
+      "name": "莫三比克",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDFF",
+        "htmlCode": "&#127474;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "NA",
+    "code": 264,
+    "country": {
+      "name": "納米比亞",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDE6",
+        "htmlCode": "&#127475;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "NC",
+    "code": 687,
+    "country": {
+      "name": "新喀里多尼亞",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDE8",
+        "htmlCode": "&#127475;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "NE",
+    "code": 227,
+    "country": {
+      "name": "尼日",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDEA",
+        "htmlCode": "&#127475;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "NF",
+    "code": 672,
+    "country": {
+      "name": "諾福克島",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDEB",
+        "htmlCode": "&#127475;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "NG",
+    "code": 234,
+    "country": {
+      "name": "奈及利亞",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDEC",
+        "htmlCode": "&#127475;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "NI",
+    "code": 505,
+    "country": {
+      "name": "尼加拉瓜",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDEE",
+        "htmlCode": "&#127475;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "NL",
+    "code": 31,
+    "country": {
+      "name": "荷蘭",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDF1",
+        "htmlCode": "&#127475;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "NO",
+    "code": 47,
+    "country": {
+      "name": "挪威",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDF4",
+        "htmlCode": "&#127475;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "NP",
+    "code": 977,
+    "country": {
+      "name": "尼泊爾",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDF5",
+        "htmlCode": "&#127475;&#127477;"
+      }
+    }
+  },
+  {
+    "name": "NR",
+    "code": 674,
+    "country": {
+      "name": "諾魯",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDF7",
+        "htmlCode": "&#127475;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "NU",
+    "code": 683,
+    "country": {
+      "name": "紐埃島",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDFA",
+        "htmlCode": "&#127475;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "NZ",
+    "code": 64,
+    "country": {
+      "name": "紐西蘭",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDFF",
+        "htmlCode": "&#127475;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "OM",
+    "code": 968,
+    "country": {
+      "name": "阿曼",
+      "flag": {
+        "code": "\uD83C\uDDF4\uD83C\uDDF2",
+        "htmlCode": "&#127476;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "PA",
+    "code": 507,
+    "country": {
+      "name": "巴拿馬",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDE6",
+        "htmlCode": "&#127477;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "PE",
+    "code": 51,
+    "country": {
+      "name": "秘魯",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDEA",
+        "htmlCode": "&#127477;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "PF",
+    "code": 689,
+    "country": {
+      "name": "法屬玻里尼西亞",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDEB",
+        "htmlCode": "&#127477;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "PG",
+    "code": 675,
+    "country": {
+      "name": "巴布亞紐幾內亞",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDEC",
+        "htmlCode": "&#127477;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "PH",
+    "code": 63,
+    "country": {
+      "name": "菲律賓",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDED",
+        "htmlCode": "&#127477;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "PK",
+    "code": 92,
+    "country": {
+      "name": "巴基斯坦",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDF0",
+        "htmlCode": "&#127477;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "PL",
+    "code": 48,
+    "country": {
+      "name": "波蘭",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDF1",
+        "htmlCode": "&#127477;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "PM",
+    "code": 508,
+    "country": {
+      "name": "聖皮埃與密克隆群島",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDF2",
+        "htmlCode": "&#127477;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "PR",
+    "code": 1,
+    "country": {
+      "name": "波多黎各",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDF7",
+        "htmlCode": "&#127477;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "PS",
+    "code": 970,
+    "country": {
+      "name": "巴勒斯坦自治區",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDF8",
+        "htmlCode": "&#127477;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "PT",
+    "code": 351,
+    "country": {
+      "name": "葡萄牙",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDF9",
+        "htmlCode": "&#127477;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "PW",
+    "code": 680,
+    "country": {
+      "name": "帛琉",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDFC",
+        "htmlCode": "&#127477;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "PY",
+    "code": 595,
+    "country": {
+      "name": "巴拉圭",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDFE",
+        "htmlCode": "&#127477;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "QA",
+    "code": 974,
+    "country": {
+      "name": "卡達",
+      "flag": {
+        "code": "\uD83C\uDDF6\uD83C\uDDE6",
+        "htmlCode": "&#127478;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "RE",
+    "code": 262,
+    "country": {
+      "name": "留尼旺",
+      "flag": {
+        "code": "\uD83C\uDDF7\uD83C\uDDEA",
+        "htmlCode": "&#127479;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "RO",
+    "code": 40,
+    "country": {
+      "name": "羅馬尼亞",
+      "flag": {
+        "code": "\uD83C\uDDF7\uD83C\uDDF4",
+        "htmlCode": "&#127479;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "RS",
+    "code": 381,
+    "country": {
+      "name": "塞爾維亞",
+      "flag": {
+        "code": "\uD83C\uDDF7\uD83C\uDDF8",
+        "htmlCode": "&#127479;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "RU",
+    "code": 7,
+    "country": {
+      "name": "俄羅斯",
+      "flag": {
+        "code": "\uD83C\uDDF7\uD83C\uDDFA",
+        "htmlCode": "&#127479;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "RW",
+    "code": 250,
+    "country": {
+      "name": "盧安達",
+      "flag": {
+        "code": "\uD83C\uDDF7\uD83C\uDDFC",
+        "htmlCode": "&#127479;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "SA",
+    "code": 966,
+    "country": {
+      "name": "沙烏地阿拉伯",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDE6",
+        "htmlCode": "&#127480;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "SB",
+    "code": 677,
+    "country": {
+      "name": "索羅門群島",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDE7",
+        "htmlCode": "&#127480;&#127463;"
+      }
+    }
+  },
+  {
+    "name": "SC",
+    "code": 248,
+    "country": {
+      "name": "塞席爾",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDE8",
+        "htmlCode": "&#127480;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "SD",
+    "code": 249,
+    "country": {
+      "name": "蘇丹",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDE9",
+        "htmlCode": "&#127480;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "SE",
+    "code": 46,
+    "country": {
+      "name": "瑞典",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDEA",
+        "htmlCode": "&#127480;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "SG",
+    "code": 65,
+    "country": {
+      "name": "新加坡",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDEC",
+        "htmlCode": "&#127480;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "SH",
+    "code": 290,
+    "country": {
+      "name": "聖赫勒拿島",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDED",
+        "htmlCode": "&#127480;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "SI",
+    "code": 386,
+    "country": {
+      "name": "斯洛維尼亞",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDEE",
+        "htmlCode": "&#127480;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "SJ",
+    "code": 47,
+    "country": {
+      "name": "挪威屬斯瓦巴及尖棉",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDEF",
+        "htmlCode": "&#127480;&#127471;"
+      }
+    }
+  },
+  {
+    "name": "SK",
+    "code": 421,
+    "country": {
+      "name": "斯洛伐克",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF0",
+        "htmlCode": "&#127480;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "SL",
+    "code": 232,
+    "country": {
+      "name": "獅子山",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF1",
+        "htmlCode": "&#127480;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "SM",
+    "code": 378,
+    "country": {
+      "name": "聖馬利諾",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF2",
+        "htmlCode": "&#127480;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "SN",
+    "code": 221,
+    "country": {
+      "name": "塞內加爾",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF3",
+        "htmlCode": "&#127480;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "SO",
+    "code": 252,
+    "country": {
+      "name": "索馬利亞",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF4",
+        "htmlCode": "&#127480;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "SR",
+    "code": 597,
+    "country": {
+      "name": "蘇利南",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF7",
+        "htmlCode": "&#127480;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "SS",
+    "code": 211,
+    "country": {
+      "name": "南蘇丹",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF8",
+        "htmlCode": "&#127480;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "ST",
+    "code": 239,
+    "country": {
+      "name": "聖多美普林西比",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF9",
+        "htmlCode": "&#127480;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "SV",
+    "code": 503,
+    "country": {
+      "name": "薩爾瓦多",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDFB",
+        "htmlCode": "&#127480;&#127483;"
+      }
+    }
+  },
+  {
+    "name": "SX",
+    "code": 1,
+    "country": {
+      "name": "荷屬聖馬丁",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDFD",
+        "htmlCode": "&#127480;&#127485;"
+      }
+    }
+  },
+  {
+    "name": "SY",
+    "code": 963,
+    "country": {
+      "name": "敘利亞",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDFE",
+        "htmlCode": "&#127480;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "SZ",
+    "code": 268,
+    "country": {
+      "name": "史瓦濟蘭",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDFF",
+        "htmlCode": "&#127480;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "TA",
+    "code": 290,
+    "country": {
+      "name": "特里斯坦達庫尼亞群島",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDE6",
+        "htmlCode": "&#127481;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "TC",
+    "code": 1,
+    "country": {
+      "name": "土克斯及開科斯群島",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDE8",
+        "htmlCode": "&#127481;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "TD",
+    "code": 235,
+    "country": {
+      "name": "查德",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDE9",
+        "htmlCode": "&#127481;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "TG",
+    "code": 228,
+    "country": {
+      "name": "多哥",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDEC",
+        "htmlCode": "&#127481;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "TH",
+    "code": 66,
+    "country": {
+      "name": "泰國",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDED",
+        "htmlCode": "&#127481;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "TJ",
+    "code": 992,
+    "country": {
+      "name": "塔吉克",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDEF",
+        "htmlCode": "&#127481;&#127471;"
+      }
+    }
+  },
+  {
+    "name": "TK",
+    "code": 690,
+    "country": {
+      "name": "托克勞群島",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDF0",
+        "htmlCode": "&#127481;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "TL",
+    "code": 670,
+    "country": {
+      "name": "東帝汶",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDF1",
+        "htmlCode": "&#127481;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "TM",
+    "code": 993,
+    "country": {
+      "name": "土庫曼",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDF2",
+        "htmlCode": "&#127481;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "TN",
+    "code": 216,
+    "country": {
+      "name": "突尼西亞",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDF3",
+        "htmlCode": "&#127481;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "TO",
+    "code": 676,
+    "country": {
+      "name": "東加",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDF4",
+        "htmlCode": "&#127481;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "TR",
+    "code": 90,
+    "country": {
+      "name": "土耳其",
+      "flag": {
+        "code": "\uD83E\uDD83",
+        "htmlCode": "&#129411;"
+      }
+    }
+  },
+  {
+    "name": "TT",
+    "code": 1,
+    "country": {
+      "name": "千里達及托巴哥",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDF9",
+        "htmlCode": "&#127481;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "TV",
+    "code": 688,
+    "country": {
+      "name": "吐瓦魯",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDFB",
+        "htmlCode": "&#127481;&#127483;"
+      }
+    }
+  },
+  {
+    "name": "TW",
+    "code": 886,
+    "country": {
+      "name": "台灣",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDFC",
+        "htmlCode": "&#127481;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "TZ",
+    "code": 255,
+    "country": {
+      "name": "坦尚尼亞",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDFF",
+        "htmlCode": "&#127481;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "UA",
+    "code": 380,
+    "country": {
+      "name": "烏克蘭",
+      "flag": {
+        "code": "\uD83C\uDDFA\uD83C\uDDE6",
+        "htmlCode": "&#127482;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "UG",
+    "code": 256,
+    "country": {
+      "name": "烏干達",
+      "flag": {
+        "code": "\uD83C\uDDFA\uD83C\uDDEC",
+        "htmlCode": "&#127482;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "US",
+    "code": 1,
+    "country": {
+      "name": "美國",
+      "flag": {
+        "code": "\uD83C\uDDFA\uD83C\uDDF8",
+        "htmlCode": "&#127482;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "UY",
+    "code": 598,
+    "country": {
+      "name": "烏拉圭",
+      "flag": {
+        "code": "\uD83C\uDDFA\uD83C\uDDFE",
+        "htmlCode": "&#127482;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "UZ",
+    "code": 998,
+    "country": {
+      "name": "烏茲別克",
+      "flag": {
+        "code": "\uD83C\uDDFA\uD83C\uDDFF",
+        "htmlCode": "&#127482;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "VA",
+    "code": 39,
+    "country": {
+      "name": "梵蒂岡",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDE6",
+        "htmlCode": "&#127483;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "VC",
+    "code": 1,
+    "country": {
+      "name": "聖文森及格瑞那丁",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDE8",
+        "htmlCode": "&#127483;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "VE",
+    "code": 58,
+    "country": {
+      "name": "委內瑞拉",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDEA",
+        "htmlCode": "&#127483;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "VG",
+    "code": 1,
+    "country": {
+      "name": "英屬維京群島",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDEC",
+        "htmlCode": "&#127483;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "VI",
+    "code": 1,
+    "country": {
+      "name": "美屬維京群島",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDEE",
+        "htmlCode": "&#127483;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "VN",
+    "code": 84,
+    "country": {
+      "name": "越南",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDF3",
+        "htmlCode": "&#127483;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "VU",
+    "code": 678,
+    "country": {
+      "name": "萬那杜",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDFA",
+        "htmlCode": "&#127483;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "WF",
+    "code": 681,
+    "country": {
+      "name": "瓦利斯群島和富圖那群島",
+      "flag": {
+        "code": "\uD83C\uDDFC\uD83C\uDDEB",
+        "htmlCode": "&#127484;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "WS",
+    "code": 685,
+    "country": {
+      "name": "薩摩亞",
+      "flag": {
+        "code": "\uD83C\uDDFC\uD83C\uDDF8",
+        "htmlCode": "&#127484;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "XK",
+    "code": 383,
+    "country": {
+      "name": "科索沃",
+      "flag": {
+        "code": "\uD83C\uDDFD\uD83C\uDDF0",
+        "htmlCode": "&#127485;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "YE",
+    "code": 967,
+    "country": {
+      "name": "葉門",
+      "flag": {
+        "code": "\uD83C\uDDFE\uD83C\uDDEA",
+        "htmlCode": "&#127486;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "YT",
+    "code": 262,
+    "country": {
+      "name": "馬約特島",
+      "flag": {
+        "code": "\uD83C\uDDFE\uD83C\uDDF9",
+        "htmlCode": "&#127486;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "ZA",
+    "code": 27,
+    "country": {
+      "name": "南非",
+      "flag": {
+        "code": "\uD83C\uDDFF\uD83C\uDDE6",
+        "htmlCode": "&#127487;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "ZM",
+    "code": 260,
+    "country": {
+      "name": "尚比亞",
+      "flag": {
+        "code": "\uD83C\uDDFF\uD83C\uDDF2",
+        "htmlCode": "&#127487;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "ZW",
+    "code": 263,
+    "country": {
+      "name": "辛巴威",
+      "flag": {
+        "code": "\uD83C\uDDFF\uD83C\uDDFC",
+        "htmlCode": "&#127487;&#127484;"
+      }
+    }
+  }
+]

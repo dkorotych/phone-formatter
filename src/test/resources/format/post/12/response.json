@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "INVALID_COUNTRY_CODE",
+    "message": "Länderanrufcode nicht gefunden oder nicht erkannt"
+  },
+  "success": false
+}

@@ -1,0 +1,27 @@
+{
+  "numbers": [
+    {
+      "number": "+4949180056325",
+      "valid": true,
+      "probability": 1.0,
+      "format": {
+        "e164": "+4949180056325",
+        "international": "+49 491 80056325",
+        "rfc3966": "tel:+49-491-80056325",
+        "national": "0491 80056325"
+      },
+      "region": {
+        "name": "DE",
+        "code": 49,
+        "country": {
+          "name": "Deutschland",
+          "flag": {
+            "code": "\uD83C\uDDE9\uD83C\uDDEA",
+            "htmlCode": "&#127465;&#127466;"
+          }
+        }
+      }
+    }
+  ],
+  "success": true
+}

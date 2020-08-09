@@ -11,9 +11,32 @@ micronaut:
           secret:
             generator:
               secret: ${JWT_GENERATOR_SIGNATURE_SECRET:pleaseChangeThisSecretForANewOne}
-    enabled: false
+    intercept-url-map:
+      - pattern: /openapi/**
+        http-method: GET
+        access:
+          - isAnonymous()
+    basic-auth:
+      enabled: false
+    endpoints:
+      login:
+        enabled: false
+      logout:
+        enabled: false
+      oauth:
+        enabled: false
   router:
     static-resources:
       swagger:
         paths: classpath:META-INF/swagger
         mapping: /openapi/**
+application:
+  admin:
+    identity: admin
+    secret: ${ADMIN_PASSWORD:secret}
+    roles:
+      - ADMIN
+  test:
+    identity: qa
+    secret: ${TEST_PASSWORD:secret}
+    roles: []

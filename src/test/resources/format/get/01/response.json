@@ -10,10 +10,16 @@
         "rfc3966": "tel:+39-095-418-5123",
         "national": "095 418 5123"
       },
-      "country": {
-        "name": "Italy",
-        "locale": "IT",
-        "code": 39
+      "region": {
+        "name": "IT",
+        "code": 39,
+        "country": {
+          "name": "Italy",
+          "flag": {
+            "code": "\uD83C\uDDEE\uD83C\uDDF9",
+            "htmlCode": "&#127470;&#127481;"
+          }
+        }
       }
     },
     {
@@ -26,10 +32,16 @@
         "rfc3966": "tel:+358-9-54185123",
         "national": "09 54185123"
       },
-      "country": {
-        "name": "Finland",
-        "locale": "FI",
-        "code": 358
+      "region": {
+        "name": "FI",
+        "code": 358,
+        "country": {
+          "name": "Finland",
+          "flag": {
+            "code": "\uD83C\uDDEB\uD83C\uDDEE",
+            "htmlCode": "&#127467;&#127470;"
+          }
+        }
       }
     },
     {
@@ -42,10 +54,16 @@
         "rfc3966": "tel:+20-95-4185123",
         "national": "095 4185123"
       },
-      "country": {
-        "name": "Egypt",
-        "locale": "EG",
-        "code": 20
+      "region": {
+        "name": "EG",
+        "code": 20,
+        "country": {
+          "name": "Egypt",
+          "flag": {
+            "code": "\uD83C\uDDEA\uD83C\uDDEC",
+            "htmlCode": "&#127466;&#127468;"
+          }
+        }
       }
     },
     {
@@ -58,10 +76,16 @@
         "rfc3966": "tel:+33-9-54-18-51-23",
         "national": "09 54 18 51 23"
       },
-      "country": {
-        "name": "France",
-        "locale": "FR",
-        "code": 33
+      "region": {
+        "name": "FR",
+        "code": 33,
+        "country": {
+          "name": "France",
+          "flag": {
+            "code": "\uD83C\uDDEB\uD83C\uDDF7",
+            "htmlCode": "&#127467;&#127479;"
+          }
+        }
       }
     },
     {
@@ -74,10 +98,16 @@
         "rfc3966": "tel:+46-954-18-51-23",
         "national": "0954-18 51 23"
       },
-      "country": {
-        "name": "Sweden",
-        "locale": "SE",
-        "code": 46
+      "region": {
+        "name": "SE",
+        "code": 46,
+        "country": {
+          "name": "Sweden",
+          "flag": {
+            "code": "\uD83C\uDDF8\uD83C\uDDEA",
+            "htmlCode": "&#127480;&#127466;"
+          }
+        }
       }
     },
     {
@@ -90,10 +120,16 @@
         "rfc3966": "tel:+49-9541-85123",
         "national": "09541 85123"
       },
-      "country": {
-        "name": "Germany",
-        "locale": "DE",
-        "code": 49
+      "region": {
+        "name": "DE",
+        "code": 49,
+        "country": {
+          "name": "Germany",
+          "flag": {
+            "code": "\uD83C\uDDE9\uD83C\uDDEA",
+            "htmlCode": "&#127465;&#127466;"
+          }
+        }
       }
     },
     {
@@ -106,10 +142,16 @@
         "rfc3966": "tel:+51-954-185-123",
         "national": "954 185 123"
       },
-      "country": {
-        "name": "Peru",
-        "locale": "PE",
-        "code": 51
+      "region": {
+        "name": "PE",
+        "code": 51,
+        "country": {
+          "name": "Peru",
+          "flag": {
+            "code": "\uD83C\uDDF5\uD83C\uDDEA",
+            "htmlCode": "&#127477;&#127466;"
+          }
+        }
       }
     },
     {
@@ -122,10 +164,16 @@
         "rfc3966": "tel:+57-5-4185123",
         "national": "(5) 4185123"
       },
-      "country": {
-        "name": "Colombia",
-        "locale": "CO",
-        "code": 57
+      "region": {
+        "name": "CO",
+        "code": 57,
+        "country": {
+          "name": "Colombia",
+          "flag": {
+            "code": "\uD83C\uDDE8\uD83C\uDDF4",
+            "htmlCode": "&#127464;&#127476;"
+          }
+        }
       }
     },
     {
@@ -138,10 +186,16 @@
         "rfc3966": "tel:+66-95-418-5123",
         "national": "095 418 5123"
       },
-      "country": {
-        "name": "Thailand",
-        "locale": "TH",
-        "code": 66
+      "region": {
+        "name": "TH",
+        "code": 66,
+        "country": {
+          "name": "Thailand",
+          "flag": {
+            "code": "\uD83C\uDDF9\uD83C\uDDED",
+            "htmlCode": "&#127481;&#127469;"
+          }
+        }
       }
     },
     {
@@ -154,10 +208,16 @@
         "rfc3966": "tel:+81-954-18-5123",
         "national": "0954-18-5123"
       },
-      "country": {
-        "name": "Japan",
-        "locale": "JP",
-        "code": 81
+      "region": {
+        "name": "JP",
+        "code": 81,
+        "country": {
+          "name": "Japan",
+          "flag": {
+            "code": "\uD83D\uDDFE",
+            "htmlCode": "&#128510;"
+          }
+        }
       }
     },
     {
@@ -170,10 +230,16 @@
         "rfc3966": "tel:+84-95-418-51-23",
         "national": "095 418 51 23"
       },
-      "country": {
-        "name": "Vietnam",
-        "locale": "VN",
-        "code": 84
+      "region": {
+        "name": "VN",
+        "code": 84,
+        "country": {
+          "name": "Vietnam",
+          "flag": {
+            "code": "\uD83C\uDDFB\uD83C\uDDF3",
+            "htmlCode": "&#127483;&#127475;"
+          }
+        }
       }
     },
     {
@@ -186,10 +252,16 @@
         "rfc3966": "tel:+211-954-185-123",
         "national": "0954 185 123"
       },
-      "country": {
-        "name": "South Sudan",
-        "locale": "SS",
-        "code": 211
+      "region": {
+        "name": "SS",
+        "code": 211,
+        "country": {
+          "name": "South Sudan",
+          "flag": {
+            "code": "\uD83C\uDDF8\uD83C\uDDF8",
+            "htmlCode": "&#127480;&#127480;"
+          }
+        }
       }
     },
     {
@@ -202,10 +274,16 @@
         "rfc3966": "tel:+218-95-4185123",
         "national": "095-4185123"
       },
-      "country": {
-        "name": "Libya",
-        "locale": "LY",
-        "code": 218
+      "region": {
+        "name": "LY",
+        "code": 218,
+        "country": {
+          "name": "Libya",
+          "flag": {
+            "code": "\uD83C\uDDF1\uD83C\uDDFE",
+            "htmlCode": "&#127473;&#127486;"
+          }
+        }
       }
     },
     {
@@ -218,10 +296,16 @@
         "rfc3966": "tel:+249-95-418-5123",
         "national": "095 418 5123"
       },
-      "country": {
-        "name": "Sudan",
-        "locale": "SD",
-        "code": 249
+      "region": {
+        "name": "SD",
+        "code": 249,
+        "country": {
+          "name": "Sudan",
+          "flag": {
+            "code": "\uD83C\uDDF8\uD83C\uDDE9",
+            "htmlCode": "&#127480;&#127465;"
+          }
+        }
       }
     },
     {
@@ -234,10 +318,16 @@
         "rfc3966": "tel:+251-95-418-5123",
         "national": "095 418 5123"
       },
-      "country": {
-        "name": "Ethiopia",
-        "locale": "ET",
-        "code": 251
+      "region": {
+        "name": "ET",
+        "code": 251,
+        "country": {
+          "name": "Ethiopia",
+          "flag": {
+            "code": "\uD83C\uDDEA\uD83C\uDDF9",
+            "htmlCode": "&#127466;&#127481;"
+          }
+        }
       }
     },
     {
@@ -250,10 +340,16 @@
         "rfc3966": "tel:+260-95-4185123",
         "national": "095 4185123"
       },
-      "country": {
-        "name": "Zambia",
-        "locale": "ZM",
-        "code": 260
+      "region": {
+        "name": "ZM",
+        "code": 260,
+        "country": {
+          "name": "Zambia",
+          "flag": {
+            "code": "\uD83C\uDDFF\uD83C\uDDF2",
+            "htmlCode": "&#127487;&#127474;"
+          }
+        }
       }
     },
     {
@@ -266,10 +362,16 @@
         "rfc3966": "tel:+380-95-418-5123",
         "national": "095 418 5123"
       },
-      "country": {
-        "name": "Ukraine",
-        "locale": "UA",
-        "code": 380
+      "region": {
+        "name": "UA",
+        "code": 380,
+        "country": {
+          "name": "Ukraine",
+          "flag": {
+            "code": "\uD83C\uDDFA\uD83C\uDDE6",
+            "htmlCode": "&#127482;&#127462;"
+          }
+        }
       }
     },
     {
@@ -282,10 +384,16 @@
         "rfc3966": "tel:+385-95-418-5123",
         "national": "095 418 5123"
       },
-      "country": {
-        "name": "Croatia",
-        "locale": "HR",
-        "code": 385
+      "region": {
+        "name": "HR",
+        "code": 385,
+        "country": {
+          "name": "Croatia",
+          "flag": {
+            "code": "\uD83C\uDDED\uD83C\uDDF7",
+            "htmlCode": "&#127469;&#127479;"
+          }
+        }
       }
     },
     {
@@ -298,10 +406,16 @@
         "rfc3966": "tel:+421-954-185-123",
         "national": "0954 185 123"
       },
-      "country": {
-        "name": "Slovakia",
-        "locale": "SK",
-        "code": 421
+      "region": {
+        "name": "SK",
+        "code": 421,
+        "country": {
+          "name": "Slovakia",
+          "flag": {
+            "code": "\uD83C\uDDF8\uD83C\uDDF0",
+            "htmlCode": "&#127480;&#127472;"
+          }
+        }
       }
     },
     {
@@ -314,10 +428,16 @@
         "rfc3966": "tel:+886-954-185-123",
         "national": "0954 185 123"
       },
-      "country": {
-        "name": "Taiwan",
-        "locale": "TW",
-        "code": 886
+      "region": {
+        "name": "TW",
+        "code": 886,
+        "country": {
+          "name": "Taiwan",
+          "flag": {
+            "code": "\uD83C\uDDF9\uD83C\uDDFC",
+            "htmlCode": "&#127481;&#127484;"
+          }
+        }
       }
     },
     {
@@ -330,10 +450,16 @@
         "rfc3966": "tel:+963-954-185-123",
         "national": "0954 185 123"
       },
-      "country": {
-        "name": "Syria",
-        "locale": "SY",
-        "code": 963
+      "region": {
+        "name": "SY",
+        "code": 963,
+        "country": {
+          "name": "Syria",
+          "flag": {
+            "code": "\uD83C\uDDF8\uD83C\uDDFE",
+            "htmlCode": "&#127480;&#127486;"
+          }
+        }
       }
     }
   ],

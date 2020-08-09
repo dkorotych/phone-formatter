@@ -1,0 +1,27 @@
+{
+  "numbers": [
+    {
+      "number": "+963954185123",
+      "valid": true,
+      "probability": 1.0,
+      "format": {
+        "e164": "+963954185123",
+        "international": "+963 954 185 123",
+        "rfc3966": "tel:+963-954-185-123",
+        "national": "0954 185 123"
+      },
+      "region": {
+        "name": "SY",
+        "code": 963,
+        "country": {
+          "name": "Syria",
+          "flag": {
+            "code": "\uD83C\uDDF8\uD83C\uDDFE",
+            "htmlCode": "&#127480;&#127486;"
+          }
+        }
+      }
+    }
+  ],
+  "success": true
+}

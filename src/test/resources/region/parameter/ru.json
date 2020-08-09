@@ -1,0 +1,2697 @@
+[
+  {
+    "name": "AC",
+    "code": 247,
+    "country": {
+      "name": "о-в Вознесения",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDE8",
+        "htmlCode": "&#127462;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "AD",
+    "code": 376,
+    "country": {
+      "name": "Андорра",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDE9",
+        "htmlCode": "&#127462;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "AE",
+    "code": 971,
+    "country": {
+      "name": "ОАЭ",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDEA",
+        "htmlCode": "&#127462;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "AF",
+    "code": 93,
+    "country": {
+      "name": "Афганистан",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDEB",
+        "htmlCode": "&#127462;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "AG",
+    "code": 1,
+    "country": {
+      "name": "Антигуа и Барбуда",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDEC",
+        "htmlCode": "&#127462;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "AI",
+    "code": 1,
+    "country": {
+      "name": "Ангилья",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDEE",
+        "htmlCode": "&#127462;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "AL",
+    "code": 355,
+    "country": {
+      "name": "Албания",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDF1",
+        "htmlCode": "&#127462;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "AM",
+    "code": 374,
+    "country": {
+      "name": "Армения",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDF2",
+        "htmlCode": "&#127462;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "AO",
+    "code": 244,
+    "country": {
+      "name": "Ангола",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDF4",
+        "htmlCode": "&#127462;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "AR",
+    "code": 54,
+    "country": {
+      "name": "Аргентина",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDF7",
+        "htmlCode": "&#127462;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "AS",
+    "code": 1,
+    "country": {
+      "name": "Американское Самоа",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDF8",
+        "htmlCode": "&#127462;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "AT",
+    "code": 43,
+    "country": {
+      "name": "Австрия",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDF9",
+        "htmlCode": "&#127462;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "AU",
+    "code": 61,
+    "country": {
+      "name": "Австралия",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDFA",
+        "htmlCode": "&#127462;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "AW",
+    "code": 297,
+    "country": {
+      "name": "Аруба",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDFC",
+        "htmlCode": "&#127462;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "AX",
+    "code": 358,
+    "country": {
+      "name": "Аландские о-ва",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDFD",
+        "htmlCode": "&#127462;&#127485;"
+      }
+    }
+  },
+  {
+    "name": "AZ",
+    "code": 994,
+    "country": {
+      "name": "Азербайджан",
+      "flag": {
+        "code": "\uD83C\uDDE6\uD83C\uDDFF",
+        "htmlCode": "&#127462;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "BA",
+    "code": 387,
+    "country": {
+      "name": "Босния и Герцеговина",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDE6",
+        "htmlCode": "&#127463;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "BB",
+    "code": 1,
+    "country": {
+      "name": "Барбадос",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDE7",
+        "htmlCode": "&#127463;&#127463;"
+      }
+    }
+  },
+  {
+    "name": "BD",
+    "code": 880,
+    "country": {
+      "name": "Бангладеш",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDE9",
+        "htmlCode": "&#127463;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "BE",
+    "code": 32,
+    "country": {
+      "name": "Бельгия",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDEA",
+        "htmlCode": "&#127463;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "BF",
+    "code": 226,
+    "country": {
+      "name": "Буркина-Фасо",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDEB",
+        "htmlCode": "&#127463;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "BG",
+    "code": 359,
+    "country": {
+      "name": "Болгария",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDEC",
+        "htmlCode": "&#127463;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "BH",
+    "code": 973,
+    "country": {
+      "name": "Бахрейн",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDED",
+        "htmlCode": "&#127463;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "BI",
+    "code": 257,
+    "country": {
+      "name": "Бурунди",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDEE",
+        "htmlCode": "&#127463;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "BJ",
+    "code": 229,
+    "country": {
+      "name": "Бенин",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDEF",
+        "htmlCode": "&#127463;&#127471;"
+      }
+    }
+  },
+  {
+    "name": "BL",
+    "code": 590,
+    "country": {
+      "name": "Сен-Бартелеми",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF1",
+        "htmlCode": "&#127463;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "BM",
+    "code": 1,
+    "country": {
+      "name": "Бермудские о-ва",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF2",
+        "htmlCode": "&#127463;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "BN",
+    "code": 673,
+    "country": {
+      "name": "Бруней-Даруссалам",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF3",
+        "htmlCode": "&#127463;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "BO",
+    "code": 591,
+    "country": {
+      "name": "Боливия",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF4",
+        "htmlCode": "&#127463;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "BQ",
+    "code": 599,
+    "country": {
+      "name": "Бонэйр, Синт-Эстатиус и Саба",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF6",
+        "htmlCode": "&#127463;&#127478;"
+      }
+    }
+  },
+  {
+    "name": "BR",
+    "code": 55,
+    "country": {
+      "name": "Бразилия",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF7",
+        "htmlCode": "&#127463;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "BS",
+    "code": 1,
+    "country": {
+      "name": "Багамы",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF8",
+        "htmlCode": "&#127463;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "BT",
+    "code": 975,
+    "country": {
+      "name": "Бутан",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDF9",
+        "htmlCode": "&#127463;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "BW",
+    "code": 267,
+    "country": {
+      "name": "Ботсвана",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDFC",
+        "htmlCode": "&#127463;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "BY",
+    "code": 375,
+    "country": {
+      "name": "Беларусь",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDFE",
+        "htmlCode": "&#127463;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "BZ",
+    "code": 501,
+    "country": {
+      "name": "Белиз",
+      "flag": {
+        "code": "\uD83C\uDDE7\uD83C\uDDFF",
+        "htmlCode": "&#127463;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "CA",
+    "code": 1,
+    "country": {
+      "name": "Канада",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDE6",
+        "htmlCode": "&#127464;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "CC",
+    "code": 61,
+    "country": {
+      "name": "Кокосовые о-ва",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDE8",
+        "htmlCode": "&#127464;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "CD",
+    "code": 243,
+    "country": {
+      "name": "Конго - Киншаса",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDE9",
+        "htmlCode": "&#127464;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "CF",
+    "code": 236,
+    "country": {
+      "name": "Центрально-Африканская Республика",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDEB",
+        "htmlCode": "&#127464;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "CG",
+    "code": 242,
+    "country": {
+      "name": "Конго - Браззавиль",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDEC",
+        "htmlCode": "&#127464;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "CH",
+    "code": 41,
+    "country": {
+      "name": "Швейцария",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDED",
+        "htmlCode": "&#127464;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "CI",
+    "code": 225,
+    "country": {
+      "name": "Кот-д’Ивуар",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDEE",
+        "htmlCode": "&#127464;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "CK",
+    "code": 682,
+    "country": {
+      "name": "Острова Кука",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDF0",
+        "htmlCode": "&#127464;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "CL",
+    "code": 56,
+    "country": {
+      "name": "Чили",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDF1",
+        "htmlCode": "&#127464;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "CM",
+    "code": 237,
+    "country": {
+      "name": "Камерун",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDF2",
+        "htmlCode": "&#127464;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "CN",
+    "code": 86,
+    "country": {
+      "name": "Китай",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDF3",
+        "htmlCode": "&#127464;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "CO",
+    "code": 57,
+    "country": {
+      "name": "Колумбия",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDF4",
+        "htmlCode": "&#127464;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "CR",
+    "code": 506,
+    "country": {
+      "name": "Коста-Рика",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDF7",
+        "htmlCode": "&#127464;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "CU",
+    "code": 53,
+    "country": {
+      "name": "Куба",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDFA",
+        "htmlCode": "&#127464;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "CV",
+    "code": 238,
+    "country": {
+      "name": "Кабо-Верде",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDFB",
+        "htmlCode": "&#127464;&#127483;"
+      }
+    }
+  },
+  {
+    "name": "CW",
+    "code": 599,
+    "country": {
+      "name": "Кюрасао",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDFC",
+        "htmlCode": "&#127464;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "CX",
+    "code": 61,
+    "country": {
+      "name": "о-в Рождества",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDFD",
+        "htmlCode": "&#127464;&#127485;"
+      }
+    }
+  },
+  {
+    "name": "CY",
+    "code": 357,
+    "country": {
+      "name": "Кипр",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDFE",
+        "htmlCode": "&#127464;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "CZ",
+    "code": 420,
+    "country": {
+      "name": "Чехия",
+      "flag": {
+        "code": "\uD83C\uDDE8\uD83C\uDDFF",
+        "htmlCode": "&#127464;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "DE",
+    "code": 49,
+    "country": {
+      "name": "Германия",
+      "flag": {
+        "code": "\uD83C\uDDE9\uD83C\uDDEA",
+        "htmlCode": "&#127465;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "DJ",
+    "code": 253,
+    "country": {
+      "name": "Джибути",
+      "flag": {
+        "code": "\uD83C\uDDE9\uD83C\uDDEF",
+        "htmlCode": "&#127465;&#127471;"
+      }
+    }
+  },
+  {
+    "name": "DK",
+    "code": 45,
+    "country": {
+      "name": "Дания",
+      "flag": {
+        "code": "\uD83C\uDDE9\uD83C\uDDF0",
+        "htmlCode": "&#127465;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "DM",
+    "code": 1,
+    "country": {
+      "name": "Доминика",
+      "flag": {
+        "code": "\uD83C\uDDE9\uD83C\uDDF2",
+        "htmlCode": "&#127465;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "DO",
+    "code": 1,
+    "country": {
+      "name": "Доминиканская Республика",
+      "flag": {
+        "code": "\uD83C\uDDE9\uD83C\uDDF4",
+        "htmlCode": "&#127465;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "DZ",
+    "code": 213,
+    "country": {
+      "name": "Алжир",
+      "flag": {
+        "code": "\uD83C\uDDE9\uD83C\uDDFF",
+        "htmlCode": "&#127465;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "EC",
+    "code": 593,
+    "country": {
+      "name": "Эквадор",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDE8",
+        "htmlCode": "&#127466;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "EE",
+    "code": 372,
+    "country": {
+      "name": "Эстония",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDEA",
+        "htmlCode": "&#127466;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "EG",
+    "code": 20,
+    "country": {
+      "name": "Египет",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDEC",
+        "htmlCode": "&#127466;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "EH",
+    "code": 212,
+    "country": {
+      "name": "Западная Сахара",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDED",
+        "htmlCode": "&#127466;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "ER",
+    "code": 291,
+    "country": {
+      "name": "Эритрея",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDF7",
+        "htmlCode": "&#127466;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "ES",
+    "code": 34,
+    "country": {
+      "name": "Испания",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDF8",
+        "htmlCode": "&#127466;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "ET",
+    "code": 251,
+    "country": {
+      "name": "Эфиопия",
+      "flag": {
+        "code": "\uD83C\uDDEA\uD83C\uDDF9",
+        "htmlCode": "&#127466;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "FI",
+    "code": 358,
+    "country": {
+      "name": "Финляндия",
+      "flag": {
+        "code": "\uD83C\uDDEB\uD83C\uDDEE",
+        "htmlCode": "&#127467;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "FJ",
+    "code": 679,
+    "country": {
+      "name": "Фиджи",
+      "flag": {
+        "code": "\uD83C\uDDEB\uD83C\uDDEF",
+        "htmlCode": "&#127467;&#127471;"
+      }
+    }
+  },
+  {
+    "name": "FK",
+    "code": 500,
+    "country": {
+      "name": "Фолклендские о-ва",
+      "flag": {
+        "code": "\uD83C\uDDEB\uD83C\uDDF0",
+        "htmlCode": "&#127467;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "FM",
+    "code": 691,
+    "country": {
+      "name": "Федеративные Штаты Микронезии",
+      "flag": {
+        "code": "\uD83C\uDDEB\uD83C\uDDF2",
+        "htmlCode": "&#127467;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "FO",
+    "code": 298,
+    "country": {
+      "name": "Фарерские о-ва",
+      "flag": {
+        "code": "\uD83C\uDDEB\uD83C\uDDF4",
+        "htmlCode": "&#127467;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "FR",
+    "code": 33,
+    "country": {
+      "name": "Франция",
+      "flag": {
+        "code": "\uD83C\uDDEB\uD83C\uDDF7",
+        "htmlCode": "&#127467;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "GA",
+    "code": 241,
+    "country": {
+      "name": "Габон",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDE6",
+        "htmlCode": "&#127468;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "GB",
+    "code": 44,
+    "country": {
+      "name": "Великобритания",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDE7",
+        "htmlCode": "&#127468;&#127463;"
+      }
+    }
+  },
+  {
+    "name": "GD",
+    "code": 1,
+    "country": {
+      "name": "Гренада",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDE9",
+        "htmlCode": "&#127468;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "GE",
+    "code": 995,
+    "country": {
+      "name": "Грузия",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDEA",
+        "htmlCode": "&#127468;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "GF",
+    "code": 594,
+    "country": {
+      "name": "Французская Гвиана",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDEB",
+        "htmlCode": "&#127468;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "GG",
+    "code": 44,
+    "country": {
+      "name": "Гернси",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDEC",
+        "htmlCode": "&#127468;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "GH",
+    "code": 233,
+    "country": {
+      "name": "Гана",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDED",
+        "htmlCode": "&#127468;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "GI",
+    "code": 350,
+    "country": {
+      "name": "Гибралтар",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDEE",
+        "htmlCode": "&#127468;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "GL",
+    "code": 299,
+    "country": {
+      "name": "Гренландия",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF1",
+        "htmlCode": "&#127468;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "GM",
+    "code": 220,
+    "country": {
+      "name": "Гамбия",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF2",
+        "htmlCode": "&#127468;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "GN",
+    "code": 224,
+    "country": {
+      "name": "Гвинея",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF3",
+        "htmlCode": "&#127468;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "GP",
+    "code": 590,
+    "country": {
+      "name": "Гваделупа",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF5",
+        "htmlCode": "&#127468;&#127477;"
+      }
+    }
+  },
+  {
+    "name": "GQ",
+    "code": 240,
+    "country": {
+      "name": "Экваториальная Гвинея",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF6",
+        "htmlCode": "&#127468;&#127478;"
+      }
+    }
+  },
+  {
+    "name": "GR",
+    "code": 30,
+    "country": {
+      "name": "Греция",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF7",
+        "htmlCode": "&#127468;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "GT",
+    "code": 502,
+    "country": {
+      "name": "Гватемала",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDF9",
+        "htmlCode": "&#127468;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "GU",
+    "code": 1,
+    "country": {
+      "name": "Гуам",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDFA",
+        "htmlCode": "&#127468;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "GW",
+    "code": 245,
+    "country": {
+      "name": "Гвинея-Бисау",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDFC",
+        "htmlCode": "&#127468;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "GY",
+    "code": 592,
+    "country": {
+      "name": "Гайана",
+      "flag": {
+        "code": "\uD83C\uDDEC\uD83C\uDDFE",
+        "htmlCode": "&#127468;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "HK",
+    "code": 852,
+    "country": {
+      "name": "Гонконг (САР)",
+      "flag": {
+        "code": "\uD83C\uDDED\uD83C\uDDF0",
+        "htmlCode": "&#127469;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "HN",
+    "code": 504,
+    "country": {
+      "name": "Гондурас",
+      "flag": {
+        "code": "\uD83C\uDDED\uD83C\uDDF3",
+        "htmlCode": "&#127469;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "HR",
+    "code": 385,
+    "country": {
+      "name": "Хорватия",
+      "flag": {
+        "code": "\uD83C\uDDED\uD83C\uDDF7",
+        "htmlCode": "&#127469;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "HT",
+    "code": 509,
+    "country": {
+      "name": "Гаити",
+      "flag": {
+        "code": "\uD83C\uDDED\uD83C\uDDF9",
+        "htmlCode": "&#127469;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "HU",
+    "code": 36,
+    "country": {
+      "name": "Венгрия",
+      "flag": {
+        "code": "\uD83C\uDDED\uD83C\uDDFA",
+        "htmlCode": "&#127469;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "ID",
+    "code": 62,
+    "country": {
+      "name": "Индонезия",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDE9",
+        "htmlCode": "&#127470;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "IE",
+    "code": 353,
+    "country": {
+      "name": "Ирландия",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDEA",
+        "htmlCode": "&#127470;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "IL",
+    "code": 972,
+    "country": {
+      "name": "Израиль",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF1",
+        "htmlCode": "&#127470;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "IM",
+    "code": 44,
+    "country": {
+      "name": "о-в Мэн",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF2",
+        "htmlCode": "&#127470;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "IN",
+    "code": 91,
+    "country": {
+      "name": "Индия",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF3",
+        "htmlCode": "&#127470;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "IO",
+    "code": 246,
+    "country": {
+      "name": "Британская территория в Индийском океане",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF4",
+        "htmlCode": "&#127470;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "IQ",
+    "code": 964,
+    "country": {
+      "name": "Ирак",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF6",
+        "htmlCode": "&#127470;&#127478;"
+      }
+    }
+  },
+  {
+    "name": "IR",
+    "code": 98,
+    "country": {
+      "name": "Иран",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF7",
+        "htmlCode": "&#127470;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "IS",
+    "code": 354,
+    "country": {
+      "name": "Исландия",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF8",
+        "htmlCode": "&#127470;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "IT",
+    "code": 39,
+    "country": {
+      "name": "Италия",
+      "flag": {
+        "code": "\uD83C\uDDEE\uD83C\uDDF9",
+        "htmlCode": "&#127470;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "JE",
+    "code": 44,
+    "country": {
+      "name": "Джерси",
+      "flag": {
+        "code": "\uD83C\uDDEF\uD83C\uDDEA",
+        "htmlCode": "&#127471;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "JM",
+    "code": 1,
+    "country": {
+      "name": "Ямайка",
+      "flag": {
+        "code": "\uD83C\uDDEF\uD83C\uDDF2",
+        "htmlCode": "&#127471;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "JO",
+    "code": 962,
+    "country": {
+      "name": "Иордания",
+      "flag": {
+        "code": "\uD83C\uDDEF\uD83C\uDDF4",
+        "htmlCode": "&#127471;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "JP",
+    "code": 81,
+    "country": {
+      "name": "Япония",
+      "flag": {
+        "code": "\uD83D\uDDFE",
+        "htmlCode": "&#128510;"
+      }
+    }
+  },
+  {
+    "name": "KE",
+    "code": 254,
+    "country": {
+      "name": "Кения",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDEA",
+        "htmlCode": "&#127472;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "KG",
+    "code": 996,
+    "country": {
+      "name": "Киргизия",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDEC",
+        "htmlCode": "&#127472;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "KH",
+    "code": 855,
+    "country": {
+      "name": "Камбоджа",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDED",
+        "htmlCode": "&#127472;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "KI",
+    "code": 686,
+    "country": {
+      "name": "Кирибати",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDEE",
+        "htmlCode": "&#127472;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "KM",
+    "code": 269,
+    "country": {
+      "name": "Коморы",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDF2",
+        "htmlCode": "&#127472;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "KN",
+    "code": 1,
+    "country": {
+      "name": "Сент-Китс и Невис",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDF3",
+        "htmlCode": "&#127472;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "KP",
+    "code": 850,
+    "country": {
+      "name": "КНДР",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDF5",
+        "htmlCode": "&#127472;&#127477;"
+      }
+    }
+  },
+  {
+    "name": "KR",
+    "code": 82,
+    "country": {
+      "name": "Республика Корея",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDF7",
+        "htmlCode": "&#127472;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "KW",
+    "code": 965,
+    "country": {
+      "name": "Кувейт",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDFC",
+        "htmlCode": "&#127472;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "KY",
+    "code": 1,
+    "country": {
+      "name": "Каймановы о-ва",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDFE",
+        "htmlCode": "&#127472;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "KZ",
+    "code": 7,
+    "country": {
+      "name": "Казахстан",
+      "flag": {
+        "code": "\uD83C\uDDF0\uD83C\uDDFF",
+        "htmlCode": "&#127472;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "LA",
+    "code": 856,
+    "country": {
+      "name": "Лаос",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDE6",
+        "htmlCode": "&#127473;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "LB",
+    "code": 961,
+    "country": {
+      "name": "Ливан",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDE7",
+        "htmlCode": "&#127473;&#127463;"
+      }
+    }
+  },
+  {
+    "name": "LC",
+    "code": 1,
+    "country": {
+      "name": "Сент-Люсия",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDE8",
+        "htmlCode": "&#127473;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "LI",
+    "code": 423,
+    "country": {
+      "name": "Лихтенштейн",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDEE",
+        "htmlCode": "&#127473;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "LK",
+    "code": 94,
+    "country": {
+      "name": "Шри-Ланка",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDF0",
+        "htmlCode": "&#127473;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "LR",
+    "code": 231,
+    "country": {
+      "name": "Либерия",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDF7",
+        "htmlCode": "&#127473;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "LS",
+    "code": 266,
+    "country": {
+      "name": "Лесото",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDF8",
+        "htmlCode": "&#127473;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "LT",
+    "code": 370,
+    "country": {
+      "name": "Литва",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDF9",
+        "htmlCode": "&#127473;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "LU",
+    "code": 352,
+    "country": {
+      "name": "Люксембург",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDFA",
+        "htmlCode": "&#127473;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "LV",
+    "code": 371,
+    "country": {
+      "name": "Латвия",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDFB",
+        "htmlCode": "&#127473;&#127483;"
+      }
+    }
+  },
+  {
+    "name": "LY",
+    "code": 218,
+    "country": {
+      "name": "Ливия",
+      "flag": {
+        "code": "\uD83C\uDDF1\uD83C\uDDFE",
+        "htmlCode": "&#127473;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "MA",
+    "code": 212,
+    "country": {
+      "name": "Марокко",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDE6",
+        "htmlCode": "&#127474;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "MC",
+    "code": 377,
+    "country": {
+      "name": "Монако",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDE8",
+        "htmlCode": "&#127474;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "MD",
+    "code": 373,
+    "country": {
+      "name": "Молдова",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDE9",
+        "htmlCode": "&#127474;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "ME",
+    "code": 382,
+    "country": {
+      "name": "Черногория",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDEA",
+        "htmlCode": "&#127474;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "MF",
+    "code": 590,
+    "country": {
+      "name": "Сен-Мартен",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDEB",
+        "htmlCode": "&#127474;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "MG",
+    "code": 261,
+    "country": {
+      "name": "Мадагаскар",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDEC",
+        "htmlCode": "&#127474;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "MH",
+    "code": 692,
+    "country": {
+      "name": "Маршалловы Острова",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDED",
+        "htmlCode": "&#127474;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "MK",
+    "code": 389,
+    "country": {
+      "name": "Македония",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF0",
+        "htmlCode": "&#127474;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "ML",
+    "code": 223,
+    "country": {
+      "name": "Мали",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF1",
+        "htmlCode": "&#127474;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "MM",
+    "code": 95,
+    "country": {
+      "name": "Мьянма (Бирма)",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF2",
+        "htmlCode": "&#127474;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "MN",
+    "code": 976,
+    "country": {
+      "name": "Монголия",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF3",
+        "htmlCode": "&#127474;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "MO",
+    "code": 853,
+    "country": {
+      "name": "Макао (САР)",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF4",
+        "htmlCode": "&#127474;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "MP",
+    "code": 1,
+    "country": {
+      "name": "Северные Марианские о-ва",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF5",
+        "htmlCode": "&#127474;&#127477;"
+      }
+    }
+  },
+  {
+    "name": "MQ",
+    "code": 596,
+    "country": {
+      "name": "Мартиника",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF6",
+        "htmlCode": "&#127474;&#127478;"
+      }
+    }
+  },
+  {
+    "name": "MR",
+    "code": 222,
+    "country": {
+      "name": "Мавритания",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF7",
+        "htmlCode": "&#127474;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "MS",
+    "code": 1,
+    "country": {
+      "name": "Монтсеррат",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF8",
+        "htmlCode": "&#127474;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "MT",
+    "code": 356,
+    "country": {
+      "name": "Мальта",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDF9",
+        "htmlCode": "&#127474;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "MU",
+    "code": 230,
+    "country": {
+      "name": "Маврикий",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDFA",
+        "htmlCode": "&#127474;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "MV",
+    "code": 960,
+    "country": {
+      "name": "Мальдивы",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDFB",
+        "htmlCode": "&#127474;&#127483;"
+      }
+    }
+  },
+  {
+    "name": "MW",
+    "code": 265,
+    "country": {
+      "name": "Малави",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDFC",
+        "htmlCode": "&#127474;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "MX",
+    "code": 52,
+    "country": {
+      "name": "Мексика",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDFD",
+        "htmlCode": "&#127474;&#127485;"
+      }
+    }
+  },
+  {
+    "name": "MY",
+    "code": 60,
+    "country": {
+      "name": "Малайзия",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDFE",
+        "htmlCode": "&#127474;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "MZ",
+    "code": 258,
+    "country": {
+      "name": "Мозамбик",
+      "flag": {
+        "code": "\uD83C\uDDF2\uD83C\uDDFF",
+        "htmlCode": "&#127474;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "NA",
+    "code": 264,
+    "country": {
+      "name": "Намибия",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDE6",
+        "htmlCode": "&#127475;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "NC",
+    "code": 687,
+    "country": {
+      "name": "Новая Каледония",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDE8",
+        "htmlCode": "&#127475;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "NE",
+    "code": 227,
+    "country": {
+      "name": "Нигер",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDEA",
+        "htmlCode": "&#127475;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "NF",
+    "code": 672,
+    "country": {
+      "name": "о-в Норфолк",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDEB",
+        "htmlCode": "&#127475;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "NG",
+    "code": 234,
+    "country": {
+      "name": "Нигерия",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDEC",
+        "htmlCode": "&#127475;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "NI",
+    "code": 505,
+    "country": {
+      "name": "Никарагуа",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDEE",
+        "htmlCode": "&#127475;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "NL",
+    "code": 31,
+    "country": {
+      "name": "Нидерланды",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDF1",
+        "htmlCode": "&#127475;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "NO",
+    "code": 47,
+    "country": {
+      "name": "Норвегия",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDF4",
+        "htmlCode": "&#127475;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "NP",
+    "code": 977,
+    "country": {
+      "name": "Непал",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDF5",
+        "htmlCode": "&#127475;&#127477;"
+      }
+    }
+  },
+  {
+    "name": "NR",
+    "code": 674,
+    "country": {
+      "name": "Науру",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDF7",
+        "htmlCode": "&#127475;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "NU",
+    "code": 683,
+    "country": {
+      "name": "Ниуэ",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDFA",
+        "htmlCode": "&#127475;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "NZ",
+    "code": 64,
+    "country": {
+      "name": "Новая Зеландия",
+      "flag": {
+        "code": "\uD83C\uDDF3\uD83C\uDDFF",
+        "htmlCode": "&#127475;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "OM",
+    "code": 968,
+    "country": {
+      "name": "Оман",
+      "flag": {
+        "code": "\uD83C\uDDF4\uD83C\uDDF2",
+        "htmlCode": "&#127476;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "PA",
+    "code": 507,
+    "country": {
+      "name": "Панама",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDE6",
+        "htmlCode": "&#127477;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "PE",
+    "code": 51,
+    "country": {
+      "name": "Перу",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDEA",
+        "htmlCode": "&#127477;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "PF",
+    "code": 689,
+    "country": {
+      "name": "Французская Полинезия",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDEB",
+        "htmlCode": "&#127477;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "PG",
+    "code": 675,
+    "country": {
+      "name": "Папуа — Новая Гвинея",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDEC",
+        "htmlCode": "&#127477;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "PH",
+    "code": 63,
+    "country": {
+      "name": "Филиппины",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDED",
+        "htmlCode": "&#127477;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "PK",
+    "code": 92,
+    "country": {
+      "name": "Пакистан",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDF0",
+        "htmlCode": "&#127477;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "PL",
+    "code": 48,
+    "country": {
+      "name": "Польша",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDF1",
+        "htmlCode": "&#127477;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "PM",
+    "code": 508,
+    "country": {
+      "name": "Сен-Пьер и Микелон",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDF2",
+        "htmlCode": "&#127477;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "PR",
+    "code": 1,
+    "country": {
+      "name": "Пуэрто-Рико",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDF7",
+        "htmlCode": "&#127477;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "PS",
+    "code": 970,
+    "country": {
+      "name": "Палестинские территории",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDF8",
+        "htmlCode": "&#127477;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "PT",
+    "code": 351,
+    "country": {
+      "name": "Португалия",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDF9",
+        "htmlCode": "&#127477;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "PW",
+    "code": 680,
+    "country": {
+      "name": "Палау",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDFC",
+        "htmlCode": "&#127477;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "PY",
+    "code": 595,
+    "country": {
+      "name": "Парагвай",
+      "flag": {
+        "code": "\uD83C\uDDF5\uD83C\uDDFE",
+        "htmlCode": "&#127477;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "QA",
+    "code": 974,
+    "country": {
+      "name": "Катар",
+      "flag": {
+        "code": "\uD83C\uDDF6\uD83C\uDDE6",
+        "htmlCode": "&#127478;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "RE",
+    "code": 262,
+    "country": {
+      "name": "Реюньон",
+      "flag": {
+        "code": "\uD83C\uDDF7\uD83C\uDDEA",
+        "htmlCode": "&#127479;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "RO",
+    "code": 40,
+    "country": {
+      "name": "Румыния",
+      "flag": {
+        "code": "\uD83C\uDDF7\uD83C\uDDF4",
+        "htmlCode": "&#127479;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "RS",
+    "code": 381,
+    "country": {
+      "name": "Сербия",
+      "flag": {
+        "code": "\uD83C\uDDF7\uD83C\uDDF8",
+        "htmlCode": "&#127479;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "RU",
+    "code": 7,
+    "country": {
+      "name": "Россия",
+      "flag": {
+        "code": "\uD83C\uDDF7\uD83C\uDDFA",
+        "htmlCode": "&#127479;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "RW",
+    "code": 250,
+    "country": {
+      "name": "Руанда",
+      "flag": {
+        "code": "\uD83C\uDDF7\uD83C\uDDFC",
+        "htmlCode": "&#127479;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "SA",
+    "code": 966,
+    "country": {
+      "name": "Саудовская Аравия",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDE6",
+        "htmlCode": "&#127480;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "SB",
+    "code": 677,
+    "country": {
+      "name": "Соломоновы Острова",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDE7",
+        "htmlCode": "&#127480;&#127463;"
+      }
+    }
+  },
+  {
+    "name": "SC",
+    "code": 248,
+    "country": {
+      "name": "Сейшельские Острова",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDE8",
+        "htmlCode": "&#127480;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "SD",
+    "code": 249,
+    "country": {
+      "name": "Судан",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDE9",
+        "htmlCode": "&#127480;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "SE",
+    "code": 46,
+    "country": {
+      "name": "Швеция",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDEA",
+        "htmlCode": "&#127480;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "SG",
+    "code": 65,
+    "country": {
+      "name": "Сингапур",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDEC",
+        "htmlCode": "&#127480;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "SH",
+    "code": 290,
+    "country": {
+      "name": "о-в Св. Елены",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDED",
+        "htmlCode": "&#127480;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "SI",
+    "code": 386,
+    "country": {
+      "name": "Словения",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDEE",
+        "htmlCode": "&#127480;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "SJ",
+    "code": 47,
+    "country": {
+      "name": "Шпицберген и Ян-Майен",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDEF",
+        "htmlCode": "&#127480;&#127471;"
+      }
+    }
+  },
+  {
+    "name": "SK",
+    "code": 421,
+    "country": {
+      "name": "Словакия",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF0",
+        "htmlCode": "&#127480;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "SL",
+    "code": 232,
+    "country": {
+      "name": "Сьерра-Леоне",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF1",
+        "htmlCode": "&#127480;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "SM",
+    "code": 378,
+    "country": {
+      "name": "Сан-Марино",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF2",
+        "htmlCode": "&#127480;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "SN",
+    "code": 221,
+    "country": {
+      "name": "Сенегал",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF3",
+        "htmlCode": "&#127480;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "SO",
+    "code": 252,
+    "country": {
+      "name": "Сомали",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF4",
+        "htmlCode": "&#127480;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "SR",
+    "code": 597,
+    "country": {
+      "name": "Суринам",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF7",
+        "htmlCode": "&#127480;&#127479;"
+      }
+    }
+  },
+  {
+    "name": "SS",
+    "code": 211,
+    "country": {
+      "name": "Южный Судан",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF8",
+        "htmlCode": "&#127480;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "ST",
+    "code": 239,
+    "country": {
+      "name": "Сан-Томе и Принсипи",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDF9",
+        "htmlCode": "&#127480;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "SV",
+    "code": 503,
+    "country": {
+      "name": "Сальвадор",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDFB",
+        "htmlCode": "&#127480;&#127483;"
+      }
+    }
+  },
+  {
+    "name": "SX",
+    "code": 1,
+    "country": {
+      "name": "Синт-Мартен",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDFD",
+        "htmlCode": "&#127480;&#127485;"
+      }
+    }
+  },
+  {
+    "name": "SY",
+    "code": 963,
+    "country": {
+      "name": "Сирия",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDFE",
+        "htmlCode": "&#127480;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "SZ",
+    "code": 268,
+    "country": {
+      "name": "Свазиленд",
+      "flag": {
+        "code": "\uD83C\uDDF8\uD83C\uDDFF",
+        "htmlCode": "&#127480;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "TA",
+    "code": 290,
+    "country": {
+      "name": "Тристан-да-Кунья",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDE6",
+        "htmlCode": "&#127481;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "TC",
+    "code": 1,
+    "country": {
+      "name": "о-ва Тёркс и Кайкос",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDE8",
+        "htmlCode": "&#127481;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "TD",
+    "code": 235,
+    "country": {
+      "name": "Чад",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDE9",
+        "htmlCode": "&#127481;&#127465;"
+      }
+    }
+  },
+  {
+    "name": "TG",
+    "code": 228,
+    "country": {
+      "name": "Того",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDEC",
+        "htmlCode": "&#127481;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "TH",
+    "code": 66,
+    "country": {
+      "name": "Таиланд",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDED",
+        "htmlCode": "&#127481;&#127469;"
+      }
+    }
+  },
+  {
+    "name": "TJ",
+    "code": 992,
+    "country": {
+      "name": "Таджикистан",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDEF",
+        "htmlCode": "&#127481;&#127471;"
+      }
+    }
+  },
+  {
+    "name": "TK",
+    "code": 690,
+    "country": {
+      "name": "Токелау",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDF0",
+        "htmlCode": "&#127481;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "TL",
+    "code": 670,
+    "country": {
+      "name": "Восточный Тимор",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDF1",
+        "htmlCode": "&#127481;&#127473;"
+      }
+    }
+  },
+  {
+    "name": "TM",
+    "code": 993,
+    "country": {
+      "name": "Туркменистан",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDF2",
+        "htmlCode": "&#127481;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "TN",
+    "code": 216,
+    "country": {
+      "name": "Тунис",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDF3",
+        "htmlCode": "&#127481;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "TO",
+    "code": 676,
+    "country": {
+      "name": "Тонга",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDF4",
+        "htmlCode": "&#127481;&#127476;"
+      }
+    }
+  },
+  {
+    "name": "TR",
+    "code": 90,
+    "country": {
+      "name": "Турция",
+      "flag": {
+        "code": "\uD83E\uDD83",
+        "htmlCode": "&#129411;"
+      }
+    }
+  },
+  {
+    "name": "TT",
+    "code": 1,
+    "country": {
+      "name": "Тринидад и Тобаго",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDF9",
+        "htmlCode": "&#127481;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "TV",
+    "code": 688,
+    "country": {
+      "name": "Тувалу",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDFB",
+        "htmlCode": "&#127481;&#127483;"
+      }
+    }
+  },
+  {
+    "name": "TW",
+    "code": 886,
+    "country": {
+      "name": "Тайвань",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDFC",
+        "htmlCode": "&#127481;&#127484;"
+      }
+    }
+  },
+  {
+    "name": "TZ",
+    "code": 255,
+    "country": {
+      "name": "Танзания",
+      "flag": {
+        "code": "\uD83C\uDDF9\uD83C\uDDFF",
+        "htmlCode": "&#127481;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "UA",
+    "code": 380,
+    "country": {
+      "name": "Украина",
+      "flag": {
+        "code": "\uD83C\uDDFA\uD83C\uDDE6",
+        "htmlCode": "&#127482;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "UG",
+    "code": 256,
+    "country": {
+      "name": "Уганда",
+      "flag": {
+        "code": "\uD83C\uDDFA\uD83C\uDDEC",
+        "htmlCode": "&#127482;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "US",
+    "code": 1,
+    "country": {
+      "name": "Соединенные Штаты",
+      "flag": {
+        "code": "\uD83C\uDDFA\uD83C\uDDF8",
+        "htmlCode": "&#127482;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "UY",
+    "code": 598,
+    "country": {
+      "name": "Уругвай",
+      "flag": {
+        "code": "\uD83C\uDDFA\uD83C\uDDFE",
+        "htmlCode": "&#127482;&#127486;"
+      }
+    }
+  },
+  {
+    "name": "UZ",
+    "code": 998,
+    "country": {
+      "name": "Узбекистан",
+      "flag": {
+        "code": "\uD83C\uDDFA\uD83C\uDDFF",
+        "htmlCode": "&#127482;&#127487;"
+      }
+    }
+  },
+  {
+    "name": "VA",
+    "code": 39,
+    "country": {
+      "name": "Ватикан",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDE6",
+        "htmlCode": "&#127483;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "VC",
+    "code": 1,
+    "country": {
+      "name": "Сент-Винсент и Гренадины",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDE8",
+        "htmlCode": "&#127483;&#127464;"
+      }
+    }
+  },
+  {
+    "name": "VE",
+    "code": 58,
+    "country": {
+      "name": "Венесуэла",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDEA",
+        "htmlCode": "&#127483;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "VG",
+    "code": 1,
+    "country": {
+      "name": "Виргинские о-ва (Британские)",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDEC",
+        "htmlCode": "&#127483;&#127468;"
+      }
+    }
+  },
+  {
+    "name": "VI",
+    "code": 1,
+    "country": {
+      "name": "Виргинские о-ва (США)",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDEE",
+        "htmlCode": "&#127483;&#127470;"
+      }
+    }
+  },
+  {
+    "name": "VN",
+    "code": 84,
+    "country": {
+      "name": "Вьетнам",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDF3",
+        "htmlCode": "&#127483;&#127475;"
+      }
+    }
+  },
+  {
+    "name": "VU",
+    "code": 678,
+    "country": {
+      "name": "Вануату",
+      "flag": {
+        "code": "\uD83C\uDDFB\uD83C\uDDFA",
+        "htmlCode": "&#127483;&#127482;"
+      }
+    }
+  },
+  {
+    "name": "WF",
+    "code": 681,
+    "country": {
+      "name": "Уоллис и Футуна",
+      "flag": {
+        "code": "\uD83C\uDDFC\uD83C\uDDEB",
+        "htmlCode": "&#127484;&#127467;"
+      }
+    }
+  },
+  {
+    "name": "WS",
+    "code": 685,
+    "country": {
+      "name": "Самоа",
+      "flag": {
+        "code": "\uD83C\uDDFC\uD83C\uDDF8",
+        "htmlCode": "&#127484;&#127480;"
+      }
+    }
+  },
+  {
+    "name": "XK",
+    "code": 383,
+    "country": {
+      "name": "Косово",
+      "flag": {
+        "code": "\uD83C\uDDFD\uD83C\uDDF0",
+        "htmlCode": "&#127485;&#127472;"
+      }
+    }
+  },
+  {
+    "name": "YE",
+    "code": 967,
+    "country": {
+      "name": "Йемен",
+      "flag": {
+        "code": "\uD83C\uDDFE\uD83C\uDDEA",
+        "htmlCode": "&#127486;&#127466;"
+      }
+    }
+  },
+  {
+    "name": "YT",
+    "code": 262,
+    "country": {
+      "name": "Майотта",
+      "flag": {
+        "code": "\uD83C\uDDFE\uD83C\uDDF9",
+        "htmlCode": "&#127486;&#127481;"
+      }
+    }
+  },
+  {
+    "name": "ZA",
+    "code": 27,
+    "country": {
+      "name": "Южно-Африканская Республика",
+      "flag": {
+        "code": "\uD83C\uDDFF\uD83C\uDDE6",
+        "htmlCode": "&#127487;&#127462;"
+      }
+    }
+  },
+  {
+    "name": "ZM",
+    "code": 260,
+    "country": {
+      "name": "Замбия",
+      "flag": {
+        "code": "\uD83C\uDDFF\uD83C\uDDF2",
+        "htmlCode": "&#127487;&#127474;"
+      }
+    }
+  },
+  {
+    "name": "ZW",
+    "code": 263,
+    "country": {
+      "name": "Зимбабве",
+      "flag": {
+        "code": "\uD83C\uDDFF\uD83C\uDDFC",
+        "htmlCode": "&#127487;&#127484;"
+      }
+    }
+  }
+]

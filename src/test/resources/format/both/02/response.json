@@ -10,10 +10,16 @@
         "rfc3966": "tel:+380-50-418-5123",
         "national": "050 418 5123"
       },
-      "country": {
-        "name": "Ukraine",
-        "locale": "UA",
-        "code": 380
+      "region": {
+        "name": "UA",
+        "code": 380,
+        "country": {
+          "name": "Ukraine",
+          "flag": {
+            "code": "\uD83C\uDDFA\uD83C\uDDE6",
+            "htmlCode": "&#127482;&#127462;"
+          }
+        }
       }
     }
   ],

@@ -1,6 +1,7 @@
 package com.github.dkorotych.phone.formatter.utils;
 
-import com.github.dkorotych.phone.formatter.domain.PhoneFormatterResponse;
+import com.github.dkorotych.phone.formatter.domain.Error;
+import com.github.dkorotych.phone.formatter.domain.ErrorCode;
 import com.google.i18n.phonenumbers.NumberParseException;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
@@ -89,28 +90,28 @@ class ErrorBuilderTest {
         return builder.build();
     }
 
-    private static PhoneFormatterResponse.Error create(NumberParseException.ErrorType errorType, Locale locale) {
+    private static Error create(NumberParseException.ErrorType errorType, Locale locale) {
         Map<String, String> map = messages.get(locale);
         if (map == null) {
             map = messages.get(Locale.ENGLISH);
         }
-        return new PhoneFormatterResponse.Error(convert(errorType), map.get(errorType.name()));
+        return new Error(convert(errorType), map.get(errorType.name()));
     }
 
-    private static PhoneFormatterResponse.Error.Code convert(NumberParseException.ErrorType errorType) {
+    private static ErrorCode convert(NumberParseException.ErrorType errorType) {
         switch (errorType) {
             case TOO_LONG:
-                return PhoneFormatterResponse.Error.Code.TOO_LONG_NUMBER;
+                return ErrorCode.TOO_LONG_NUMBER;
             case INVALID_COUNTRY_CODE:
-                return PhoneFormatterResponse.Error.Code.INVALID_COUNTRY_CODE;
+                return ErrorCode.INVALID_COUNTRY_CODE;
             case NOT_A_NUMBER:
-                return PhoneFormatterResponse.Error.Code.NOT_A_NUMBER;
+                return ErrorCode.NOT_A_NUMBER;
             case TOO_SHORT_AFTER_IDD:
-                return PhoneFormatterResponse.Error.Code.TOO_SHORT_NUMBER_AFTER_IDD;
+                return ErrorCode.TOO_SHORT_NUMBER_AFTER_IDD;
             case TOO_SHORT_NSN:
-                return PhoneFormatterResponse.Error.Code.TOO_SHORT_NUMBER;
+                return ErrorCode.TOO_SHORT_NUMBER;
             default:
-                return PhoneFormatterResponse.Error.Code.UNKNOWN;
+                return ErrorCode.UNKNOWN;
         }
     }
 
@@ -126,7 +127,7 @@ class ErrorBuilderTest {
 
     @ParameterizedTest
     @MethodSource
-    void create(NumberParseException exception, Locale locale, PhoneFormatterResponse.Error expected) {
+    void create(NumberParseException exception, Locale locale, Error expected) {
         assertEquals(expected, errorBuilder.create(exception, locale));
     }
 }
