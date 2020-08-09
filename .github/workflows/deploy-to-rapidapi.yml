@@ -6,9 +6,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: List
-        run: ls
       - name: Deploy
         uses: wei/curl@master
         with:
-          args: "--request PUT --url https://openapi-provisioning.p.rapidapi.com/v1/apis/${{ secrets.API_ID }} --header 'content-type: multipart/form-data' --header 'x-rapidapi-host: openapi-provisioning.p.rapidapi.com' --header 'x-rapidapi-key: ${{ secrets.API_KEY }}' --form file=@file"
+          args: "--request PUT --url https://openapi-provisioning.p.rapidapi.com/v1/apis/${{ secrets.API_ID }} --header 'content-type: multipart/form-data' --header 'x-rapidapi-host: openapi-provisioning.p.rapidapi.com' --header 'x-rapidapi-key: ${{ secrets.API_KEY }}' --form file=@/github/workspace/build/classes/java/main/META-INF/swagger/phone-formatter-1.0.yml"
