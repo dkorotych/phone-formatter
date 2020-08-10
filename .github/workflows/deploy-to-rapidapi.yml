@@ -9,7 +9,7 @@ jobs:
       - name: Deploy
         uses: wei/curl@master
         with:
-          args: |
+          args: >
             --verbose
             --request PUT
             --url https://openapi-provisioning.p.rapidapi.com/v1/apis/${{ secrets.API_ID }}
