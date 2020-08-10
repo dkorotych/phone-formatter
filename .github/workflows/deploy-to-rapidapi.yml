@@ -10,7 +10,6 @@ jobs:
         uses: wei/curl@master
         with:
           args: >
-            --verbose
             --request PUT
             --url https://openapi-provisioning.p.rapidapi.com/v1/apis/${{ secrets.API_ID }}
             --header 'content-type: multipart/form-data'
