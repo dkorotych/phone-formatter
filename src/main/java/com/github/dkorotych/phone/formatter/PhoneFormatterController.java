@@ -45,8 +45,8 @@ public class PhoneFormatterController {
      * @return Response Formatting method execution result
      */
     @Get
-    public Response simpleFormat(@QueryValue("phone") String phone,
-                                 @Parameter(hidden = true) HttpRequest<?> httpRequest) {
+    public Response simple(@QueryValue("phone") String phone,
+                           @Parameter(hidden = true) HttpRequest<?> httpRequest) {
         final Request request = new Request();
         request.setPhoneNumber(phone);
         request.setLanguage(getLanguage(httpRequest));

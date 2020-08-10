@@ -38,7 +38,7 @@ public class RegionController {
      * @return Collection of supported regions
      */
     @Get
-    public Collection<Region> getSupportedRegionsWithDefaultLocale(@Parameter(hidden = true) HttpRequest<?> request) {
+    public Collection<Region> simpleRegions(@Parameter(hidden = true) HttpRequest<?> request) {
         return getRegions(Utilities.getLocale(request));
     }
 
@@ -50,7 +50,7 @@ public class RegionController {
      * @return Collection of supported regions
      */
     @Get("/{language}")
-    public Collection<Region> getSupportedRegions(@PathVariable(defaultValue = "us") String language) {
+    public Collection<Region> regions(@PathVariable(defaultValue = "us") String language) {
         return getRegions(Locale.forLanguageTag(language));
     }
 
