@@ -8,33 +8,28 @@ import io.micronaut.http.annotation.*;
 import io.micronaut.security.annotation.Secured;
 import io.micronaut.security.rules.SecurityRule;
 import io.micronaut.validation.Validated;
-import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.Parameter;
-import io.swagger.v3.oas.annotations.info.Info;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 
 import javax.inject.Inject;
 import javax.validation.Valid;
 
 @Controller("/format")
-@RequiredArgsConstructor
-@OpenAPIDefinition(
-        info = @Info(
-                title = "Phone Formatter",
-                version = "1.0"
-        )
-)
 @Secured(SecurityRule.IS_AUTHENTICATED)
 @Validated
+@Tag(name = "Format")
+@RequiredArgsConstructor
 public class PhoneFormatterController {
     @Inject
     private final PhoneFormatterFunction function;
 
     /**
-     * Demo description
+     * Formatting method that outputs the entered phone number in international, national and several standard formats
+     * with additional country information for correct phone numbers
      *
-     * @param request Request
-     * @return Response
+     * @param request Request parameters
+     * @return Response Formatting method execution result
      */
     @Post
     public Response format(@Valid @Body Request request) {
@@ -42,18 +37,12 @@ public class PhoneFormatterController {
     }
 
     /**
-     * This method is equivalent to {@link #format(Request request)} with {@code request}
-     * {@code
-     * {
-     * "phoneNumber": phone,
-     * "language": headers[ACCEPT_LANGUAGE]
-     * }
-     * }.
+     * A simplified version of the formatting method that does not accept additional filtering and parsing parameters
+     * and uses the language value from the "{@code ACCEPT_LANGUAGE}" header.
      *
      * @param phone       Phone number
      * @param httpRequest Http request
-     * @return Response
-     * @see #format(Request)
+     * @return Response Formatting method execution result
      */
     @Get
     public Response simpleFormat(@QueryValue("phone") String phone,

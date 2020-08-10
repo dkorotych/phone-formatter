@@ -1,6 +1,6 @@
 micronaut:
   application:
-    name: "Phone Formatter Function"
+    name: "Phone Formatter API"
   server:
     port: ${PORT:8080}
   security:
