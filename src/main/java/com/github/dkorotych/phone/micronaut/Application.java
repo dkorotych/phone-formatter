@@ -6,7 +6,7 @@ import io.swagger.v3.oas.annotations.info.Info;
 
 @OpenAPIDefinition(
         info = @Info(
-                title = "Phone Formatter API",
+                title = "Phone Formatter",
                 version = "1.0",
                 description = "With this API you will be able to get the entered phone number in international," +
                         " national and several standard formats with additional information about the country for the" +
