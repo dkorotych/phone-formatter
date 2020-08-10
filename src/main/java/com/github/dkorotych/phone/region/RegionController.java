@@ -31,7 +31,7 @@ public class RegionController {
     private final SupportedRegionsKeeper keeper;
 
     /**
-     * Returns a collection of supported regions. Method use {@code Accept-Language} header value for output list of
+     * Returns a collection of supported regions. Method use "{@code Accept-Language}" header value for output list of
      * regions on specific language
      *
      * @param request Http request

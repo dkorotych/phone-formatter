@@ -38,7 +38,7 @@ public class PhoneFormatterController {
 
     /**
      * A simplified version of the formatting method that does not accept additional filtering and parsing parameters
-     * and uses the language value from the "{@code ACCEPT_LANGUAGE}" header.
+     * and uses the language value from the "{@code Accept-Language}" header.
      *
      * @param phone       Phone number
      * @param httpRequest Http request
