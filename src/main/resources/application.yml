@@ -40,3 +40,8 @@ application:
     identity: qa
     secret: ${TEST_PASSWORD:secret}
     roles: []
+  rapidapi:
+    identity: rapidapi
+    secret: ${RAPID_API_PASSWORD:secret}
+    roles:
+      - RAPID_API

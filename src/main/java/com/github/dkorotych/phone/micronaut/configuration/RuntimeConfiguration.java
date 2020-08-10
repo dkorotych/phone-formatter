@@ -12,4 +12,7 @@ public class RuntimeConfiguration {
 
     @ConfigurationBuilder(configurationPrefix = "test")
     private final User test = new User();
+
+    @ConfigurationBuilder(configurationPrefix = "rapidapi")
+    private final User rapidApi = new User();
 }
