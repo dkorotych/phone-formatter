@@ -62,7 +62,7 @@ public class PhoneFormatterFunction implements Function<Request, Response> {
                             final PhoneNumber number = PHONE_NUMBER_UTIL.parse(phoneNumber, name);
                             return PHONE_NUMBER_UTIL.format(number, E164);
                         } catch (NumberParseException exception) {
-                            Sentry.capture(exception);
+                            Sentry.captureException(exception);
                             if (StringUtils.hasText(region)) {
                                 response.setError(new ErrorBuilder().create(exception, outputLocale));
                                 return null;

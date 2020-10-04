@@ -9,7 +9,6 @@ import io.micronaut.security.token.jwt.generator.claims.JwtClaims;
 import io.micronaut.security.token.jwt.validator.GenericJwtClaimsValidator;
 import io.micronaut.security.token.jwt.validator.JWTClaimsSetUtils;
 import io.sentry.Sentry;
-import io.sentry.event.UserBuilder;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
@@ -48,12 +47,12 @@ public class AnyPredefinedUserJwtClaimsValidator implements GenericJwtClaimsVali
         }
         for (User user : users) {
             if (Objects.equals(subject, user.getIdentity()) && Objects.equals(roles, user.getRoles())) {
-                final HashMap<String, Object> data = new HashMap<>();
-                data.put(rolesName, user.getRoles());
-                Sentry.getContext().setUser(new UserBuilder().
-                        setUsername(user.getIdentity()).
-                        setData(data).
-                        build());
+                final HashMap<String, String> data = new HashMap<>();
+                data.put(rolesName, String.join(", ", user.getRoles()));
+                final io.sentry.protocol.User sentryUser = new io.sentry.protocol.User();
+                sentryUser.setUsername(user.getIdentity());
+                sentryUser.setOthers(data);
+                Sentry.setUser(sentryUser);
                 return true;
             }
         }
