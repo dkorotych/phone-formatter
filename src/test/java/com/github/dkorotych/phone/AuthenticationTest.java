@@ -7,7 +7,7 @@ import io.micronaut.http.client.HttpClient;
 import io.micronaut.http.client.annotation.Client;
 import io.micronaut.http.client.exceptions.HttpClientResponseException;
 import io.micronaut.http.uri.UriBuilder;
-import io.micronaut.test.annotation.MicronautTest;
+import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -18,7 +18,7 @@ import java.util.Arrays;
 import java.util.stream.Stream;
 
 @MicronautTest
-public class AuthenticationTest {
+class AuthenticationTest {
     @Client("/format")
     @Inject
     private HttpClient formatClient;

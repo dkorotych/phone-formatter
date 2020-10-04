@@ -465,7 +465,7 @@
     {
       "number": "+10954185123",
       "valid": false,
-      "probability": 0.172,
+      "probability": 0.17,
       "format": {
         "e164": "+10954185123",
         "international": "+1 0954185123",
@@ -476,7 +476,7 @@
     {
       "number": "+44954185123",
       "valid": false,
-      "probability": 0.028,
+      "probability": 0.027,
       "format": {
         "e164": "+44954185123",
         "international": "+44 954185123",
@@ -487,7 +487,7 @@
     {
       "number": "+590954185123",
       "valid": false,
-      "probability": 0.021,
+      "probability": 0.02,
       "format": {
         "e164": "+590954185123",
         "international": "+590 954 18 51 23",
@@ -498,7 +498,7 @@
     {
       "number": "+61954185123",
       "valid": false,
-      "probability": 0.021,
+      "probability": 0.02,
       "format": {
         "e164": "+61954185123",
         "international": "+61 954185123",
@@ -1827,6 +1827,28 @@
       }
     },
     {
+      "number": "+5070954185123",
+      "valid": false,
+      "probability": 0.007,
+      "format": {
+        "e164": "+5070954185123",
+        "international": "+507 0954185123",
+        "rfc3966": "tel:+507-0954185123",
+        "national": "0954185123"
+      },
+      "region": {
+        "name": "PA",
+        "code": 507,
+        "country": {
+          "name": "Panama",
+          "flag": {
+            "code": "\uD83C\uDDF5\uD83C\uDDE6",
+            "htmlCode": "&#127477;&#127462;"
+          }
+        }
+      }
+    },
+    {
       "number": "+591954185123",
       "valid": false,
       "probability": 0.007,
@@ -1932,6 +1954,28 @@
           "flag": {
             "code": "\uD83C\uDDF2\uD83C\uDDF6",
             "htmlCode": "&#127474;&#127478;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+5980954185123",
+      "valid": false,
+      "probability": 0.007,
+      "format": {
+        "e164": "+5980954185123",
+        "international": "+598 0954185123",
+        "rfc3966": "tel:+598-0954185123",
+        "national": "0954185123"
+      },
+      "region": {
+        "name": "UY",
+        "code": 598,
+        "country": {
+          "name": "Uruguay",
+          "flag": {
+            "code": "\uD83C\uDDFA\uD83C\uDDFE",
+            "htmlCode": "&#127482;&#127486;"
           }
         }
       }

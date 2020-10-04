@@ -1,7 +1,7 @@
 package com.github.dkorotych.phone.region;
 
 import com.github.dkorotych.phone.utils.Utilities;
-import io.micronaut.test.annotation.MicronautTest;
+import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.EmptySource;

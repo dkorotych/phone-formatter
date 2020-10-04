@@ -3,7 +3,7 @@ package com.github.dkorotych.phone.formatter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.dkorotych.phone.formatter.domain.Request;
 import io.micronaut.http.client.HttpClient;
-import io.micronaut.test.annotation.MicronautTest;
+import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @MicronautTest
-public class PhoneFormatterControllerTest {
+class PhoneFormatterControllerTest {
 
     @Inject
     private PhoneFormatterControllerClient client;

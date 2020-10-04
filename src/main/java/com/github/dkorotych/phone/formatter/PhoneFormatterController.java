@@ -11,6 +11,7 @@ import io.micronaut.validation.Validated;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
+import org.jetbrains.annotations.Nullable;
 
 import javax.inject.Inject;
 import javax.validation.Valid;
@@ -45,7 +46,7 @@ public class PhoneFormatterController {
      * @return Response Formatting method execution result
      */
     @Get
-    public Response simple(@QueryValue("phone") String phone,
+    public Response simple(@Nullable @QueryValue("phone") String phone,
                            @Parameter(hidden = true) HttpRequest<?> httpRequest) {
         final Request request = new Request();
         request.setPhoneNumber(phone);

@@ -1,14 +1,14 @@
 package com.github.dkorotych.phone.formatter;
 
 import io.micronaut.runtime.EmbeddedApplication;
-import io.micronaut.test.annotation.MicronautTest;
+import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import javax.inject.Inject;
 
 @MicronautTest
-public class PhoneFormatterTest {
+class PhoneFormatterTest {
 
     @Inject
     EmbeddedApplication<?> application;
