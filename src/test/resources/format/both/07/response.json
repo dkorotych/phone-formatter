@@ -47,7 +47,7 @@
     {
       "number": "+3180056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+3180056325",
         "international": "+31 800 56325",
@@ -69,7 +69,7 @@
     {
       "number": "+3280056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+3280056325",
         "international": "+32 800 56 325",
@@ -91,7 +91,7 @@
     {
       "number": "+3680056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+3680056325",
         "international": "+36 80 056 325",
@@ -113,7 +113,7 @@
     {
       "number": "+4580056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+4580056325",
         "international": "+45 80 05 63 25",
@@ -135,7 +135,7 @@
     {
       "number": "+4680056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+4680056325",
         "international": "+46 8 005 63 25",
@@ -157,7 +157,7 @@
     {
       "number": "+5180056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+5180056325",
         "international": "+51 800 56325",
@@ -179,7 +179,7 @@
     {
       "number": "+6280056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+6280056325",
         "international": "+62 800 56325",
@@ -201,7 +201,7 @@
     {
       "number": "+6480056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+6480056325",
         "international": "+64 800 56 325",
@@ -223,7 +223,7 @@
     {
       "number": "+9280056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+9280056325",
         "international": "+92 800 563 25",
@@ -245,7 +245,7 @@
     {
       "number": "+22280056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+22280056325",
         "international": "+222 80 05 63 25",
@@ -267,7 +267,7 @@
     {
       "number": "+22380056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+22380056325",
         "international": "+223 80 05 63 25",
@@ -289,7 +289,7 @@
     {
       "number": "+22780056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+22780056325",
         "international": "+227 80 05 63 25",
@@ -311,7 +311,7 @@
     {
       "number": "+23280056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+23280056325",
         "international": "+232 80 056325",
@@ -333,7 +333,7 @@
     {
       "number": "+23380056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+23380056325",
         "international": "+233 800 56325",
@@ -355,7 +355,7 @@
     {
       "number": "+26680056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+26680056325",
         "international": "+266 8005 6325",
@@ -377,7 +377,7 @@
     {
       "number": "+35280056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+35280056325",
         "international": "+352 800 56 325",
@@ -399,7 +399,7 @@
     {
       "number": "+35780056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+35780056325",
         "international": "+357 80 056325",
@@ -421,7 +421,7 @@
     {
       "number": "+35980056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+35980056325",
         "international": "+359 800 56 325",
@@ -443,7 +443,7 @@
     {
       "number": "+37080056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+37080056325",
         "international": "+370 800 56 325",
@@ -465,7 +465,7 @@
     {
       "number": "+37180056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+37180056325",
         "international": "+371 80 056 325",
@@ -487,7 +487,7 @@
     {
       "number": "+37380056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+37380056325",
         "international": "+373 800 56325",
@@ -509,7 +509,7 @@
     {
       "number": "+37480056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+37480056325",
         "international": "+374 800 56 325",
@@ -531,7 +531,7 @@
     {
       "number": "+37580056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+37580056325",
         "international": "+375 800 56 325",
@@ -553,7 +553,7 @@
     {
       "number": "+38180056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+38180056325",
         "international": "+381 800 56325",
@@ -575,7 +575,7 @@
     {
       "number": "+38280056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+38280056325",
         "international": "+382 80 056 325",
@@ -597,7 +597,7 @@
     {
       "number": "+38380056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+38380056325",
         "international": "+383 800 56325",
@@ -619,7 +619,7 @@
     {
       "number": "+38580056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+38580056325",
         "international": "+385 800 56 325",
@@ -641,7 +641,7 @@
     {
       "number": "+38680056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+38680056325",
         "international": "+386 80 056325",
@@ -663,7 +663,7 @@
     {
       "number": "+38780056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+38780056325",
         "international": "+387 80 056 325",
@@ -685,7 +685,7 @@
     {
       "number": "+38980056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+38980056325",
         "international": "+389 800 5 63 25",
@@ -707,7 +707,7 @@
     {
       "number": "+50480056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+50480056325",
         "international": "+504 8005-6325",
@@ -729,7 +729,7 @@
     {
       "number": "+50580056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+50580056325",
         "international": "+505 8005 6325",
@@ -749,9 +749,31 @@
       }
     },
     {
+      "number": "+50780056325",
+      "valid": true,
+      "probability": 0.021,
+      "format": {
+        "e164": "+50780056325",
+        "international": "+507 8005-6325",
+        "rfc3966": "tel:+507-8005-6325",
+        "national": "8005-6325"
+      },
+      "region": {
+        "name": "PA",
+        "code": 507,
+        "country": {
+          "name": "Panama",
+          "flag": {
+            "code": "\uD83C\uDDF5\uD83C\uDDE6",
+            "htmlCode": "&#127477;&#127462;"
+          }
+        }
+      }
+    },
+    {
       "number": "+50980056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+50980056325",
         "international": "+509 80 05 6325",
@@ -773,7 +795,7 @@
     {
       "number": "+59580056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+59580056325",
         "international": "+595 800 56325",
@@ -795,7 +817,7 @@
     {
       "number": "+85580056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+85580056325",
         "international": "+855 80 056 325",
@@ -817,7 +839,7 @@
     {
       "number": "+88680056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+88680056325",
         "international": "+886 80 056 325",
@@ -839,7 +861,7 @@
     {
       "number": "+96180056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+96180056325",
         "international": "+961 80 056 325",
@@ -861,7 +883,7 @@
     {
       "number": "+96280056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+96280056325",
         "international": "+962 800 56325",
@@ -883,7 +905,7 @@
     {
       "number": "+97180056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+97180056325",
         "international": "+971 800 56325",
@@ -905,7 +927,7 @@
     {
       "number": "+97280056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+97280056325",
         "international": "+972 8-005-6325",
@@ -927,7 +949,7 @@
     {
       "number": "+97380056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+97380056325",
         "international": "+973 8005 6325",
@@ -949,7 +971,7 @@
     {
       "number": "+97680056325",
       "valid": true,
-      "probability": 0.022,
+      "probability": 0.021,
       "format": {
         "e164": "+97680056325",
         "international": "+976 8005 6325",
