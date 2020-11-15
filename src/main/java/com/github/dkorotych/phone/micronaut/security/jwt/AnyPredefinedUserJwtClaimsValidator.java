@@ -4,6 +4,7 @@ import com.github.dkorotych.phone.micronaut.configuration.RuntimeConfiguration;
 import com.github.dkorotych.phone.micronaut.configuration.User;
 import com.nimbusds.jwt.JWTClaimsSet;
 import io.micronaut.context.env.Environment;
+import io.micronaut.http.HttpRequest;
 import io.micronaut.security.token.config.TokenConfiguration;
 import io.micronaut.security.token.jwt.generator.claims.JwtClaims;
 import io.micronaut.security.token.jwt.validator.GenericJwtClaimsValidator;
@@ -33,7 +34,13 @@ public class AnyPredefinedUserJwtClaimsValidator implements GenericJwtClaimsVali
     }
 
     @Override
+    @Deprecated
     public boolean validate(JwtClaims claims) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public boolean validate(JwtClaims claims, HttpRequest<?> request) {
         return validate(JWTClaimsSetUtils.jwtClaimsSetFromClaims(claims));
     }
 
