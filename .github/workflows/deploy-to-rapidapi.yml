@@ -11,8 +11,8 @@ jobs:
         with:
           args: >
             --request PUT
-            --url https://openapi-provisioning.p.rapidapi.com/v1/apis/${{ secrets.API_ID }}
-            --header 'content-type: multipart/form-data'
+            --url https://rapidapi.p.rapidapi.com/v1/apis/${{ secrets.API_ID }}
+            --header 'content-type: application/x-www-form-urlencoded'
             --header 'x-rapidapi-host: openapi-provisioning.p.rapidapi.com'
             --header 'x-rapidapi-key: ${{ secrets.API_KEY }}'
             --form 'file=/github/workspace/build/classes/java/main/META-INF/swagger/phone-formatter-1.0.yml'
