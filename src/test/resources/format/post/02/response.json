@@ -465,7 +465,7 @@
     {
       "number": "+10954185123",
       "valid": false,
-      "probability": 0.17,
+      "probability": 0.169,
       "format": {
         "e164": "+10954185123",
         "international": "+1 0954185123",
@@ -1492,6 +1492,28 @@
           "flag": {
             "code": "\uD83C\uDDF2\uD83C\uDDFC",
             "htmlCode": "&#127474;&#127484;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+2670954185123",
+      "valid": false,
+      "probability": 0.007,
+      "format": {
+        "e164": "+2670954185123",
+        "international": "+267 0954 185 123",
+        "rfc3966": "tel:+267-0954-185-123",
+        "national": "0954 185 123"
+      },
+      "region": {
+        "name": "BW",
+        "code": 267,
+        "country": {
+          "name": "Botswana",
+          "flag": {
+            "code": "\uD83C\uDDE7\uD83C\uDDFC",
+            "htmlCode": "&#127463;&#127484;"
           }
         }
       }
