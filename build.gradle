@@ -1,11 +1,11 @@
 plugins {
-    id "com.github.ben-manes.versions" version "0.36.0"
-    id "com.github.johnrengelman.shadow" version "6.1.0"
-    id "io.micronaut.application" version '1.2.0'
+    id("com.github.johnrengelman.shadow") version "6.1.0"
+    id("io.micronaut.application") version "1.2.0"
+    id("com.github.ben-manes.versions") version "0.36.0"
 }
 
-version "0.1"
-group "com.github.dkorotych.phone.formatter"
+version = "0.1"
+group = "com.github.dkorotych.phone.formatter"
 
 repositories {
     mavenCentral()
@@ -13,17 +13,16 @@ repositories {
 }
 
 micronaut {
-    runtime "netty"
-    testRuntime "junit5"
+    runtime("netty")
+    testRuntime("junit5")
     processing {
-        incremental true
-        annotations "com.github.dkorotych.phone.formatter.*"
+        incremental(true)
+        annotations("com.github.dkorotych.phone.formatter.*")
     }
 }
 
 dependencies {
-    compileOnly "org.projectlombok:lombok:$lombokVersion"
-    annotationProcessor "org.projectlombok:lombok:$lombokVersion"
+    annotationProcessor("org.projectlombok:lombok")
     annotationProcessor("io.micronaut.openapi:micronaut-openapi")
     annotationProcessor("io.micronaut.security:micronaut-security-annotations")
     implementation("com.googlecode.libphonenumber:libphonenumber:8.12.15")
@@ -34,6 +33,7 @@ dependencies {
     implementation("javax.annotation:javax.annotation-api")
     implementation("io.micronaut:micronaut-http-client")
     implementation("io.swagger.core.v3:swagger-annotations")
+    compileOnly("org.projectlombok:lombok")
     implementation("io.micronaut.security:micronaut-security-jwt")
     runtimeOnly("ch.qos.logback:logback-classic")
     testImplementation("org.skyscreamer:jsonassert:1.5.0")
@@ -41,7 +41,9 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-params")
 }
 
-mainClassName = "com.github.dkorotych.phone.micronaut.Application"
+application {
+    mainClass.set("com.github.dkorotych.phone.micronaut.Application")
+}
 
 java {
     sourceCompatibility = JavaVersion.VERSION_11
