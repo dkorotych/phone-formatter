@@ -5,7 +5,6 @@ import com.github.dkorotych.phone.formatter.domain.Request;
 import io.micronaut.http.client.HttpClient;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -33,28 +32,23 @@ class PhoneFormatterControllerTest {
     HttpClient httpClient;
     private ObjectMapper objectMapper;
 
-    private static List<Path> getDirectoriesAsParameters(String path) {
-        try {
-            return Files.list(Paths.get(PhoneFormatterControllerTest.class.getResource(path).toURI())).
-                    map(Path::toFile).
-                    filter(File::isDirectory).
-                    sorted(Comparator.comparing(File::getName)).
-                    map(File::toPath).
-                    collect(Collectors.toList());
-        } catch (IOException | URISyntaxException e) {
-            Assertions.fail(e);
-        }
-        throw new RuntimeException();
+    private static List<Path> getDirectoriesAsParameters(String path) throws URISyntaxException, IOException {
+        return Files.list(Paths.get(PhoneFormatterControllerTest.class.getResource(path).toURI())).
+                map(Path::toFile).
+                filter(File::isDirectory).
+                sorted(Comparator.comparing(File::getName)).
+                map(File::toPath).
+                collect(Collectors.toList());
     }
 
-    private static Stream<Path> get() {
+    private static Stream<Path> get() throws IOException, URISyntaxException {
         return Stream.concat(
                 getDirectoriesAsParameters("/format/both").stream(),
                 getDirectoriesAsParameters("/format/get").stream()
         );
     }
 
-    private static Stream<Path> post() {
+    private static Stream<Path> post() throws IOException, URISyntaxException {
         return Stream.concat(
                 getDirectoriesAsParameters("/format/both").stream(),
                 getDirectoriesAsParameters("/format/post").stream()
@@ -79,7 +73,7 @@ class PhoneFormatterControllerTest {
         final String actual = client.format(request.getPhoneNumber());
         try {
             JSONAssert.assertEquals(expected, actual, true);
-        } catch (Throwable e) {
+        } catch (AssertionError e) {
             throw e;
         }
     }
@@ -92,7 +86,7 @@ class PhoneFormatterControllerTest {
         final String actual = client.format(request);
         try {
             JSONAssert.assertEquals(expected, actual, true);
-        } catch (Throwable e) {
+        } catch (AssertionError e) {
             throw e;
         }
     }

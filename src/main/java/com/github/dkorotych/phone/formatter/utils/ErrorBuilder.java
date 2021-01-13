@@ -35,6 +35,7 @@ public class ErrorBuilder {
     }
 
     public Error create(final ErrorCode code, Locale locale) {
+        Locale errorLocale = locale;
         final String language = Optional.ofNullable(locale).
                 map(Locale::getLanguage).
                 filter(StringUtils::hasText).
@@ -46,11 +47,11 @@ public class ErrorBuilder {
                         map(value -> value.toLowerCase(DEFAULT_LOCALE)).
                         orElseThrow();
                 if (Arrays.asList(Locale.getISOLanguages()).contains(country)) {
-                    locale = new Locale(country);
+                    errorLocale = new Locale(country);
                 }
             }
         }
-        return new Error(code, getMessage(code, locale));
+        return new Error(code, getMessage(code, errorLocale));
     }
 
     private String getMessage(ErrorCode code, Locale locale) {

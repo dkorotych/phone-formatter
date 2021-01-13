@@ -2,7 +2,6 @@ package com.github.dkorotych.phone.region;
 
 import com.github.dkorotych.phone.utils.Utilities;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.EmptySource;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -27,11 +26,11 @@ class RegionControllerTest {
     @Inject
     private RegionControllerClient client;
 
-    private static List<File> getSupportedRegionsWithHeader() {
+    private static List<File> getSupportedRegionsWithHeader() throws IOException, URISyntaxException {
         return getFilesAsParameters("/region/header");
     }
 
-    private static List<File> getSupportedRegionsWithParameter() {
+    private static List<File> getSupportedRegionsWithParameter() throws IOException, URISyntaxException {
         return getFilesAsParameters("/region/parameter");
     }
 
@@ -60,18 +59,13 @@ class RegionControllerTest {
         });
     }
 
-    private static List<File> getFilesAsParameters(String path) {
-        try {
-            return Files.list(Paths.get(RegionControllerTest.class.getResource(path).toURI())).
-                    map(Path::toFile).
-                    filter(File::isFile).
-                    filter(file -> file.getName().endsWith(".json")).
-                    sorted(Comparator.comparing(File::getName)).
-                    collect(Collectors.toList());
-        } catch (IOException | URISyntaxException e) {
-            Assertions.fail(e);
-        }
-        throw new RuntimeException();
+    private static List<File> getFilesAsParameters(String path) throws URISyntaxException, IOException {
+        return Files.list(Paths.get(RegionControllerTest.class.getResource(path).toURI())).
+                map(Path::toFile).
+                filter(File::isFile).
+                filter(file -> file.getName().endsWith(".json")).
+                sorted(Comparator.comparing(File::getName)).
+                collect(Collectors.toList());
     }
 
     private String createLanguage(File file) {
@@ -84,7 +78,7 @@ class RegionControllerTest {
         JSONAssert.assertEquals(expected, actual, true);
     }
 
-    private Path getDefaultResponse() {
+    private Path getDefaultResponse() throws IOException, URISyntaxException {
         return getSupportedRegionsWithHeader().stream().
                 filter(file -> file.getName().equals("us.json")).
                 findAny().

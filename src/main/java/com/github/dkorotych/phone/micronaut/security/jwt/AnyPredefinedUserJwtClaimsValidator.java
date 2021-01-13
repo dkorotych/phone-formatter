@@ -5,6 +5,7 @@ import com.github.dkorotych.phone.micronaut.configuration.User;
 import com.nimbusds.jwt.JWTClaimsSet;
 import io.micronaut.context.env.Environment;
 import io.micronaut.http.HttpRequest;
+import io.micronaut.security.authentication.AuthenticationException;
 import io.micronaut.security.token.config.TokenConfiguration;
 import io.micronaut.security.token.jwt.generator.claims.JwtClaims;
 import io.micronaut.security.token.jwt.validator.GenericJwtClaimsValidator;
@@ -50,7 +51,7 @@ public class AnyPredefinedUserJwtClaimsValidator implements GenericJwtClaimsVali
         try {
             roles = Arrays.asList(claimsSet.getStringArrayClaim(rolesName));
         } catch (ParseException e) {
-            throw new RuntimeException(e);
+            throw new AuthenticationException(e.getMessage());
         }
         for (User user : users) {
             if (Objects.equals(subject, user.getIdentity()) && Objects.equals(roles, user.getRoles())) {
