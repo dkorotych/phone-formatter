@@ -3,7 +3,7 @@
     {
       "number": "+4780056325",
       "valid": true,
-      "probability": 0.043,
+      "probability": 0.042,
       "format": {
         "e164": "+4780056325",
         "international": "+47 800 56 325",
@@ -25,7 +25,7 @@
     {
       "number": "+35880056325",
       "valid": true,
-      "probability": 0.043,
+      "probability": 0.042,
       "format": {
         "e164": "+35880056325",
         "international": "+358 800 56325",
@@ -898,6 +898,28 @@
           "flag": {
             "code": "\uD83C\uDDEF\uD83C\uDDF4",
             "htmlCode": "&#127471;&#127476;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+96880056325",
+      "valid": true,
+      "probability": 0.021,
+      "format": {
+        "e164": "+96880056325",
+        "international": "+968 800 56325",
+        "rfc3966": "tel:+968-800-56325",
+        "national": "800 56325"
+      },
+      "region": {
+        "name": "OM",
+        "code": 968,
+        "country": {
+          "name": "Oman",
+          "flag": {
+            "code": "\uD83C\uDDF4\uD83C\uDDF2",
+            "htmlCode": "&#127476;&#127474;"
           }
         }
       }
