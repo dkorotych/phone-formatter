@@ -3,7 +3,7 @@
     {
       "number": "+390954185123",
       "valid": true,
-      "probability": 0.014,
+      "probability": 0.013,
       "format": {
         "e164": "+390954185123",
         "international": "+39 095 418 5123",
@@ -25,7 +25,7 @@
     {
       "number": "+358954185123",
       "valid": true,
-      "probability": 0.014,
+      "probability": 0.013,
       "format": {
         "e164": "+358954185123",
         "international": "+358 9 54185123",
@@ -465,7 +465,7 @@
     {
       "number": "+10954185123",
       "valid": false,
-      "probability": 0.169,
+      "probability": 0.168,
       "format": {
         "e164": "+10954185123",
         "international": "+1 0954185123",
@@ -509,7 +509,7 @@
     {
       "number": "+212954185123",
       "valid": false,
-      "probability": 0.014,
+      "probability": 0.013,
       "format": {
         "e164": "+212954185123",
         "international": "+212 954185123",
@@ -520,7 +520,7 @@
     {
       "number": "+70954185123",
       "valid": false,
-      "probability": 0.014,
+      "probability": 0.013,
       "format": {
         "e164": "+70954185123",
         "international": "+7 0954185123",
@@ -531,7 +531,7 @@
     {
       "number": "+954185123",
       "valid": false,
-      "probability": 0.014,
+      "probability": 0.013,
       "format": {
         "e164": "+954185123",
         "international": "+95 41 85 123",
@@ -553,7 +553,7 @@
     {
       "number": "+262954185123",
       "valid": false,
-      "probability": 0.014,
+      "probability": 0.013,
       "format": {
         "e164": "+262954185123",
         "international": "+262 954 18 51 23",
@@ -1206,6 +1206,28 @@
           "flag": {
             "code": "\uD83C\uDDE9\uD83C\uDDFF",
             "htmlCode": "&#127465;&#127487;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+2250954185123",
+      "valid": false,
+      "probability": 0.007,
+      "format": {
+        "e164": "+2250954185123",
+        "international": "+225 09 54 18 5123",
+        "rfc3966": "tel:+225-09-54-18-5123",
+        "national": "09 54 18 5123"
+      },
+      "region": {
+        "name": "CI",
+        "code": 225,
+        "country": {
+          "name": "Côte d’Ivoire",
+          "flag": {
+            "code": "\uD83C\uDDE8\uD83C\uDDEE",
+            "htmlCode": "&#127464;&#127470;"
           }
         }
       }
