@@ -27,7 +27,7 @@ dependencies {
     annotationProcessor("io.micronaut.security:micronaut-security-annotations")
     implementation("com.googlecode.libphonenumber:libphonenumber:8.12.17")
     implementation("com.kcthota:emoji4j:6.0")
-    implementation("io.sentry:sentry-logback:4.0.0")
+    implementation("io.sentry:sentry-logback:4.1.0")
     implementation("io.micronaut:micronaut-validation")
     implementation("io.micronaut:micronaut-runtime")
     implementation("javax.annotation:javax.annotation-api")
