@@ -35,4 +35,5 @@ out/
 .project
 .settings
 .classpath
+.factorypath
 .env

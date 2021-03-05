@@ -1,3 +1,6 @@
+import io.micronaut.gradle.MicronautRuntime
+import io.micronaut.gradle.MicronautTestRuntime
+
 plugins {
     id("com.github.johnrengelman.shadow") version "6.1.0"
     id("io.micronaut.application") version "1.4.0"
@@ -13,8 +16,8 @@ repositories {
 }
 
 micronaut {
-    runtime("netty")
-    testRuntime("junit5")
+    runtime(MicronautRuntime.NETTY)
+    testRuntime(MicronautTestRuntime.JUNIT_5)
     version = "2.3.4"
     processing {
         incremental(true)
@@ -64,4 +67,4 @@ tasks.named("dependencyUpdates").configure {
     }
 }
 
-dependencyUpdates.gradleReleaseChannel="current"
+dependencyUpdates.gradleReleaseChannel = "current"
