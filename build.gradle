@@ -15,6 +15,7 @@ repositories {
 micronaut {
     runtime("netty")
     testRuntime("junit5")
+    version = "2.3.4"
     processing {
         incremental(true)
         annotations("com.github.dkorotych.phone.formatter.*")
