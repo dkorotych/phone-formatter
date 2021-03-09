@@ -1,7 +1,7 @@
 package com.github.dkorotych.phone.region;
 
-import io.micronaut.core.async.SupplierUtil;
 import io.micronaut.core.util.StringUtils;
+import io.micronaut.core.util.SupplierUtil;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Map;

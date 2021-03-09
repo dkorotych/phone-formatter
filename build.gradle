@@ -3,7 +3,7 @@ import io.micronaut.gradle.MicronautTestRuntime
 
 plugins {
     id("com.github.johnrengelman.shadow") version "6.1.0"
-    id("io.micronaut.application") version "1.4.0"
+    id("io.micronaut.application") version "1.4.2"
     id("com.github.ben-manes.versions") version "0.38.0"
 }
 
@@ -18,7 +18,7 @@ repositories {
 micronaut {
     runtime(MicronautRuntime.NETTY)
     testRuntime(MicronautTestRuntime.JUNIT_5)
-    version = "2.3.4"
+    version = "2.4.0"
     processing {
         incremental(true)
         annotations("com.github.dkorotych.phone.formatter.*")

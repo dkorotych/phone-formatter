@@ -3,6 +3,7 @@ package com.github.dkorotych.phone.formatter;
 import com.github.dkorotych.phone.formatter.domain.Request;
 import com.github.dkorotych.phone.formatter.domain.Response;
 import com.github.dkorotych.phone.utils.Utilities;
+import io.micronaut.core.annotation.Nullable;
 import io.micronaut.http.HttpRequest;
 import io.micronaut.http.annotation.*;
 import io.micronaut.security.annotation.Secured;
@@ -12,7 +13,6 @@ import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 
-import javax.annotation.Nullable;
 import javax.inject.Inject;
 import javax.validation.Valid;
 
