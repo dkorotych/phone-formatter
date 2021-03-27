@@ -18,7 +18,7 @@ repositories {
 micronaut {
     runtime(MicronautRuntime.NETTY)
     testRuntime(MicronautTestRuntime.JUNIT_5)
-    version = "2.4.0"
+    version = "2.4.1"
     processing {
         incremental(true)
         annotations("com.github.dkorotych.phone.formatter.*")
@@ -29,7 +29,7 @@ dependencies {
     annotationProcessor("org.projectlombok:lombok")
     annotationProcessor("io.micronaut.openapi:micronaut-openapi")
     annotationProcessor("io.micronaut.security:micronaut-security-annotations")
-    implementation("com.googlecode.libphonenumber:libphonenumber:8.12.19")
+    implementation("com.googlecode.libphonenumber:libphonenumber:8.12.20")
     implementation("com.kcthota:emoji4j:6.0")
     implementation("io.sentry:sentry-logback:4.3.0")
     implementation("io.micronaut:micronaut-validation")
