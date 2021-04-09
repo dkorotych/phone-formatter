@@ -465,7 +465,7 @@
     {
       "number": "+10954185123",
       "valid": false,
-      "probability": 0.168,
+      "probability": 0.167,
       "format": {
         "e164": "+10954185123",
         "international": "+1 0954185123",
@@ -1888,6 +1888,28 @@
           "flag": {
             "code": "\uD83C\uDDF5\uD83C\uDDE6",
             "htmlCode": "&#127477;&#127462;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+508954185123",
+      "valid": false,
+      "probability": 0.007,
+      "format": {
+        "e164": "+508954185123",
+        "international": "+508 954185123",
+        "rfc3966": "tel:+508-954185123",
+        "national": "954185123"
+      },
+      "region": {
+        "name": "PM",
+        "code": 508,
+        "country": {
+          "name": "St. Pierre & Miquelon",
+          "flag": {
+            "code": "\uD83C\uDDF5\uD83C\uDDF2",
+            "htmlCode": "&#127477;&#127474;"
           }
         }
       }
