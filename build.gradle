@@ -12,13 +12,12 @@ group = "com.github.dkorotych.phone.formatter"
 
 repositories {
     mavenCentral()
-    jcenter()
 }
 
 micronaut {
     runtime(MicronautRuntime.NETTY)
     testRuntime(MicronautTestRuntime.JUNIT_5)
-    version = "2.4.2"
+    version = "2.4.4"
     processing {
         incremental(true)
         annotations("com.github.dkorotych.phone.formatter.*")
