@@ -37,7 +37,7 @@ dependencies {
     implementation("io.micronaut:micronaut-validation")
     runtimeOnly("ch.qos.logback:logback-classic")
 
-    implementation("com.googlecode.libphonenumber:libphonenumber:8.12.23")
+    implementation("com.googlecode.libphonenumber:libphonenumber:8.12.24")
     implementation("com.kcthota:emoji4j:6.0")
     implementation("io.sentry:sentry-logback:4.3.0")
 
