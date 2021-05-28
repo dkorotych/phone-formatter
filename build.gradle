@@ -34,8 +34,8 @@ dependencies {
     implementation("io.swagger.core.v3:swagger-annotations")
     implementation("javax.annotation:javax.annotation-api")
     compileOnly("org.projectlombok:lombok")
-    implementation("io.micronaut:micronaut-validation")
     runtimeOnly("ch.qos.logback:logback-classic")
+    implementation("io.micronaut:micronaut-validation")
 
     implementation("com.googlecode.libphonenumber:libphonenumber:8.12.24")
     implementation("com.kcthota:emoji4j:6.0")
