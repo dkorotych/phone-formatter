@@ -42,7 +42,7 @@ dependencies {
     implementation("io.sentry:sentry-logback:5.0.1")
 
     testImplementation("org.skyscreamer:jsonassert:1.5.0")
-    testImplementation("org.assertj:assertj-core:3.19.0")
+    testImplementation("org.assertj:assertj-core:3.20.0")
     testImplementation("org.junit.jupiter:junit-jupiter-params")
 }
 
