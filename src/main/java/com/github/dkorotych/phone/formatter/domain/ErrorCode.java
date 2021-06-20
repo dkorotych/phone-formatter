@@ -4,7 +4,6 @@ import io.swagger.v3.oas.annotations.media.Schema;
 
 import static io.swagger.v3.oas.annotations.media.Schema.AccessMode.READ_ONLY;
 
-@Schema(description = "Code of processing error")
 public enum ErrorCode {
     @Schema(accessMode = READ_ONLY,
             description = "Number has more digits than any valid phone number could have")
