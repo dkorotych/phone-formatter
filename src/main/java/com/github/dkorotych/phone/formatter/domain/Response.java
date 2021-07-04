@@ -1,5 +1,6 @@
 package com.github.dkorotych.phone.formatter.domain;
 
+import io.micronaut.core.annotation.Introspected;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
@@ -7,6 +8,7 @@ import java.util.Collection;
 import java.util.Objects;
 
 @Data
+@Introspected
 @Schema(description = "Formatting method execution result. If the execution result contains a set of phone numbers," +
         " then the list of numbers is sorted in descending order of probabilities, and for equal probabilities by" +
         " the region code")
