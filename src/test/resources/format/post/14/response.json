@@ -1,0 +1,27 @@
+{
+  "numbers": [
+    {
+      "number": "+777779882030303",
+      "valid": false,
+      "probability": 1.0,
+      "format": {
+        "e164": "+777779882030303",
+        "international": "+7 77779882030303",
+        "rfc3966": "tel:+7-77779882030303",
+        "national": "77779882030303"
+      },
+      "region": {
+        "name": "KZ",
+        "code": 7,
+        "country": {
+          "name": "Казахстан",
+          "flag": {
+            "code": "\uD83C\uDDF0\uD83C\uDDFF",
+            "htmlCode": "&#127472;&#127487;"
+          }
+        }
+      }
+    }
+  ],
+  "success": true
+}

@@ -465,7 +465,7 @@
     {
       "number": "+10954185123",
       "valid": false,
-      "probability": 0.167,
+      "probability": 0.166,
       "format": {
         "e164": "+10954185123",
         "international": "+1 0954185123",
@@ -476,7 +476,7 @@
     {
       "number": "+44954185123",
       "valid": false,
-      "probability": 0.027,
+      "probability": 0.026,
       "format": {
         "e164": "+44954185123",
         "international": "+44 954185123",
@@ -1228,6 +1228,28 @@
           "flag": {
             "code": "\uD83C\uDDE8\uD83C\uDDEE",
             "htmlCode": "&#127464;&#127470;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+2300954185123",
+      "valid": false,
+      "probability": 0.007,
+      "format": {
+        "e164": "+2300954185123",
+        "international": "+230 0954185123",
+        "rfc3966": "tel:+230-0954185123",
+        "national": "0954185123"
+      },
+      "region": {
+        "name": "MU",
+        "code": 230,
+        "country": {
+          "name": "Mauritius",
+          "flag": {
+            "code": "\uD83C\uDDF2\uD83C\uDDFA",
+            "htmlCode": "&#127474;&#127482;"
           }
         }
       }
