@@ -26,7 +26,7 @@ micronaut {
 
 dependencies {
     annotationProcessor("org.projectlombok:lombok")
-    annotationProcessor("io.micronaut.openapi:micronaut-openapi:2.5.0")
+    annotationProcessor("io.micronaut.openapi:micronaut-openapi:3.0.0")
     annotationProcessor("io.micronaut.security:micronaut-security-annotations:2.5.0")
     implementation("io.micronaut:micronaut-http-client")
     implementation("io.micronaut:micronaut-runtime")
