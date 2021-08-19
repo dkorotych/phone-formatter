@@ -4,9 +4,9 @@ import com.github.dkorotych.phone.region.domain.Country;
 import com.github.dkorotych.phone.region.domain.Region;
 import com.github.dkorotych.phone.utils.Utilities;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
+import jakarta.inject.Inject;
+import jakarta.inject.Singleton;
 
-import javax.inject.Inject;
-import javax.inject.Singleton;
 import java.util.*;
 import java.util.function.Supplier;
 

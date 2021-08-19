@@ -11,9 +11,9 @@ import io.micronaut.security.rules.SecurityRule;
 import io.micronaut.validation.Validated;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import jakarta.inject.Inject;
 import lombok.RequiredArgsConstructor;
 
-import javax.inject.Inject;
 import java.util.Collection;
 import java.util.Locale;
 import java.util.stream.Collectors;

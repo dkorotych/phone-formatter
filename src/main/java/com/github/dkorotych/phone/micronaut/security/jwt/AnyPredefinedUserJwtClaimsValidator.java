@@ -11,9 +11,9 @@ import io.micronaut.security.token.jwt.generator.claims.JwtClaims;
 import io.micronaut.security.token.jwt.validator.GenericJwtClaimsValidator;
 import io.micronaut.security.token.jwt.validator.JWTClaimsSetUtils;
 import io.sentry.Sentry;
+import jakarta.inject.Inject;
+import jakarta.inject.Singleton;
 
-import javax.inject.Inject;
-import javax.inject.Singleton;
 import java.text.ParseException;
 import java.util.*;
 
@@ -32,12 +32,6 @@ public class AnyPredefinedUserJwtClaimsValidator implements GenericJwtClaimsVali
             users.add(configuration.getTest());
         }
         rolesName = tokenConfiguration.getRolesName();
-    }
-
-    @Override
-    @Deprecated
-    public boolean validate(JwtClaims claims) {
-        throw new UnsupportedOperationException();
     }
 
     @Override

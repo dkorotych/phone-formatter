@@ -2,8 +2,8 @@ package com.github.dkorotych.phone.region;
 
 import com.github.dkorotych.phone.utils.Utilities;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
+import jakarta.inject.Singleton;
 
-import javax.inject.Singleton;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;

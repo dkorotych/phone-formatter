@@ -4,9 +4,9 @@ import com.github.dkorotych.phone.region.domain.Flag;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import emoji4j.EmojiUtils;
 import io.micronaut.core.util.StringUtils;
+import jakarta.inject.Inject;
+import jakarta.inject.Singleton;
 
-import javax.inject.Inject;
-import javax.inject.Singleton;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;

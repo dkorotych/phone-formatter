@@ -1,13 +1,15 @@
 package com.github.dkorotych.phone.micronaut.security.login;
 
 import com.github.dkorotych.phone.micronaut.configuration.User;
-import edu.umd.cs.findbugs.annotations.Nullable;
+import io.micronaut.core.annotation.Nullable;
 import io.micronaut.http.HttpRequest;
-import io.micronaut.security.authentication.*;
-import io.reactivex.BackpressureStrategy;
-import io.reactivex.Flowable;
+import io.micronaut.security.authentication.AuthenticationFailureReason;
+import io.micronaut.security.authentication.AuthenticationProvider;
+import io.micronaut.security.authentication.AuthenticationRequest;
+import io.micronaut.security.authentication.AuthenticationResponse;
 import lombok.RequiredArgsConstructor;
 import org.reactivestreams.Publisher;
+import reactor.core.publisher.Mono;
 
 import java.util.Objects;
 
@@ -17,19 +19,17 @@ public abstract class PredefinedUserAuthenticationProvider implements Authentica
 
     @Override
     public Publisher<AuthenticationResponse> authenticate(@Nullable HttpRequest<?> httpRequest, AuthenticationRequest<?, ?> authenticationRequest) {
-        return Flowable.create(emitter -> {
+        return Mono.create(emitter -> {
             if (Objects.equals(user.getIdentity(), authenticationRequest.getIdentity())
                     && Objects.equals(user.getSecret(), authenticationRequest.getSecret())) {
-                emitter.onNext(create(authenticationRequest));
-                emitter.onComplete();
+                emitter.success(create(authenticationRequest));
             } else {
-                final AuthenticationException exception = new AuthenticationException(new AuthenticationFailed(AuthenticationFailureReason.CREDENTIALS_DO_NOT_MATCH));
-                emitter.onError(exception);
+                emitter.error(AuthenticationResponse.exception(AuthenticationFailureReason.CREDENTIALS_DO_NOT_MATCH));
             }
-        }, BackpressureStrategy.ERROR);
+        });
     }
 
-    protected UserDetails create(AuthenticationRequest<?, ?> request) {
-        return new UserDetails(user.getIdentity(), user.getRoles());
+    protected AuthenticationResponse create(AuthenticationRequest<?, ?> request) {
+        return AuthenticationResponse.success(user.getIdentity(), user.getRoles());
     }
 }

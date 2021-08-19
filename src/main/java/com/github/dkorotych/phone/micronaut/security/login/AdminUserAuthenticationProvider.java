@@ -1,9 +1,8 @@
 package com.github.dkorotych.phone.micronaut.security.login;
 
 import com.github.dkorotych.phone.micronaut.configuration.RuntimeConfiguration;
-
-import javax.inject.Inject;
-import javax.inject.Singleton;
+import jakarta.inject.Inject;
+import jakarta.inject.Singleton;
 
 @Singleton
 public class AdminUserAuthenticationProvider extends PredefinedUserAuthenticationProvider {
