@@ -11,9 +11,9 @@ import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber.PhoneNumber;
 import io.micronaut.core.util.CollectionUtils;
 import io.micronaut.core.util.StringUtils;
-import io.sentry.Sentry;
 import jakarta.inject.Inject;
 import jakarta.inject.Singleton;
+import lombok.extern.slf4j.Slf4j;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -31,6 +31,7 @@ import static com.github.dkorotych.phone.formatter.domain.ErrorCode.NOT_A_NUMBER
 import static com.google.i18n.phonenumbers.PhoneNumberUtil.PhoneNumberFormat.*;
 
 @Singleton
+@Slf4j
 public class PhoneFormatterFunction implements Function<Request, Response> {
     private static final PhoneNumberUtil PHONE_NUMBER_UTIL = PhoneNumberUtil.getInstance();
     @Inject
@@ -62,7 +63,7 @@ public class PhoneFormatterFunction implements Function<Request, Response> {
                             final PhoneNumber number = PHONE_NUMBER_UTIL.parse(phoneNumber, name);
                             return PHONE_NUMBER_UTIL.format(number, E164);
                         } catch (NumberParseException exception) {
-                            Sentry.captureException(exception);
+                            log.warn("Incorrect phone number", exception);
                             if (StringUtils.hasText(region)) {
                                 response.setError(new ErrorBuilder().create(exception, outputLocale));
                                 return null;
