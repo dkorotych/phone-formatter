@@ -4,7 +4,7 @@ import io.micronaut.gradle.MicronautTestRuntime
 plugins {
     id("com.github.johnrengelman.shadow") version "7.0.0"
     id("io.micronaut.application") version "2.0.3"
-    id("org.openrewrite.rewrite") version "5.7.0"
+    id("org.openrewrite.rewrite") version "5.8.0"
     id("com.github.ben-manes.versions") version "0.39.0"
 }
 
