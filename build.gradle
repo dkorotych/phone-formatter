@@ -40,7 +40,7 @@ dependencies {
     implementation("io.micronaut:micronaut-validation")
 
     implementation "io.projectreactor:reactor-core:3.4.9"
-    implementation("com.googlecode.libphonenumber:libphonenumber:8.12.30")
+    implementation("com.googlecode.libphonenumber:libphonenumber:8.12.31")
     implementation("com.kcthota:emoji4j:6.0")
     implementation("io.sentry:sentry-logback:5.1.1")
 
