@@ -39,7 +39,7 @@ dependencies {
     rewrite("org.openrewrite.recipe:rewrite-micronaut:1.1.0")
     implementation("io.micronaut:micronaut-validation")
 
-    implementation "io.projectreactor:reactor-core:3.4.9"
+    implementation "io.projectreactor:reactor-core:3.4.10"
     implementation("com.googlecode.libphonenumber:libphonenumber:8.12.32")
     implementation("com.kcthota:emoji4j:6.0")
     implementation("io.sentry:sentry-logback:5.1.2")
