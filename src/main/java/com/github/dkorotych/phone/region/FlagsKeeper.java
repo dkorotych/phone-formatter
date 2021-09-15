@@ -39,6 +39,9 @@ public class FlagsKeeper extends AbstractRegionMapper<Flag> {
                 put("são_tomé_príncipe", "sao_tome_principe");
                 put("united_states", "us");
                 put("u.s._virgin_islands", "us_virgin_islands");
+                put("eswatini", "swaziland");
+                put("north_macedonia", "macedonia");
+                put("macao", "macau");
             }};
             final Map<String, Flag> map = new HashMap<>();
             final PhoneNumberUtil numberUtil = PhoneNumberUtil.getInstance();

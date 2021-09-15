@@ -157,7 +157,7 @@
     "name": "AX",
     "code": 358,
     "country": {
-      "name": "Islas Åland",
+      "name": "Islas Aland",
       "flag": {
         "code": "\uD83C\uDDE6\uD83C\uDDFD",
         "htmlCode": "&#127462;&#127485;"
@@ -443,7 +443,7 @@
     "name": "CG",
     "code": 242,
     "country": {
-      "name": "República del Congo",
+      "name": "Congo",
       "flag": {
         "code": "\uD83C\uDDE8\uD83C\uDDEC",
         "htmlCode": "&#127464;&#127468;"
@@ -872,7 +872,7 @@
     "name": "GG",
     "code": 44,
     "country": {
-      "name": "Guernsey",
+      "name": "Guernesey",
       "flag": {
         "code": "\uD83C\uDDEC\uD83C\uDDEC",
         "htmlCode": "&#127468;&#127468;"
@@ -1543,7 +1543,7 @@
     "name": "MK",
     "code": 389,
     "country": {
-      "name": "Macedonia",
+      "name": "Macedonia del Norte",
       "flag": {
         "code": "\uD83C\uDDF2\uD83C\uDDF0",
         "htmlCode": "&#127474;&#127472;"
@@ -2291,7 +2291,7 @@
     "name": "SZ",
     "code": 268,
     "country": {
-      "name": "Suazilandia",
+      "name": "Esuatini",
       "flag": {
         "code": "\uD83C\uDDF8\uD83C\uDDFF",
         "htmlCode": "&#127480;&#127487;"

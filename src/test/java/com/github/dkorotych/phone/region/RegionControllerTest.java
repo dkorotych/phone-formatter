@@ -75,7 +75,12 @@ class RegionControllerTest {
     private void validate(Path expectedPath, Supplier<String> supplier) throws Exception {
         final String expected = Files.readString(expectedPath, StandardCharsets.UTF_8);
         final String actual = supplier.get();
-        JSONAssert.assertEquals(expected, actual, true);
+        try {
+            JSONAssert.assertEquals(expected, actual, true);
+        } catch (Throwable e) {
+            System.out.println("e = " + e);
+            throw e;
+        }
     }
 
     private Path getDefaultResponse() throws IOException, URISyntaxException {

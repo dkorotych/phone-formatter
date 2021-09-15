@@ -1323,7 +1323,7 @@
     "name": "KY",
     "code": 1,
     "country": {
-      "name": "Каймановы о-ва",
+      "name": "Острова Кайман",
       "flag": {
         "code": "\uD83C\uDDF0\uD83C\uDDFE",
         "htmlCode": "&#127472;&#127486;"
@@ -1543,7 +1543,7 @@
     "name": "MK",
     "code": 389,
     "country": {
-      "name": "Македония",
+      "name": "Северная Македония",
       "flag": {
         "code": "\uD83C\uDDF2\uD83C\uDDF0",
         "htmlCode": "&#127474;&#127472;"
@@ -2291,7 +2291,7 @@
     "name": "SZ",
     "code": 268,
     "country": {
-      "name": "Свазиленд",
+      "name": "Эсватини",
       "flag": {
         "code": "\uD83C\uDDF8\uD83C\uDDFF",
         "htmlCode": "&#127480;&#127487;"
@@ -2566,7 +2566,7 @@
     "name": "VG",
     "code": 1,
     "country": {
-      "name": "Виргинские о-ва (Британские)",
+      "name": "Виргинские о-ва (Великобритания)",
       "flag": {
         "code": "\uD83C\uDDFB\uD83C\uDDEC",
         "htmlCode": "&#127483;&#127468;"

@@ -14,21 +14,12 @@ public class ErrorBuilder {
     public Error create(final NumberParseException e, final Locale locale) {
         return Optional.ofNullable(e).
                 map(NumberParseException::getErrorType).
-                map(errorType -> {
-                    switch (errorType) {
-                        case TOO_LONG:
-                            return TOO_LONG_NUMBER;
-                        case INVALID_COUNTRY_CODE:
-                            return INVALID_COUNTRY_CODE;
-                        case NOT_A_NUMBER:
-                            return NOT_A_NUMBER;
-                        case TOO_SHORT_AFTER_IDD:
-                            return TOO_SHORT_NUMBER_AFTER_IDD;
-                        case TOO_SHORT_NSN:
-                            return TOO_SHORT_NUMBER;
-                        default:
-                            return UNKNOWN;
-                    }
+                map(errorType -> switch (errorType) {
+                    case TOO_LONG -> TOO_LONG_NUMBER;
+                    case INVALID_COUNTRY_CODE -> INVALID_COUNTRY_CODE;
+                    case NOT_A_NUMBER -> NOT_A_NUMBER;
+                    case TOO_SHORT_AFTER_IDD -> TOO_SHORT_NUMBER_AFTER_IDD;
+                    case TOO_SHORT_NSN -> TOO_SHORT_NUMBER;
                 }).
                 map(code -> create(code, locale)).
                 orElse(null);

@@ -31,7 +31,7 @@ class ErrorBuilderTest {
     static void beforeAll() {
         messages = new HashMap<>();
         final CsvParser parser = new CsvParser(new CsvParserSettings());
-        final InputStreamReader reader = new InputStreamReader(ErrorBuilderTest.class.getResourceAsStream("/errors.csv"), StandardCharsets.UTF_8);
+        final InputStreamReader reader = new InputStreamReader(Objects.requireNonNull(ErrorBuilderTest.class.getResourceAsStream("/errors.csv")), StandardCharsets.UTF_8);
         final List<Record> records = parser.parseAllRecords(reader);
         for (Record record : records) {
             final Locale locale = record.getValue(0, Locale.ENGLISH, new ObjectConversion<Locale>() {
@@ -99,20 +99,13 @@ class ErrorBuilderTest {
     }
 
     private static ErrorCode convert(NumberParseException.ErrorType errorType) {
-        switch (errorType) {
-            case TOO_LONG:
-                return ErrorCode.TOO_LONG_NUMBER;
-            case INVALID_COUNTRY_CODE:
-                return ErrorCode.INVALID_COUNTRY_CODE;
-            case NOT_A_NUMBER:
-                return ErrorCode.NOT_A_NUMBER;
-            case TOO_SHORT_AFTER_IDD:
-                return ErrorCode.TOO_SHORT_NUMBER_AFTER_IDD;
-            case TOO_SHORT_NSN:
-                return ErrorCode.TOO_SHORT_NUMBER;
-            default:
-                return ErrorCode.UNKNOWN;
-        }
+        return switch (errorType) {
+            case TOO_LONG -> ErrorCode.TOO_LONG_NUMBER;
+            case INVALID_COUNTRY_CODE -> ErrorCode.INVALID_COUNTRY_CODE;
+            case NOT_A_NUMBER -> ErrorCode.NOT_A_NUMBER;
+            case TOO_SHORT_AFTER_IDD -> ErrorCode.TOO_SHORT_NUMBER_AFTER_IDD;
+            case TOO_SHORT_NSN -> ErrorCode.TOO_SHORT_NUMBER;
+        };
     }
 
     @BeforeEach

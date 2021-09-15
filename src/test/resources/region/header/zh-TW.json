@@ -1543,7 +1543,7 @@
     "name": "MK",
     "code": 389,
     "country": {
-      "name": "馬其頓",
+      "name": "北馬其頓",
       "flag": {
         "code": "\uD83C\uDDF2\uD83C\uDDF0",
         "htmlCode": "&#127474;&#127472;"
@@ -2291,7 +2291,7 @@
     "name": "SZ",
     "code": 268,
     "country": {
-      "name": "史瓦濟蘭",
+      "name": "史瓦帝尼",
       "flag": {
         "code": "\uD83C\uDDF8\uD83C\uDDFF",
         "htmlCode": "&#127480;&#127487;"

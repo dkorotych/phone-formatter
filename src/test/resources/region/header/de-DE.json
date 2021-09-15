@@ -322,7 +322,7 @@
     "name": "BQ",
     "code": 599,
     "country": {
-      "name": "Bonaire, Sint Eustatius und Saba",
+      "name": "Karibische Niederlande",
       "flag": {
         "code": "\uD83C\uDDE7\uD83C\uDDF6",
         "htmlCode": "&#127463;&#127478;"
@@ -1543,7 +1543,7 @@
     "name": "MK",
     "code": 389,
     "country": {
-      "name": "Mazedonien",
+      "name": "Nordmazedonien",
       "flag": {
         "code": "\uD83C\uDDF2\uD83C\uDDF0",
         "htmlCode": "&#127474;&#127472;"
@@ -2291,7 +2291,7 @@
     "name": "SZ",
     "code": 268,
     "country": {
-      "name": "Swasiland",
+      "name": "Eswatini",
       "flag": {
         "code": "\uD83C\uDDF8\uD83C\uDDFF",
         "htmlCode": "&#127480;&#127487;"
