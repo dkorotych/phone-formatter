@@ -33,15 +33,15 @@ class ErrorBuilderTest {
         final CsvParser parser = new CsvParser(new CsvParserSettings());
         final InputStreamReader reader = new InputStreamReader(Objects.requireNonNull(ErrorBuilderTest.class.getResourceAsStream("/errors.csv")), StandardCharsets.UTF_8);
         final List<Record> records = parser.parseAllRecords(reader);
-        for (Record record : records) {
-            final Locale locale = record.getValue(0, Locale.ENGLISH, new ObjectConversion<Locale>() {
+        for (Record line : records) {
+            final Locale locale = line.getValue(0, Locale.ENGLISH, new ObjectConversion<Locale>() {
                 @Override
                 protected Locale fromString(String s) {
                     return Locale.forLanguageTag(s);
                 }
             });
-            final String type = record.getString(1);
-            final String message = record.getString(2);
+            final String type = line.getString(1);
+            final String message = line.getString(2);
 
             final Map<String, String> map = messages.computeIfAbsent(locale, tmp -> new HashMap<>());
             map.put(type, message);
