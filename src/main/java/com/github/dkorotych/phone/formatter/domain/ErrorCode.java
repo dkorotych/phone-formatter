@@ -20,8 +20,5 @@ public enum ErrorCode {
     TOO_SHORT_NUMBER_AFTER_IDD,
     @Schema(accessMode = READ_ONLY,
             description = "The entered string is too short to be a national phone number for selected country")
-    TOO_SHORT_NUMBER,
-    @Schema(accessMode = READ_ONLY,
-            description = "Unknown error")
-    UNKNOWN
+    TOO_SHORT_NUMBER
 }
