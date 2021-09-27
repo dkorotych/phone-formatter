@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Automatic merge
-        uses: actions/github-script@v4.1
+        uses: actions/github-script@v5
         with:
           script: |
             github.pulls.createReview({
