@@ -39,7 +39,7 @@ public class Utilities {
         return Optional.ofNullable(locale).
                 filter(item -> {
                     try {
-                        return item.getISO3Language() != null;
+                        return StringUtils.hasText(item.getISO3Language());
                     } catch (MissingResourceException ignored) {
                         return false;
                     }
