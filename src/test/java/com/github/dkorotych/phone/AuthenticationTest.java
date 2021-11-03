@@ -3,6 +3,7 @@ package com.github.dkorotych.phone;
 import com.github.dkorotych.phone.formatter.domain.Request;
 import com.github.dkorotych.phone.formatter.domain.Response;
 import io.micronaut.http.*;
+import io.micronaut.http.client.BlockingHttpClient;
 import io.micronaut.http.client.HttpClient;
 import io.micronaut.http.client.annotation.Client;
 import io.micronaut.http.client.exceptions.HttpClientResponseException;
@@ -50,7 +51,8 @@ class AuthenticationTest {
     @MethodSource("arguments")
     void withoutToken(String phone, HttpMethod method) {
         final HttpRequest<Response> request = createRequest(method, phone, false);
-        Assertions.assertThatThrownBy(() -> formatClient.toBlocking().exchange(request)).
+        final BlockingHttpClient client = formatClient.toBlocking();
+        Assertions.assertThatThrownBy(() -> client.exchange(request)).
                 isInstanceOf(HttpClientResponseException.class).
                 extracting("status").
                 isEqualTo(HttpStatus.UNAUTHORIZED);

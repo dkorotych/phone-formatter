@@ -37,7 +37,7 @@ public class Number implements Comparable<Number> {
         return Comparator.comparing(Number::isValid).
                 thenComparingDouble(Number::getProbability).
                 reversed().
-                thenComparingInt(number -> Optional.ofNullable(number.getRegion()).
+                thenComparingInt(phoneNumber -> Optional.ofNullable(phoneNumber.getRegion()).
                         map(Region::getCode).
                         orElse(Integer.MIN_VALUE)).
                 thenComparing(Number::getNumber).

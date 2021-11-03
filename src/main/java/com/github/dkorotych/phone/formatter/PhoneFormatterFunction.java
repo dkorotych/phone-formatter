@@ -44,17 +44,11 @@ public class PhoneFormatterFunction implements Function<Request, Response> {
         final String phoneNumber = request.getPhoneNumber();
         final String region = request.getRegion();
         final Locale outputLocale = createLocale(request);
+        final Stream<String> regions = createRegions(region);
+        if (regions == null) {
+            return createErrorResponse(INVALID_COUNTRY_CODE, outputLocale);
+        }
         if (StringUtils.hasText(phoneNumber)) {
-            final Stream<String> regions;
-            if (StringUtils.hasText(region)) {
-                if (!PHONE_NUMBER_UTIL.getSupportedRegions().contains(region)) {
-                    return createErrorResponse(INVALID_COUNTRY_CODE, outputLocale);
-                } else {
-                    regions = Stream.of(region);
-                }
-            } else {
-                regions = PHONE_NUMBER_UTIL.getSupportedRegions().stream();
-            }
             final Response response = new Response();
             final Map<PhoneNumber, Long> numbers = regions.
                     filter(name -> PHONE_NUMBER_UTIL.isPossibleNumber(phoneNumber, name)).
@@ -113,6 +107,20 @@ public class PhoneFormatterFunction implements Function<Request, Response> {
         } else {
             return createErrorResponse(NOT_A_NUMBER, outputLocale);
         }
+    }
+
+    private Stream<String> createRegions(final String region) {
+        final Stream<String> regions;
+        if (StringUtils.hasText(region)) {
+            if (!PHONE_NUMBER_UTIL.getSupportedRegions().contains(region)) {
+                regions = null;
+            } else {
+                regions = Stream.of(region);
+            }
+        } else {
+            regions = PHONE_NUMBER_UTIL.getSupportedRegions().stream();
+        }
+        return regions;
     }
 
     private Locale createLocale(Request request) {

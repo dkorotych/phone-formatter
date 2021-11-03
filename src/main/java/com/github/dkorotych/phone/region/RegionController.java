@@ -16,7 +16,6 @@ import lombok.RequiredArgsConstructor;
 
 import java.util.Collection;
 import java.util.Locale;
-import java.util.stream.Collectors;
 
 /**
  * Support methods that allow you to get options for advanced formatting of phone numbers
@@ -57,6 +56,6 @@ public class RegionController {
     private Collection<Region> getRegions(Locale locale) {
         return keeper.getSupplier().get().values().stream().
                 map(region -> keeper.copyAndAppend(region, locale)).
-                collect(Collectors.toList());
+                toList();
     }
 }

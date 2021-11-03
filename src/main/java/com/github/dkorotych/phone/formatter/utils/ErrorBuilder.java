@@ -31,22 +31,20 @@ public class ErrorBuilder {
                 map(Locale::getLanguage).
                 filter(StringUtils::hasText).
                 orElse(null);
-        if (!StringUtils.hasText(language)) {
-            if (Objects.nonNull(locale)) {
-                final String country = Optional.of(locale).
-                        map(Locale::getCountry).
-                        map(value -> value.toLowerCase(DEFAULT_LOCALE)).
-                        orElseThrow();
-                if (Arrays.asList(Locale.getISOLanguages()).contains(country)) {
-                    errorLocale = new Locale(country);
-                }
+        if (!StringUtils.hasText(language) && Objects.nonNull(locale)) {
+            final String country = Optional.of(locale).
+                    map(Locale::getCountry).
+                    map(value -> value.toLowerCase(DEFAULT_LOCALE)).
+                    orElseThrow();
+            if (Arrays.asList(Locale.getISOLanguages()).contains(country)) {
+                errorLocale = new Locale(country);
             }
         }
         return new Error(code, getMessage(code, errorLocale));
     }
 
     private String getMessage(ErrorCode code, Locale locale) {
-        final ResourceBundle resourceBundle = PropertyResourceBundle.getBundle("errors", locale,
+        final ResourceBundle resourceBundle = ResourceBundle.getBundle("errors", locale,
                 new ResourceBundle.Control() {
                     @Override
                     public Locale getFallbackLocale(String baseName, Locale locale) {

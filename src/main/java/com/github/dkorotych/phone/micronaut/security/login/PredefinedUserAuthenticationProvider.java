@@ -22,14 +22,14 @@ public abstract class PredefinedUserAuthenticationProvider implements Authentica
         return Mono.create(emitter -> {
             if (Objects.equals(user.getIdentity(), authenticationRequest.getIdentity())
                     && Objects.equals(user.getSecret(), authenticationRequest.getSecret())) {
-                emitter.success(create(authenticationRequest));
+                emitter.success(create());
             } else {
                 emitter.error(AuthenticationResponse.exception(AuthenticationFailureReason.CREDENTIALS_DO_NOT_MATCH));
             }
         });
     }
 
-    protected AuthenticationResponse create(AuthenticationRequest<?, ?> request) {
+    protected AuthenticationResponse create() {
         return AuthenticationResponse.success(user.getIdentity(), user.getRoles());
     }
 }
