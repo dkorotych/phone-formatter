@@ -66,9 +66,9 @@ public class FlagsKeeper extends AbstractRegionMapper<Flag> {
                         map(country -> ':' + country + ':').
                         map(EmojiUtils::getEmoji).
                         ifPresent(emoji -> {
-                            final Flag flag = new Flag();
-                            flag.setCode(emoji.getEmoji());
-                            flag.setHtmlCode(emoji.getDecimalHtml());
+                            final String code = emoji.getEmoji();
+                            final String htmlCode = emoji.getDecimalHtml();
+                            final Flag flag = new Flag(code, htmlCode);
                             map.put(region, flag);
                         });
             }
