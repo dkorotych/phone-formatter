@@ -85,7 +85,7 @@ class RegionControllerTest {
 
     private Path getDefaultResponse() throws IOException, URISyntaxException {
         return getSupportedRegionsWithHeader().stream().
-                filter(file -> file.getName().equals("us.json")).
+                filter(file -> "us.json".equals(file.getName())).
                 findAny().
                 map(File::toPath).
                 orElseThrow();

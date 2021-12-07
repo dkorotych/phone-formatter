@@ -36,6 +36,9 @@ dependencies {
     implementation("javax.annotation:javax.annotation-api")
     compileOnly("org.projectlombok:lombok")
     runtimeOnly("ch.qos.logback:logback-classic")
+    rewrite("org.openrewrite.recipe:rewrite-github-actions:0.4.0")
+    rewrite("org.openrewrite.recipe:rewrite-logging-frameworks:1.0.0")
+    rewrite("org.openrewrite.recipe:rewrite-migrate-java:0.11.0")
     rewrite("org.openrewrite.recipe:rewrite-micronaut:1.4.0")
     implementation("io.micronaut:micronaut-validation")
 
@@ -60,7 +63,7 @@ java {
 }
 
 rewrite {
-    activeRecipe("org.openrewrite.java.micronaut.Micronaut2to3Migration")
+    activeRecipe("com.github.dkorotych.phone.formatter.CustomRecipes")
 }
 
 def isNonStable = { String version ->
