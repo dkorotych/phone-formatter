@@ -45,7 +45,7 @@ dependencies {
     implementation "io.projectreactor:reactor-core:3.4.13"
     implementation("com.googlecode.libphonenumber:libphonenumber:8.12.39")
     implementation("com.kcthota:emoji4j:6.0")
-    implementation("io.sentry:sentry-logback:5.4.3")
+    implementation("io.sentry:sentry-logback:5.5.0")
 
     testImplementation("org.skyscreamer:jsonassert:1.5.0")
     testImplementation("org.assertj:assertj-core:3.21.0")
