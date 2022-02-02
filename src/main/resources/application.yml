@@ -45,3 +45,7 @@ application:
     secret: ${RAPID_API_PASSWORD:secret}
     roles:
       - RAPID_API
+netty:
+  default:
+    allocator:
+      max-order: 3
