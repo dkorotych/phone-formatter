@@ -7,8 +7,10 @@
 
 ---
 
-- [Shadow Gradle Plugin](https://plugins.gradle.org/plugin/com.github.johnrengelman.shadow)- [Rewrite Gradle Plugin](https://plugins.gradle.org/plugin/org.openrewrite.rewrite)##
-  Feature openrewrite documentation
+- [Shadow Gradle Plugin](https://plugins.gradle.org/plugin/com.github.johnrengelman.shadow)
+- [Rewrite Gradle Plugin](https://plugins.gradle.org/plugin/org.openrewrite.rewrite)
+
+## Feature openrewrite documentation
 
 - [https://docs.openrewrite.org/](https://docs.openrewrite.org/)
 
