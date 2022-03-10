@@ -20,4 +20,6 @@
         <appender-ref ref="STDOUT"/>
         <appender-ref ref="Sentry"/>
     </root>
+
+    <logger name="io.micronaut.core.reflect" level="DEBUG"/>
 </configuration>

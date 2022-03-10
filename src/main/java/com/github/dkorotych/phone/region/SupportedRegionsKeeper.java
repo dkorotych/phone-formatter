@@ -6,16 +6,18 @@ import com.github.dkorotych.phone.utils.Utilities;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import jakarta.inject.Inject;
 import jakarta.inject.Singleton;
+import lombok.RequiredArgsConstructor;
 
 import java.util.*;
 import java.util.function.Supplier;
 
 @Singleton
+@RequiredArgsConstructor
 public class SupportedRegionsKeeper extends AbstractRegionMapper<Region> {
     @Inject
-    private FlagsKeeper flagsKeeper;
+    private final FlagsKeeper flagsKeeper;
     @Inject
-    private LocalesKeeper localesKeeper;
+    private final LocalesKeeper localesKeeper;
 
     @Override
     protected Supplier<Map<String, Region>> getSupplier() {

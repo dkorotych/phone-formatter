@@ -13,6 +13,7 @@ import io.micronaut.core.util.CollectionUtils;
 import io.micronaut.core.util.StringUtils;
 import jakarta.inject.Inject;
 import jakarta.inject.Singleton;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 import java.math.BigDecimal;
@@ -31,13 +32,14 @@ import static com.github.dkorotych.phone.formatter.domain.ErrorCode.NOT_A_NUMBER
 import static com.google.i18n.phonenumbers.PhoneNumberUtil.PhoneNumberFormat.*;
 
 @Singleton
+@RequiredArgsConstructor
 @Slf4j
 public class PhoneFormatterFunction implements Function<Request, Response> {
     private static final PhoneNumberUtil PHONE_NUMBER_UTIL = PhoneNumberUtil.getInstance();
     @Inject
-    private SupportedRegionsKeeper keeper;
+    private final SupportedRegionsKeeper keeper;
     @Inject
-    private LocalesKeeper localesKeeper;
+    private final LocalesKeeper localesKeeper;
 
     @Override
     public Response apply(Request request) {

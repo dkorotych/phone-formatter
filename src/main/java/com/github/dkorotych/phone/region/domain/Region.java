@@ -1,11 +1,9 @@
 package com.github.dkorotych.phone.region.domain;
 
-import io.micronaut.core.annotation.Introspected;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
 @Data
-@Introspected
 @Schema(description = "Information about region")
 public class Region {
     @Schema(description = "Region name (code)")

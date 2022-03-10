@@ -6,6 +6,7 @@ import emoji4j.EmojiUtils;
 import io.micronaut.core.util.StringUtils;
 import jakarta.inject.Inject;
 import jakarta.inject.Singleton;
+import lombok.RequiredArgsConstructor;
 
 import java.util.HashMap;
 import java.util.Locale;
@@ -14,9 +15,10 @@ import java.util.Optional;
 import java.util.function.Supplier;
 
 @Singleton
+@RequiredArgsConstructor
 public class FlagsKeeper extends AbstractRegionMapper<Flag> {
     @Inject
-    private LocalesKeeper localesKeeper;
+    private final LocalesKeeper localesKeeper;
 
     @Override
     protected Supplier<Map<String, Flag>> getSupplier() {
