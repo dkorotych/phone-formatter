@@ -4,10 +4,12 @@ displayName: Custom recipes for phone formatter project
 recipeList:
   - org.openrewrite.github.ActionsSetupJavaAdoptOpenJDKToTemurin
   - org.openrewrite.github.SetupJavaCaching
-  - org.openrewrite.github.DependabotCheckForGithubActionsUpdatesDaily
+  - org.openrewrite.github.ChangeDependabotScheduleInterval:
+      packageEcosystem: github-actions
+      interval: weekly
   - org.openrewrite.github.ChangeDependabotScheduleInterval:
       packageEcosystem: gradle
-      interval: daily
+      interval: weekly
   - org.openrewrite.java.cleanup.EqualsAvoidsNull
   - org.openrewrite.java.format.EmptyNewlineAtEndOfFile
   - org.openrewrite.java.logging.slf4j.ParameterizedLogging
