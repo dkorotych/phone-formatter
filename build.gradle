@@ -4,7 +4,7 @@ import io.micronaut.gradle.MicronautTestRuntime
 plugins {
     id("com.github.johnrengelman.shadow") version "7.1.2"
     id("io.micronaut.application") version "3.3.2"
-    id("org.openrewrite.rewrite") version "5.19.3"
+    id("org.openrewrite.rewrite") version "5.20.0"
     id("com.github.ben-manes.versions") version "0.42.0"
 }
 
@@ -29,10 +29,10 @@ dependencies {
     implementation("jakarta.annotation:jakarta.annotation-api")
     compileOnly("org.projectlombok:lombok")
     runtimeOnly("ch.qos.logback:logback-classic")
-    rewrite("org.openrewrite.recipe:rewrite-github-actions:1.4.0")
-    rewrite("org.openrewrite.recipe:rewrite-logging-frameworks:1.5.2")
-    rewrite("org.openrewrite.recipe:rewrite-migrate-java:1.4.3")
-    rewrite("org.openrewrite.recipe:rewrite-micronaut:1.9.2")
+    rewrite("org.openrewrite.recipe:rewrite-github-actions:1.5.0")
+    rewrite("org.openrewrite.recipe:rewrite-logging-frameworks:1.6.0")
+    rewrite("org.openrewrite.recipe:rewrite-migrate-java:1.5.0")
+    rewrite("org.openrewrite.recipe:rewrite-micronaut:1.10.0")
     implementation("io.micronaut:micronaut-validation")
 
     implementation "io.projectreactor:reactor-core:3.4.17"
