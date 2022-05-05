@@ -622,9 +622,9 @@
       "probability": 0.007,
       "format": {
         "e164": "+31954185123",
-        "international": "+31 95 418 5123",
-        "rfc3966": "tel:+31-95-418-5123",
-        "national": "095 418 5123"
+        "international": "+31 954185123",
+        "rfc3966": "tel:+31-954185123",
+        "national": "954185123"
       },
       "region": {
         "name": "NL",
