@@ -9,7 +9,6 @@ import io.micronaut.security.authentication.AuthenticationRequest;
 import io.micronaut.security.authentication.AuthenticationResponse;
 import lombok.RequiredArgsConstructor;
 import org.reactivestreams.Publisher;
-import reactor.core.publisher.Mono;
 
 import java.util.Objects;
 
@@ -19,14 +18,14 @@ public abstract class PredefinedUserAuthenticationProvider implements Authentica
 
     @Override
     public Publisher<AuthenticationResponse> authenticate(@Nullable HttpRequest<?> httpRequest, AuthenticationRequest<?, ?> authenticationRequest) {
-        return Mono.create(emitter -> {
+        return emitter -> {
             if (Objects.equals(user.getIdentity(), authenticationRequest.getIdentity())
                     && Objects.equals(user.getSecret(), authenticationRequest.getSecret())) {
-                emitter.success(create());
+                emitter.onNext(create());
             } else {
-                emitter.error(AuthenticationResponse.exception(AuthenticationFailureReason.CREDENTIALS_DO_NOT_MATCH));
+                emitter.onError(AuthenticationResponse.exception(AuthenticationFailureReason.CREDENTIALS_DO_NOT_MATCH));
             }
-        });
+        };
     }
 
     protected AuthenticationResponse create() {
