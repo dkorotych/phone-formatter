@@ -1,22 +1,14 @@
-## Micronaut 3.3.0 Documentation
+## Micronaut 3.5.0 Documentation
 
-- [User Guide](https://docs.micronaut.io/3.3.0/guide/index.html)
-- [API Reference](https://docs.micronaut.io/3.3.0/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/3.3.0/guide/configurationreference.html)
+- [User Guide](https://docs.micronaut.io/3.5.0/guide/index.html)
+- [API Reference](https://docs.micronaut.io/3.5.0/api/index.html)
+- [Configuration Reference](https://docs.micronaut.io/3.5.0/guide/configurationreference.html)
 - [Micronaut Guides](https://guides.micronaut.io/index.html)
 
 ---
 
-- [Shadow Gradle Plugin](https://plugins.gradle.org/plugin/com.github.johnrengelman.shadow)
 - [Rewrite Gradle Plugin](https://plugins.gradle.org/plugin/org.openrewrite.rewrite)
-
-## Feature openrewrite documentation
-
-- [https://docs.openrewrite.org/](https://docs.openrewrite.org/)
-
-## Feature security-jwt documentation
-
-- [Micronaut Security JWT documentation](https://micronaut-projects.github.io/micronaut-security/latest/guide/index.html)
+- [Shadow Gradle Plugin](https://plugins.gradle.org/plugin/com.github.johnrengelman.shadow)
 
 ## Feature http-client documentation
 
@@ -28,9 +20,18 @@
 
 - [https://projectlombok.org/features/all](https://projectlombok.org/features/all)
 
+## Feature security-jwt documentation
+
+- [Micronaut Security JWT documentation](https://micronaut-projects.github.io/micronaut-security/latest/guide/index.html)
+
+## Feature openrewrite documentation
+
+- [https://docs.openrewrite.org/](https://docs.openrewrite.org/)
+
 ## Feature openapi documentation
 
 - [Micronaut OpenAPI Support documentation](https://micronaut-projects.github.io/micronaut-openapi/latest/guide/index.html)
 
 - [https://www.openapis.org](https://www.openapis.org)
+
 
