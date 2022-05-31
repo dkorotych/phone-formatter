@@ -38,7 +38,7 @@ dependencies {
     implementation("io.sentry:sentry-logback:5.7.4")
 
     testImplementation("org.skyscreamer:jsonassert:1.5.0")
-    testImplementation("org.assertj:assertj-core:3.22.0")
+    testImplementation("org.assertj:assertj-core:3.23.0")
     testImplementation("org.junit.jupiter:junit-jupiter-params:5.8.2")
 }
 
