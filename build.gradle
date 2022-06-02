@@ -30,7 +30,7 @@ dependencies {
     rewrite("org.openrewrite.recipe:rewrite-github-actions:1.6.0")
     rewrite("org.openrewrite.recipe:rewrite-logging-frameworks:1.7.0")
     rewrite("org.openrewrite.recipe:rewrite-migrate-java:1.6.0")
-    rewrite("org.openrewrite.recipe:rewrite-micronaut:1.11.0")
+    rewrite("org.openrewrite.recipe:rewrite-micronaut:1.12.0")
     implementation("io.micronaut:micronaut-validation")
 
     implementation("com.googlecode.libphonenumber:libphonenumber:8.12.49")
