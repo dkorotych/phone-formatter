@@ -35,7 +35,7 @@ dependencies {
 
     implementation("com.googlecode.libphonenumber:libphonenumber:8.12.50")
     implementation("com.kcthota:emoji4j:6.0")
-    implementation("io.sentry:sentry-logback:6.0.0")
+    implementation("io.sentry:sentry-logback:6.1.0")
 
     testImplementation("org.skyscreamer:jsonassert:1.5.0")
     testImplementation("org.assertj:assertj-core:3.23.1")
