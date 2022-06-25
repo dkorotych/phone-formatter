@@ -2,7 +2,6 @@ package com.github.dkorotych.phone.formatter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.dkorotych.phone.formatter.domain.Request;
-import io.micronaut.http.client.HttpClient;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
 import jakarta.inject.Inject;
 import org.junit.jupiter.api.AfterEach;
@@ -28,8 +27,6 @@ class PhoneFormatterControllerTest {
 
     @Inject
     private PhoneFormatterControllerClient client;
-    @Inject
-    HttpClient httpClient;
     private ObjectMapper objectMapper;
 
     private static List<Path> getDirectoriesAsParameters(String path) throws URISyntaxException, IOException {
