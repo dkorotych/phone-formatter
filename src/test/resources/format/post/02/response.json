@@ -155,28 +155,6 @@
       }
     },
     {
-      "number": "+5754185123",
-      "valid": true,
-      "probability": 0.007,
-      "format": {
-        "e164": "+5754185123",
-        "international": "+57 5 4185123",
-        "rfc3966": "tel:+57-5-4185123",
-        "national": "(5) 4185123"
-      },
-      "region": {
-        "name": "CO",
-        "code": 57,
-        "country": {
-          "name": "Colombia",
-          "flag": {
-            "code": "\uD83C\uDDE8\uD83C\uDDF4",
-            "htmlCode": "&#127464;&#127476;"
-          }
-        }
-      }
-    },
-    {
       "number": "+66954185123",
       "valid": true,
       "probability": 0.007,
@@ -854,6 +832,28 @@
           "flag": {
             "code": "\uD83C\uDDE8\uD83C\uDDF1",
             "htmlCode": "&#127464;&#127473;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+570954185123",
+      "valid": false,
+      "probability": 0.007,
+      "format": {
+        "e164": "+570954185123",
+        "international": "+57 0954185123",
+        "rfc3966": "tel:+57-0954185123",
+        "national": "0954185123"
+      },
+      "region": {
+        "name": "CO",
+        "code": 57,
+        "country": {
+          "name": "Colombia",
+          "flag": {
+            "code": "\uD83C\uDDE8\uD83C\uDDF4",
+            "htmlCode": "&#127464;&#127476;"
           }
         }
       }
