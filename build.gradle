@@ -25,7 +25,7 @@ dependencies {
     compileOnly("org.projectlombok:lombok")
     runtimeOnly("ch.qos.logback:logback-classic")
     rewrite("org.openrewrite.recipe:rewrite-github-actions:1.8.0")
-    rewrite("org.openrewrite.recipe:rewrite-logging-frameworks:1.9.0")
+    rewrite("org.openrewrite.recipe:rewrite-logging-frameworks:1.10.1")
     rewrite("org.openrewrite.recipe:rewrite-migrate-java:1.8.0")
     rewrite("org.openrewrite.recipe:rewrite-micronaut:1.13.0")
     rewrite("org.openrewrite:rewrite-gradle:7.26.3")
