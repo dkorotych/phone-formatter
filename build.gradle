@@ -1,7 +1,7 @@
 plugins {
     id("com.github.johnrengelman.shadow") version "7.1.2"
     id("io.micronaut.application") version "3.5.3"
-    id("org.openrewrite.rewrite") version "5.27.0"
+    id("org.openrewrite.rewrite") version "5.28.0"
     id("com.github.ben-manes.versions") version "0.42.0"
 }
 
@@ -24,11 +24,11 @@ dependencies {
     implementation("jakarta.annotation:jakarta.annotation-api")
     compileOnly("org.projectlombok:lombok")
     runtimeOnly("ch.qos.logback:logback-classic")
-    rewrite("org.openrewrite.recipe:rewrite-github-actions:1.9.1")
-    rewrite("org.openrewrite.recipe:rewrite-logging-frameworks:1.10.1")
-    rewrite("org.openrewrite.recipe:rewrite-migrate-java:1.9.1")
-    rewrite("org.openrewrite.recipe:rewrite-micronaut:1.14.1")
-    rewrite("org.openrewrite:rewrite-gradle:7.28.0")
+    rewrite("org.openrewrite.recipe:rewrite-github-actions:1.10.0")
+    rewrite("org.openrewrite.recipe:rewrite-logging-frameworks:1.11.0")
+    rewrite("org.openrewrite.recipe:rewrite-migrate-java:1.10.0")
+    rewrite("org.openrewrite.recipe:rewrite-micronaut:1.15.1")
+    rewrite("org.openrewrite:rewrite-gradle:7.29.0")
     implementation("io.micronaut:micronaut-validation")
 
     implementation("com.googlecode.libphonenumber:libphonenumber:8.12.54")
