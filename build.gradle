@@ -27,7 +27,7 @@ dependencies {
     rewrite("org.openrewrite.recipe:rewrite-github-actions:1.11.0")
     rewrite("org.openrewrite.recipe:rewrite-logging-frameworks:1.11.0")
     rewrite("org.openrewrite.recipe:rewrite-migrate-java:1.11.0")
-    rewrite("org.openrewrite.recipe:rewrite-micronaut:1.15.1")
+    rewrite("org.openrewrite.recipe:rewrite-micronaut:1.16.1")
     rewrite("org.openrewrite:rewrite-gradle:7.30.0")
     implementation("io.micronaut:micronaut-validation")
 
