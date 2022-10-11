@@ -28,7 +28,7 @@ dependencies {
     rewrite("org.openrewrite.recipe:rewrite-logging-frameworks:1.13.0")
     rewrite("org.openrewrite.recipe:rewrite-migrate-java:1.11.0")
     rewrite("org.openrewrite.recipe:rewrite-micronaut:1.17.0")
-    rewrite("org.openrewrite:rewrite-gradle:7.30.1")
+    rewrite("org.openrewrite:rewrite-gradle:7.31.0")
     implementation("io.micronaut:micronaut-validation")
 
     implementation("com.googlecode.libphonenumber:libphonenumber:8.12.56")
