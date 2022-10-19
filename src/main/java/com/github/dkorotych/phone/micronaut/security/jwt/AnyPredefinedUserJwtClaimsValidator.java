@@ -53,7 +53,7 @@ public class AnyPredefinedUserJwtClaimsValidator implements GenericJwtClaimsVali
                 data.put(rolesName, String.join(", ", user.getRoles()));
                 final io.sentry.protocol.User sentryUser = new io.sentry.protocol.User();
                 sentryUser.setUsername(user.getIdentity());
-                sentryUser.setOthers(data);
+                sentryUser.setData(data);
                 Sentry.setUser(sentryUser);
                 return true;
             }
