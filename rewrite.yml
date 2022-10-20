@@ -12,8 +12,10 @@ recipeList:
       interval: daily
   - org.openrewrite.gradle.AddGradleWrapper:
       version: 7.x
+      distribution: bin
   - org.openrewrite.gradle.UpdateGradleWrapper:
       version: 7.x
+      distribution: bin
   - org.openrewrite.gradle.ChangeJavaCompatibility:
       newVersion: 17
       compatibilityType: 17
