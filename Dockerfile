@@ -5,7 +5,7 @@ COPY gradle.properties .
 COPY src/main ./src/main
 RUN gradle --no-daemon buildLayers
 
-FROM openjdk:17-alpine
+FROM bellsoft/liberica-openjre-alpine:17
 WORKDIR /home/app
 COPY --from=builder /home/gradle/build/docker/main/layers/libs ./libs
 COPY --from=builder /home/gradle/build/docker/main/layers/classes ./classes
