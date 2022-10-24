@@ -16,13 +16,10 @@ recipeList:
   - org.openrewrite.gradle.UpdateGradleWrapper:
       version: 7.x
       distribution: bin
-  - org.openrewrite.gradle.ChangeJavaCompatibility:
-      newVersion: 17
-      compatibilityType: 17
   - org.openrewrite.gradle.DependencyUseStringNotation
   - org.openrewrite.java.cleanup.EqualsAvoidsNull
   - org.openrewrite.java.format.EmptyNewlineAtEndOfFile
   - org.openrewrite.java.logging.slf4j.ParameterizedLogging
   - org.openrewrite.java.logging.PrintStackTraceToLogError
-  - org.openrewrite.java.migrate.Java8toJava11
+  - org.openrewrite.java.migrate.UpgradeJava17
   - org.openrewrite.java.micronaut.Micronaut2to3Migration
