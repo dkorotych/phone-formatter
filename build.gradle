@@ -24,7 +24,7 @@ dependencies {
     implementation("jakarta.annotation:jakarta.annotation-api")
     compileOnly("org.projectlombok:lombok")
     runtimeOnly("ch.qos.logback:logback-classic")
-    rewrite("org.openrewrite.recipe:rewrite-github-actions:1.13.0")
+    rewrite("org.openrewrite.recipe:rewrite-github-actions:1.14.0")
     rewrite("org.openrewrite.recipe:rewrite-logging-frameworks:1.15.0")
     rewrite("org.openrewrite.recipe:rewrite-migrate-java:1.13.0")
     rewrite("org.openrewrite.recipe:rewrite-micronaut:1.18.0")
