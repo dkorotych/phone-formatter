@@ -1215,8 +1215,8 @@
     "country": {
       "name": "Japan",
       "flag": {
-        "code": "\uD83D\uDDFE",
-        "htmlCode": "&#128510;"
+        "code": "\uD83C\uDDEF\uD83C\uDDF5",
+        "htmlCode": "&#127471;&#127477;"
       }
     }
   },
@@ -2425,8 +2425,8 @@
     "country": {
       "name": "Türkei",
       "flag": {
-        "code": "\uD83E\uDD83",
-        "htmlCode": "&#129411;"
+        "code": "\uD83C\uDDF9\uD83C\uDDF7",
+        "htmlCode": "&#127481;&#127479;"
       }
     }
   },

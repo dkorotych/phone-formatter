@@ -1215,8 +1215,8 @@
     "country": {
       "name": null,
       "flag": {
-        "code": "🗾",
-        "htmlCode": "&#128510;"
+        "code": "🇯🇵",
+        "htmlCode": "&#127471;&#127477;"
       }
     }
   },
@@ -2425,8 +2425,8 @@
     "country": {
       "name": null,
       "flag": {
-        "code": "🦃",
-        "htmlCode": "&#129411;"
+        "code": "🇹🇷",
+        "htmlCode": "&#127481;&#127479;"
       }
     }
   },
