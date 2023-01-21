@@ -1,7 +1,7 @@
 plugins {
     id("com.github.johnrengelman.shadow") version "7.1.2"
     id("io.micronaut.application") version "3.7.0"
-    id("org.openrewrite.rewrite") version "5.33.2"
+    id("org.openrewrite.rewrite") version "5.34.0"
     id("com.github.ben-manes.versions") version "0.44.0"
 }
 
@@ -24,19 +24,19 @@ dependencies {
     implementation("jakarta.annotation:jakarta.annotation-api")
     compileOnly("org.projectlombok:lombok")
     runtimeOnly("ch.qos.logback:logback-classic")
-    rewrite("org.openrewrite.recipe:rewrite-github-actions:1.15.0")
-    rewrite("org.openrewrite.recipe:rewrite-logging-frameworks:1.16.0")
-    rewrite("org.openrewrite.recipe:rewrite-migrate-java:1.15.0")
+    rewrite("org.openrewrite.recipe:rewrite-github-actions:1.16.0")
+    rewrite("org.openrewrite.recipe:rewrite-logging-frameworks:1.17.0")
+    rewrite("org.openrewrite.recipe:rewrite-migrate-java:1.16.0")
     rewrite("org.openrewrite.recipe:rewrite-micronaut:1.20.0")
-    rewrite("org.openrewrite:rewrite-gradle:7.34.3")
+    rewrite("org.openrewrite:rewrite-gradle:7.35.0")
     implementation("io.micronaut:micronaut-validation")
 
     implementation("com.googlecode.libphonenumber:libphonenumber:8.13.4")
     implementation("com.vdurmont:emoji-java:5.1.1")
-    implementation("io.sentry:sentry-logback:6.11.0")
+    implementation("io.sentry:sentry-logback:6.12.1")
 
     testImplementation("org.skyscreamer:jsonassert:1.5.1")
-    testImplementation("org.assertj:assertj-core:3.24.1")
+    testImplementation("org.assertj:assertj-core:3.24.2")
     testImplementation("org.junit.jupiter:junit-jupiter-params:5.9.2")
 }
 
