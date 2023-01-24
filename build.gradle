@@ -31,7 +31,7 @@ dependencies {
     rewrite("org.openrewrite:rewrite-gradle:7.35.0")
     implementation("io.micronaut:micronaut-validation")
 
-    implementation("com.googlecode.libphonenumber:libphonenumber:8.13.4")
+    implementation("com.googlecode.libphonenumber:libphonenumber:8.13.5")
     implementation("com.vdurmont:emoji-java:5.1.1")
     implementation("io.sentry:sentry-logback:6.12.1")
 
