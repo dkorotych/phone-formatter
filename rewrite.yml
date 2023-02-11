@@ -10,12 +10,8 @@ recipeList:
   - org.openrewrite.github.ChangeDependabotScheduleInterval:
       packageEcosystem: gradle
       interval: daily
-  - org.openrewrite.gradle.AddGradleWrapper:
-      version: 7.x
-      distribution: bin
   - org.openrewrite.gradle.UpdateGradleWrapper:
       version: 7.x
-      distribution: bin
   - org.openrewrite.gradle.DependencyUseStringNotation
   - org.openrewrite.java.cleanup.EqualsAvoidsNull
   - org.openrewrite.java.format.EmptyNewlineAtEndOfFile
