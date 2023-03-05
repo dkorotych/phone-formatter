@@ -71,7 +71,17 @@ rewrite {
 }
 
 dependencyUpdates {
+    checkForGradleUpdate = true
     revision = "release"
+    gradleReleaseChannel = "current"
+    resolutionStrategy {
+        componentSelection {
+            all { ComponentSelection selection ->
+                def candidate = selection.candidate
+                if (candidate.version.contains("beta")) {
+                    selection.reject("Plugin ${candidate.displayName} reject because is a beta release")
+                }
+            }
+        }
+    }
 }
-
-dependencyUpdates.gradleReleaseChannel = "current"
