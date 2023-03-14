@@ -496,6 +496,17 @@
       }
     },
     {
+      "number": "+262954185123",
+      "valid": false,
+      "probability": 0.013,
+      "format": {
+        "e164": "+262954185123",
+        "international": "+262 954 18 51 23",
+        "rfc3966": "tel:+262-954-18-51-23",
+        "national": "0954 18 51 23"
+      }
+    },
+    {
       "number": "+70954185123",
       "valid": false,
       "probability": 0.013,
@@ -524,28 +535,6 @@
           "flag": {
             "code": "\uD83C\uDDF2\uD83C\uDDF2",
             "htmlCode": "&#127474;&#127474;"
-          }
-        }
-      }
-    },
-    {
-      "number": "+262954185123",
-      "valid": false,
-      "probability": 0.013,
-      "format": {
-        "e164": "+262954185123",
-        "international": "+262 954 18 51 23",
-        "rfc3966": "tel:+262-954-18-51-23",
-        "national": "0954 18 51 23"
-      },
-      "region": {
-        "name": "RE",
-        "code": 262,
-        "country": {
-          "name": "Réunion",
-          "flag": {
-            "code": "\uD83C\uDDF7\uD83C\uDDEA",
-            "htmlCode": "&#127479;&#127466;"
           }
         }
       }
