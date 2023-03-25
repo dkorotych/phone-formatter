@@ -1,7 +1,7 @@
 plugins {
-    id("com.github.johnrengelman.shadow") version "8.1.0"
-    id("io.micronaut.application") version "3.7.6"
-    id("org.openrewrite.rewrite") version "5.38.0"
+    id("com.github.johnrengelman.shadow") version "8.1.1"
+    id("io.micronaut.application") version "3.7.7"
+    id("org.openrewrite.rewrite") version "5.38.1"
     id("com.github.ben-manes.versions") version "0.46.0"
 }
 
@@ -80,6 +80,9 @@ dependencyUpdates {
                 def candidate = selection.candidate
                 if (candidate.version.contains("beta")) {
                     selection.reject("Plugin ${candidate.displayName} reject because is a beta release")
+                }
+                if (candidate.version.matches('.+-M\\d+$')) {
+                    selection.reject("Dependency ${candidate.displayName} reject because is a milestone release")
                 }
             }
         }
