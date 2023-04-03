@@ -26,7 +26,7 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
     implementation("io.micronaut:micronaut-validation")
 
-    implementation("com.googlecode.libphonenumber:libphonenumber:8.13.8")
+    implementation("com.googlecode.libphonenumber:libphonenumber:8.13.9")
     implementation("com.vdurmont:emoji-java:5.1.1")
     implementation("io.sentry:sentry-logback:6.16.0")
 
