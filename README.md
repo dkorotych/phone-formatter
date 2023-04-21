@@ -1,14 +1,19 @@
-## Micronaut 3.8.4 Documentation
+## Micronaut 3.9.0 Documentation
 
-- [User Guide](https://docs.micronaut.io/3.8.4/guide/index.html)
-- [API Reference](https://docs.micronaut.io/3.8.4/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/3.8.4/guide/configurationreference.html)
+- [User Guide](https://docs.micronaut.io/3.9.0/guide/index.html)
+- [API Reference](https://docs.micronaut.io/3.9.0/api/index.html)
+- [Configuration Reference](https://docs.micronaut.io/3.9.0/guide/configurationreference.html)
 - [Micronaut Guides](https://guides.micronaut.io/index.html)
 
 ---
 
 - [Rewrite Gradle Plugin](https://plugins.gradle.org/plugin/org.openrewrite.rewrite)
 - [Shadow Gradle Plugin](https://plugins.gradle.org/plugin/com.github.johnrengelman.shadow)
+- [Micronaut Gradle Plugin documentation](https://micronaut-projects.github.io/micronaut-gradle-plugin/latest/)
+- [GraalVM Gradle Plugin documentation](https://graalvm.github.io/native-build-tools/latest/gradle-plugin.html)
+
+## Feature openrewrite documentation
+- [https://docs.openrewrite.org/](https://docs.openrewrite.org/)
 
 ## Feature http-client documentation
 
@@ -24,14 +29,8 @@
 
 - [Micronaut Security JWT documentation](https://micronaut-projects.github.io/micronaut-security/latest/guide/index.html)
 
-## Feature openrewrite documentation
-
-- [https://docs.openrewrite.org/](https://docs.openrewrite.org/)
-
 ## Feature openapi documentation
 
 - [Micronaut OpenAPI Support documentation](https://micronaut-projects.github.io/micronaut-openapi/latest/guide/index.html)
 
 - [https://www.openapis.org](https://www.openapis.org)
-
-
