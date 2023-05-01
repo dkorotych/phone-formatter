@@ -32,7 +32,7 @@ dependencies {
 
     testImplementation("org.skyscreamer:jsonassert:1.5.1")
     testImplementation("org.assertj:assertj-core:3.24.2")
-    testImplementation("org.junit.jupiter:junit-jupiter-params:5.9.2")
+    testImplementation("org.junit.jupiter:junit-jupiter-params:5.9.3")
 
     rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:1.19.0"))
     rewrite("org.openrewrite.recipe:rewrite-github-actions")
