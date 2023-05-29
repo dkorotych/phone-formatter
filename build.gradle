@@ -34,7 +34,7 @@ dependencies {
     testImplementation("org.assertj:assertj-core:3.24.2")
     testImplementation("org.junit.jupiter:junit-jupiter-params:5.9.3")
 
-    rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:1.19.3"))
+    rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:1.19.4"))
     rewrite("org.openrewrite.recipe:rewrite-github-actions")
     rewrite("org.openrewrite.recipe:rewrite-logging-frameworks")
     rewrite("org.openrewrite.recipe:rewrite-migrate-java")
