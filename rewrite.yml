@@ -2,7 +2,7 @@ type: specs.openrewrite.org/v1beta/recipe
 name: com.github.dkorotych.phone.formatter.CustomRecipes
 displayName: Custom recipes for phone formatter project
 recipeList:
-  - org.openrewrite.github.ActionsSetupJavaAdoptOpenJDKToTemurin
+  - org.openrewrite.github.SetupJavaAdoptOpenJDKToTemurin
   - org.openrewrite.github.SetupJavaCaching
   - org.openrewrite.github.ChangeDependabotScheduleInterval:
       packageEcosystem: github-actions
