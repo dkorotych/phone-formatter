@@ -89,6 +89,9 @@ dependencyUpdates {
                 if (candidate.version.matches('.+-M\\d+$')) {
                     selection.reject("Dependency ${candidate.displayName} reject because is a milestone release")
                 }
+                if (candidate.version.matches('.+-RC\\d+$')) {
+                    selection.reject("Dependency ${candidate.displayName} reject because is a release candidate")
+                }
             }
         }
     }
