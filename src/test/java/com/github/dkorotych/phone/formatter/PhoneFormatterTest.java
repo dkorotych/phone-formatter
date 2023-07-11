@@ -13,7 +13,7 @@ class PhoneFormatterTest {
     EmbeddedApplication<?> application;
 
     @Test
-    void testItWorks() {
+    void itWorks() {
         Assertions.assertTrue(application.isRunning());
     }
 }
