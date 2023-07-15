@@ -1,9 +1,9 @@
 package com.github.dkorotych.phone.region;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.dkorotych.phone.region.domain.Region;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
+import io.micronaut.core.type.Argument;
+import io.micronaut.serde.ObjectMapper;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
 import jakarta.inject.Inject;
 import org.assertj.core.api.Assertions;
@@ -26,10 +26,9 @@ class SupportedRegionsKeeperTest {
     private SupportedRegionsKeeper keeper;
 
     @BeforeAll
-    static void beforeAll() throws IOException {
+    static void beforeAll(ObjectMapper objectMapper) throws IOException {
         final InputStream stream = FlagsKeeperTest.class.getResourceAsStream("/region/regions.json");
-        mapper = new ObjectMapper().readValue(stream, new TypeReference<>() {
-        });
+        mapper = objectMapper.readValue(stream, Argument.mapOf(String.class, Region.class));
     }
 
     private static Stream<Arguments> get() {

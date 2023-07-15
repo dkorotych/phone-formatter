@@ -1,7 +1,9 @@
 package com.github.dkorotych.phone.formatter.domain;
 
+import io.micronaut.serde.annotation.Serdeable;
 import io.swagger.v3.oas.annotations.media.Schema;
 
+@Serdeable
 @Schema(description = "Collection of formatted phone number")
 public record Format(
         @Schema(description = "E164 format is as per international format but with no formatting applied") String e164,

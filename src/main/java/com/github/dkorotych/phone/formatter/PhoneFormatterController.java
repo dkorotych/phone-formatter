@@ -14,7 +14,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.inject.Inject;
 import lombok.RequiredArgsConstructor;
 
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 
 @Controller("/format")
 @Secured(SecurityRule.IS_AUTHENTICATED)

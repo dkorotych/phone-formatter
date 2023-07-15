@@ -2,6 +2,7 @@ package com.github.dkorotych.phone.formatter.domain;
 
 import com.github.dkorotych.phone.utils.Utilities;
 import io.micronaut.core.annotation.Introspected;
+import io.micronaut.serde.annotation.Serdeable;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
@@ -9,6 +10,7 @@ import java.util.Optional;
 
 @Data
 @Introspected
+@Serdeable
 @Schema(description = "Formatting method parameters")
 public class Request {
     @Schema(description = "Phone number")

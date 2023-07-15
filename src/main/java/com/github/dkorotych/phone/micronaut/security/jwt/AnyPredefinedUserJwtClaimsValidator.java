@@ -6,8 +6,8 @@ import com.nimbusds.jwt.JWTClaimsSet;
 import io.micronaut.context.env.Environment;
 import io.micronaut.http.HttpRequest;
 import io.micronaut.security.authentication.AuthenticationException;
+import io.micronaut.security.token.Claims;
 import io.micronaut.security.token.config.TokenConfiguration;
-import io.micronaut.security.token.jwt.generator.claims.JwtClaims;
 import io.micronaut.security.token.jwt.validator.GenericJwtClaimsValidator;
 import io.micronaut.security.token.jwt.validator.JWTClaimsSetUtils;
 import io.sentry.Sentry;
@@ -18,7 +18,7 @@ import java.text.ParseException;
 import java.util.*;
 
 @Singleton
-public class AnyPredefinedUserJwtClaimsValidator implements GenericJwtClaimsValidator {
+public class AnyPredefinedUserJwtClaimsValidator implements GenericJwtClaimsValidator<HttpRequest<?>> {
     private final Collection<User> users;
     private final String rolesName;
 
@@ -35,7 +35,7 @@ public class AnyPredefinedUserJwtClaimsValidator implements GenericJwtClaimsVali
     }
 
     @Override
-    public boolean validate(JwtClaims claims, HttpRequest<?> request) {
+    public boolean validate(Claims claims, HttpRequest<?> request) {
         return validate(JWTClaimsSetUtils.jwtClaimsSetFromClaims(claims));
     }
 

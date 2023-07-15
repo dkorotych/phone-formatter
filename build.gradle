@@ -1,7 +1,8 @@
 plugins {
     id("com.github.johnrengelman.shadow") version "8.1.1"
-    id("io.micronaut.application") version "3.7.10"
-    id("org.openrewrite.rewrite") version "6.1.13"
+    id("io.micronaut.application") version "4.0.0"
+    id("io.micronaut.aot") version "4.0.0"
+    id("org.openrewrite.rewrite") version "6.1.16"
     id("com.github.ben-manes.versions") version "0.47.0"
 }
 
@@ -9,24 +10,25 @@ version = "0.1"
 group = "com.github.dkorotych.phone.formatter"
 
 repositories {
+    maven {
+        url "https://s01.oss.sonatype.org/content/repositories/snapshots/"
+        mavenContent { snapshotsOnly() }
+    }
     mavenCentral()
 }
 
 dependencies {
     annotationProcessor("org.projectlombok:lombok")
-    annotationProcessor("io.micronaut:micronaut-http-validation")
     annotationProcessor("io.micronaut.openapi:micronaut-openapi")
     annotationProcessor("io.micronaut.security:micronaut-security-annotations")
+    annotationProcessor("io.micronaut.serde:micronaut-serde-processor")
     implementation("io.micronaut:micronaut-http-client")
-    implementation("io.micronaut:micronaut-jackson-databind")
     implementation("io.micronaut.security:micronaut-security-jwt")
+    implementation("io.micronaut.serde:micronaut-serde-jackson")
     implementation("io.swagger.core.v3:swagger-annotations")
-    implementation("jakarta.annotation:jakarta.annotation-api")
     compileOnly("org.projectlombok:lombok")
-    compileOnly "com.sun.xml.ws:jaxws-rt:4.0.1"
-    compileOnly "org.glassfish.jaxb:jaxb-runtime:4.0.3"
     runtimeOnly("ch.qos.logback:logback-classic")
-    implementation("io.micronaut:micronaut-validation")
+    runtimeOnly("org.yaml:snakeyaml")
 
     implementation("com.googlecode.libphonenumber:libphonenumber:8.13.16")
     implementation("com.vdurmont:emoji-java:5.1.1")
@@ -38,7 +40,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-params:5.9.3")
     testImplementation "com.sun.xml.ws:jaxws-rt:4.0.1"
 
-    rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:2.0.6"))
+    rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:2.0.7"))
     rewrite("org.glassfish.jaxb:jaxb-runtime:4.0.3")
     rewrite("org.openrewrite.recipe:rewrite-github-actions")
     rewrite("org.openrewrite.recipe:rewrite-logging-frameworks")
@@ -48,6 +50,8 @@ dependencies {
     rewrite("org.openrewrite.recipe:rewrite-migrate-java")
     rewrite("org.openrewrite.recipe:rewrite-micronaut")
     rewrite("org.openrewrite:rewrite-gradle")
+
+    aotPlugins("io.micronaut.security:micronaut-security-aot:4.0.0")
 }
 
 
@@ -68,10 +72,18 @@ micronaut {
         incremental(true)
         annotations("com.github.dkorotych.phone.formatter.*")
     }
-}
-
-shadowJar {
-    mergeServiceFiles()
+    aot {
+        // Please review carefully the optimizations enabled below
+        // Check https://micronaut-projects.github.io/micronaut-aot/latest/guide/ for more details
+        optimizeServiceLoading = false
+        convertYamlToJava = false
+        precomputeOperations = true
+        cacheEnvironment = true
+        optimizeClassLoading = true
+        deduceEnvironment = true
+        optimizeNetty = true
+        configurationProperties.put("micronaut.security.jwks.enabled", "false")
+    }
 }
 
 rewrite {

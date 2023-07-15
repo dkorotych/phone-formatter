@@ -13,7 +13,7 @@ import org.reactivestreams.Publisher;
 import java.util.Objects;
 
 @RequiredArgsConstructor
-public abstract class PredefinedUserAuthenticationProvider implements AuthenticationProvider {
+public abstract class PredefinedUserAuthenticationProvider implements AuthenticationProvider<HttpRequest<?>> {
     private final User user;
 
     @Override

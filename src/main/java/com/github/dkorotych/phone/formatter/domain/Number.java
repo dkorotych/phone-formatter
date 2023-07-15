@@ -1,6 +1,7 @@
 package com.github.dkorotych.phone.formatter.domain;
 
 import com.github.dkorotych.phone.region.domain.Region;
+import io.micronaut.serde.annotation.Serdeable;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
@@ -8,6 +9,7 @@ import java.util.Comparator;
 import java.util.Optional;
 
 @Data
+@Serdeable
 @Schema(description = "Information about phone number")
 public class Number implements Comparable<Number> {
     @Schema(description = "Phone number formatted in E164 format")

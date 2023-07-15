@@ -1,8 +1,8 @@
 package com.github.dkorotych.phone.region;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
+import io.micronaut.core.type.Argument;
+import io.micronaut.serde.ObjectMapper;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
 import jakarta.inject.Inject;
 import org.assertj.core.api.Assertions;
@@ -17,6 +17,7 @@ import java.io.InputStream;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @MicronautTest
@@ -26,10 +27,19 @@ class LocalesKeeperTest {
     private LocalesKeeper keeper;
 
     @BeforeAll
-    static void beforeAll() throws IOException {
+    static void beforeAll(ObjectMapper objectMapper) throws IOException {
         final InputStream stream = LocalesKeeperTest.class.getResourceAsStream("/region/locales.json");
-        mapper = new ObjectMapper().readValue(stream, new TypeReference<>() {
-        });
+        mapper = objectMapper.readValue(stream, Argument.mapOf(String.class, String.class)).entrySet().stream().
+                map(entry -> {
+                    final String key = entry.getKey();
+                    final String value = entry.getValue();
+                    Locale locale = Locale.forLanguageTag(value.replace('_', '-'));
+                    if (locale == Locale.ROOT) {
+                        locale = new Locale(Locale.ROOT.getLanguage(), value.split("_")[1]);
+                    }
+                    return Map.entry(key, locale);
+                }).
+                collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 
     private static Stream<Arguments> get() {

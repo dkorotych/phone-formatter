@@ -1,11 +1,9 @@
 package com.github.dkorotych.phone.formatter;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.dkorotych.phone.formatter.domain.Request;
+import io.micronaut.serde.ObjectMapper;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
 import jakarta.inject.Inject;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.skyscreamer.jsonassert.JSONAssert;
@@ -27,15 +25,15 @@ class PhoneFormatterControllerTest {
 
     @Inject
     private PhoneFormatterControllerClient client;
-    private ObjectMapper objectMapper;
 
     private static List<Path> getDirectoriesAsParameters(String path) throws URISyntaxException, IOException {
-        return Files.list(Paths.get(PhoneFormatterControllerTest.class.getResource(path).toURI())).
-                map(Path::toFile).
-                filter(File::isDirectory).
-                sorted(Comparator.comparing(File::getName)).
-                map(File::toPath).
-                collect(Collectors.toList());
+        try (var list = Files.list(Paths.get(PhoneFormatterControllerTest.class.getResource(path).toURI()))) {
+            return list.map(Path::toFile).
+                    filter(File::isDirectory).
+                    sorted(Comparator.comparing(File::getName)).
+                    map(File::toPath).
+                    collect(Collectors.toList());
+        }
     }
 
     private static Stream<Path> get() throws IOException, URISyntaxException {
@@ -52,20 +50,10 @@ class PhoneFormatterControllerTest {
         );
     }
 
-    @BeforeEach
-    void setUp() {
-        objectMapper = new ObjectMapper();
-    }
-
-    @AfterEach
-    void tearDown() {
-        objectMapper = null;
-    }
-
     @ParameterizedTest
     @MethodSource
-    void get(Path path) throws Exception {
-        final Request request = readRequest(path);
+    void get(Path path, ObjectMapper objectMapper) throws Exception {
+        final Request request = readRequest(path, objectMapper);
         final String expected = readString(path, false);
         final String actual = client.format(request.getPhoneNumber());
         try {
@@ -77,8 +65,8 @@ class PhoneFormatterControllerTest {
 
     @ParameterizedTest
     @MethodSource
-    void post(Path path) throws Exception {
-        final Request request = readRequest(path);
+    void post(Path path, ObjectMapper objectMapper) throws Exception {
+        final Request request = readRequest(path, objectMapper);
         final String expected = readString(path, false);
         final String actual = client.format(request);
         try {
@@ -88,7 +76,7 @@ class PhoneFormatterControllerTest {
         }
     }
 
-    private Request readRequest(Path path) throws IOException {
+    private Request readRequest(Path path, ObjectMapper objectMapper) throws IOException {
         final String content = readString(path, true);
         return objectMapper.readValue(content, Request.class);
     }
