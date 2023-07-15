@@ -22,17 +22,22 @@ dependencies {
     annotationProcessor("io.micronaut.openapi:micronaut-openapi")
     annotationProcessor("io.micronaut.security:micronaut-security-annotations")
     annotationProcessor("io.micronaut.serde:micronaut-serde-processor")
+    annotationProcessor "io.micronaut.validation:micronaut-validation-processor"
     implementation("io.micronaut:micronaut-http-client")
     implementation("io.micronaut.security:micronaut-security-jwt")
     implementation("io.micronaut.serde:micronaut-serde-jackson")
+    implementation "io.micronaut.validation:micronaut-validation"
     implementation("io.swagger.core.v3:swagger-annotations")
     compileOnly("org.projectlombok:lombok")
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("org.yaml:snakeyaml")
 
     implementation("com.googlecode.libphonenumber:libphonenumber:8.13.16")
-    implementation("com.vdurmont:emoji-java:5.1.1")
-    implementation("io.sentry:sentry-logback:6.25.0")
+    implementation("com.vdurmont:emoji-java:5.1.1") {
+        exclude group: "org.json", module: "json"
+    }
+    runtimeOnly("org.json:json:20230618")
+    implementation("io.sentry:sentry-logback:6.25.2")
 
     testImplementation("org.skyscreamer:jsonassert:1.5.1")
     testImplementation("org.assertj:assertj-core:3.24.2")
@@ -42,6 +47,7 @@ dependencies {
 
     rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:2.0.7"))
     rewrite("org.glassfish.jaxb:jaxb-runtime:4.0.3")
+    rewrite("javax.xml.bind:jaxb-api:2.3.1")
     rewrite("org.openrewrite.recipe:rewrite-github-actions")
     rewrite("org.openrewrite.recipe:rewrite-logging-frameworks")
     rewrite("org.openrewrite.recipe:rewrite-static-analysis")
