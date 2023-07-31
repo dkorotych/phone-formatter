@@ -37,7 +37,7 @@ dependencies {
         exclude group: "org.json", module: "json"
     }
     runtimeOnly("org.json:json:20230618")
-    implementation("io.sentry:sentry-logback:6.26.0")
+    implementation("io.sentry:sentry-logback:6.27.0")
 
     testImplementation("org.skyscreamer:jsonassert:1.5.1")
     testImplementation("org.assertj:assertj-core:3.24.2")
