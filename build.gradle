@@ -57,7 +57,7 @@ dependencies {
     rewrite("org.openrewrite.recipe:rewrite-micronaut")
     rewrite("org.openrewrite:rewrite-gradle")
 
-    aotPlugins("io.micronaut.security:micronaut-security-aot:4.0.1")
+    aotPlugins("io.micronaut.security:micronaut-security-aot:4.0.2")
 }
 
 
