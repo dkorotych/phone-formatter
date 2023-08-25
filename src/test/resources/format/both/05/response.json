@@ -204,9 +204,9 @@
       "probability": 0.045,
       "format": {
         "e164": "+84954185123",
-        "international": "+84 95 418 51 23",
-        "rfc3966": "tel:+84-95-418-51-23",
-        "national": "095 418 51 23"
+        "international": "+84 954 185 123",
+        "rfc3966": "tel:+84-954-185-123",
+        "national": "0954 185 123"
       },
       "region": {
         "name": "VN",

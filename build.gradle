@@ -2,7 +2,7 @@ plugins {
     id("com.github.johnrengelman.shadow") version "8.1.1"
     id("io.micronaut.application") version "4.0.2"
     id("io.micronaut.aot") version "4.0.2"
-    id("org.openrewrite.rewrite") version "6.1.25"
+    id("org.openrewrite.rewrite") version "6.2.2"
     id("com.github.ben-manes.versions") version "0.47.0"
 }
 
@@ -45,7 +45,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-params:5.10.0")
     testImplementation "com.sun.xml.ws:jaxws-rt:4.0.1"
 
-    rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:2.2.0"))
+    rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:2.2.1"))
     rewrite("org.glassfish.jaxb:jaxb-runtime:4.0.3")
     rewrite("javax.xml.bind:jaxb-api:2.3.1")
     rewrite("org.openrewrite.recipe:rewrite-github-actions")
@@ -57,7 +57,7 @@ dependencies {
     rewrite("org.openrewrite.recipe:rewrite-micronaut")
     rewrite("org.openrewrite:rewrite-gradle")
 
-    aotPlugins("io.micronaut.security:micronaut-security-aot:4.0.3")
+    aotPlugins("io.micronaut.security:micronaut-security-aot:${micronautVersion}")
 }
 
 
