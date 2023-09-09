@@ -1,8 +1,8 @@
-## Micronaut 4.0.5 Documentation
+## Micronaut 4.1.0 Documentation
 
-- [User Guide](https://docs.micronaut.io/4.0.5/guide/index.html)
-- [API Reference](https://docs.micronaut.io/4.0.5/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/4.0.5/guide/configurationreference.html)
+- [User Guide](https://docs.micronaut.io/4.1.0/guide/index.html)
+- [API Reference](https://docs.micronaut.io/4.1.0/api/index.html)
+- [Configuration Reference](https://docs.micronaut.io/4.1.0/guide/configurationreference.html)
 - [Micronaut Guides](https://guides.micronaut.io/index.html)
 
 ---
@@ -15,10 +15,6 @@
 ## Feature micronaut-aot documentation
 
 - [Micronaut AOT documentation](https://micronaut-projects.github.io/micronaut-aot/latest/guide/)
-
-## Feature http-client documentation
-
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#nettyHttpClient)
 
 ## Feature lombok documentation
 
