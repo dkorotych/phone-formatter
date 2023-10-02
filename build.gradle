@@ -27,7 +27,7 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("org.yaml:snakeyaml")
 
-    implementation("com.googlecode.libphonenumber:libphonenumber:8.13.21")
+    implementation("com.googlecode.libphonenumber:libphonenumber:8.13.22")
     implementation("com.vdurmont:emoji-java:5.1.1") {
         exclude group: "org.json", module: "json"
     }
