@@ -31,7 +31,7 @@ dependencies {
     implementation("com.vdurmont:emoji-java:5.1.1") {
         exclude group: "org.json", module: "json"
     }
-    runtimeOnly("org.json:json:20230618")
+    runtimeOnly("org.json:json:20231013")
     implementation("io.sentry:sentry-logback:6.30.0")
 
     testImplementation("io.micronaut:micronaut-http-client")
