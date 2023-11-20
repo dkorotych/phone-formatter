@@ -34,7 +34,7 @@ dependencies {
         exclude group: "org.json", module: "json"
     }
     runtimeOnly("org.json:json:20231013")
-    implementation("io.sentry:sentry-logback:6.33.1")
+    implementation("io.sentry:sentry-logback:6.34.0")
 
     testImplementation("io.micronaut:micronaut-http-client")
     testImplementation("org.skyscreamer:jsonassert:1.5.1")
