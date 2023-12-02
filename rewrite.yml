@@ -15,7 +15,7 @@ recipeList:
   - org.openrewrite.gradle.DependencyUseStringNotation
   - org.openrewrite.java.logging.slf4j.ParameterizedLogging
   - org.openrewrite.java.logging.PrintStackTraceToLogError
-  - org.openrewrite.java.migrate.UpgradeToJava17
+  - org.openrewrite.java.migrate.UpgradeToJava21
   - org.openrewrite.java.micronaut.Micronaut3to4Migration
   - org.openrewrite.staticanalysis.CommonStaticAnalysis
   - org.openrewrite.staticanalysis.CodeCleanup
