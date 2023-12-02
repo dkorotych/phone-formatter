@@ -37,7 +37,7 @@ public class ErrorBuilder {
                     map(value -> value.toLowerCase(DEFAULT_LOCALE)).
                     orElseThrow();
             if (Arrays.asList(Locale.getISOLanguages()).contains(country)) {
-                errorLocale = new Locale(country);
+                errorLocale = Locale.of(country);
             }
         }
         return new Error(code, getMessage(code, errorLocale));
