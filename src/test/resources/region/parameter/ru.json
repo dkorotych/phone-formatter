@@ -300,7 +300,7 @@
     "name": "BN",
     "code": 673,
     "country": {
-      "name": "Бруней-Даруссалам",
+      "name": "Бруней",
       "flag": {
         "code": "\uD83C\uDDE7\uD83C\uDDF3",
         "htmlCode": "&#127463;&#127475;"
@@ -476,7 +476,7 @@
     "name": "CK",
     "code": 682,
     "country": {
-      "name": "Острова Кука",
+      "name": "о-ва Кука",
       "flag": {
         "code": "\uD83C\uDDE8\uD83C\uDDF0",
         "htmlCode": "&#127464;&#127472;"
@@ -1323,7 +1323,7 @@
     "name": "KY",
     "code": 1,
     "country": {
-      "name": "Острова Кайман",
+      "name": "о-ва Кайман",
       "flag": {
         "code": "\uD83C\uDDF0\uD83C\uDDFE",
         "htmlCode": "&#127472;&#127486;"
@@ -1532,7 +1532,7 @@
     "name": "MH",
     "code": 692,
     "country": {
-      "name": "Маршалловы Острова",
+      "name": "Маршалловы о-ва",
       "flag": {
         "code": "\uD83C\uDDF2\uD83C\uDDED",
         "htmlCode": "&#127474;&#127469;"
@@ -2082,7 +2082,7 @@
     "name": "SB",
     "code": 677,
     "country": {
-      "name": "Соломоновы Острова",
+      "name": "Соломоновы о-ва",
       "flag": {
         "code": "\uD83C\uDDF8\uD83C\uDDE7",
         "htmlCode": "&#127480;&#127463;"
@@ -2093,7 +2093,7 @@
     "name": "SC",
     "code": 248,
     "country": {
-      "name": "Сейшельские Острова",
+      "name": "Сейшельские о-ва",
       "flag": {
         "code": "\uD83C\uDDF8\uD83C\uDDE8",
         "htmlCode": "&#127480;&#127464;"
@@ -2313,7 +2313,7 @@
     "name": "TC",
     "code": 1,
     "country": {
-      "name": "о-ва Тёркс и Кайкос",
+      "name": "Тёркс и Кайкос",
       "flag": {
         "code": "\uD83C\uDDF9\uD83C\uDDE8",
         "htmlCode": "&#127481;&#127464;"
