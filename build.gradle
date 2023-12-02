@@ -27,11 +27,11 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("org.yaml:snakeyaml")
 
-    implementation("com.googlecode.libphonenumber:libphonenumber:8.13.25")
+    implementation("com.googlecode.libphonenumber:libphonenumber:8.13.26")
     implementation("com.vdurmont:emoji-java:5.1.1") {
         exclude group: "org.json", module: "json"
     }
-    implementation("io.sentry:sentry-logback:6.33.1")
+    implementation("io.sentry:sentry-logback:6.34.0")
 
     testImplementation("io.micronaut:micronaut-http-client")
     testImplementation("org.skyscreamer:jsonassert:1.5.1")
