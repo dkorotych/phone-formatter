@@ -26,6 +26,7 @@ dependencies {
     compileOnly("org.projectlombok:lombok")
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("org.yaml:snakeyaml")
+    runtimeOnly("org.json:json:20231013")
 
     implementation("com.googlecode.libphonenumber:libphonenumber:8.13.26")
     implementation("com.vdurmont:emoji-java:5.1.1") {
