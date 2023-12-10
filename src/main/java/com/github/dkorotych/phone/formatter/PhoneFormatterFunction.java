@@ -36,9 +36,7 @@ import static com.google.i18n.phonenumbers.PhoneNumberUtil.PhoneNumberFormat.*;
 @Slf4j
 public class PhoneFormatterFunction implements Function<Request, Response> {
     private static final PhoneNumberUtil PHONE_NUMBER_UTIL = PhoneNumberUtil.getInstance();
-    @Inject
     private final SupportedRegionsKeeper keeper;
-    @Inject
     private final LocalesKeeper localesKeeper;
 
     @Override

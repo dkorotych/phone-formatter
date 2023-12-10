@@ -14,9 +14,7 @@ import java.util.function.Supplier;
 @Singleton
 @RequiredArgsConstructor
 public class SupportedRegionsKeeper extends AbstractRegionMapper<Region> {
-    @Inject
     private final FlagsKeeper flagsKeeper;
-    @Inject
     private final LocalesKeeper localesKeeper;
 
     @Override

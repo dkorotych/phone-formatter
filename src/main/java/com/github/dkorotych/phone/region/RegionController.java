@@ -11,7 +11,6 @@ import io.micronaut.security.rules.SecurityRule;
 import io.micronaut.validation.Validated;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
-import jakarta.inject.Inject;
 import lombok.RequiredArgsConstructor;
 
 import java.util.Collection;
@@ -26,7 +25,6 @@ import java.util.Locale;
 @RequiredArgsConstructor
 @Tag(name = "Support")
 public class RegionController {
-    @Inject
     private final SupportedRegionsKeeper keeper;
 
     /**
