@@ -2,7 +2,7 @@ plugins {
     id("com.github.johnrengelman.shadow") version "8.1.1"
     id("io.micronaut.application") version "4.2.1"
     id("io.micronaut.aot") version "4.2.1"
-    id("org.openrewrite.rewrite") version "6.5.10"
+    id("org.openrewrite.rewrite") version "6.5.12"
     id("com.github.ben-manes.versions") version "0.50.0"
 }
 
@@ -28,7 +28,7 @@ dependencies {
     runtimeOnly("org.yaml:snakeyaml")
     runtimeOnly("org.json:json:20231013")
 
-    implementation("com.googlecode.libphonenumber:libphonenumber:8.13.26")
+    implementation("com.googlecode.libphonenumber:libphonenumber:8.13.27")
     implementation("com.vdurmont:emoji-java:5.1.1") {
         exclude group: "org.json", module: "json"
     }
@@ -41,7 +41,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-params:5.10.1")
     testImplementation "com.sun.xml.ws:jaxws-rt:4.0.2"
 
-    rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:2.5.1"))
+    rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:2.5.3"))
     rewrite("org.openrewrite.recipe:rewrite-github-actions")
     rewrite("org.openrewrite.recipe:rewrite-logging-frameworks")
     rewrite("org.openrewrite.recipe:rewrite-static-analysis")
