@@ -81,7 +81,7 @@ class ErrorBuilderTest {
                 Locale.CANADA_FRENCH,
                 Locale.GERMANY,
                 Locale.KOREA,
-                new Locale("ru"));
+                Locale.of("ru"));
         for (NumberParseException exception : exceptions) {
             for (Locale locale : locales) {
                 builder.add(Arguments.of(exception, locale, create(exception.getErrorType(), locale)));

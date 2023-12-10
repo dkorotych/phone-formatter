@@ -28,7 +28,7 @@ public class FlagsKeeper extends AbstractRegionMapper<Flag> {
                             map(StringUtils::hasText).
                             isPresent()).
                     collect(Collectors.toMap(emoji -> {
-                        String region = emoji.getAliases().iterator().next().toUpperCase(Locale.ENGLISH);
+                        String region = emoji.getAliases().getFirst().toUpperCase(Locale.ENGLISH);
                         if (region.endsWith("_FLAG")) {
                             region = region.substring(0, region.indexOf("_FLAG"));
                         }

@@ -35,7 +35,7 @@ class LocalesKeeperTest {
                     final String value = entry.getValue();
                     Locale locale = Locale.forLanguageTag(value.replace('_', '-'));
                     if (locale == Locale.ROOT) {
-                        locale = new Locale(Locale.ROOT.getLanguage(), value.split("_")[1]);
+                        locale = Locale.of(Locale.ROOT.getLanguage(), value.split("_")[1]);
                     }
                     return Map.entry(key, locale);
                 }).
