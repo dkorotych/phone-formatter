@@ -1,8 +1,8 @@
 package com.github.dkorotych.phone.micronaut.configuration;
 
+import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
-import jakarta.validation.constraints.NotBlank;
 import java.util.Collection;
 import java.util.Collections;
 
