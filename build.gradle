@@ -26,12 +26,8 @@ dependencies {
     compileOnly("org.projectlombok:lombok")
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("org.yaml:snakeyaml")
-    runtimeOnly("org.json:json:20231013")
 
     implementation("com.googlecode.libphonenumber:libphonenumber:8.13.27")
-    implementation("com.vdurmont:emoji-java:5.1.1") {
-        exclude group: "org.json", module: "json"
-    }
     implementation("io.sentry:sentry-logback:7.0.0")
 
     testImplementation("io.micronaut:micronaut-http-client")
