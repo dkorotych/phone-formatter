@@ -8,5 +8,6 @@ RUN gradle --no-daemon optimizedJitJarAll
 
 FROM bellsoft/liberica-openjre-alpine:21
 WORKDIR /home/app
+COPY --from=builder /home/app/build/libs/phone-formatter-0.1-all-optimized.jar ./application.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "/home/app/phone-formatter-0.1-all-optimized.jar"]
+ENTRYPOINT ["java", "-jar", "/home/app/application.jar"]
