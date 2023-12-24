@@ -1,10 +1,10 @@
-## Micronaut 4.2.1 Documentation
+## Micronaut 4.2.2 Documentation
 
-- [User Guide](https://docs.micronaut.io/4.2.1/guide/index.html)
+- [User Guide](https://docs.micronaut.io/4.2.2/guide/index.html)
 
-- [API Reference](https://docs.micronaut.io/4.2.1/api/index.html)
+- [API Reference](https://docs.micronaut.io/4.2.2/api/index.html)
 
-- [Configuration Reference](https://docs.micronaut.io/4.2.1/guide/configurationreference.html)
+- [Configuration Reference](https://docs.micronaut.io/4.2.2/guide/configurationreference.html)
 
 - [Micronaut Guides](https://guides.micronaut.io/index.html)
 
