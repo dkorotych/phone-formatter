@@ -3,7 +3,7 @@ plugins {
     id("io.micronaut.application") version "4.2.1"
     id("io.micronaut.aot") version "4.2.1"
     id("org.openrewrite.rewrite") version "6.8.1"
-    id("com.github.ben-manes.versions") version "0.50.0"
+    id("com.github.ben-manes.versions") version "0.51.0"
 }
 
 version = "0.1"
