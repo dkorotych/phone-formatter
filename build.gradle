@@ -40,7 +40,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-params:5.10.1")
     testImplementation "com.sun.xml.ws:jaxws-rt:4.0.2"
 
-    rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:2.6.2"))
+    rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:2.6.3"))
     rewrite("org.openrewrite.recipe:rewrite-github-actions")
     rewrite("org.openrewrite.recipe:rewrite-logging-frameworks")
     rewrite("org.openrewrite.recipe:rewrite-static-analysis")
