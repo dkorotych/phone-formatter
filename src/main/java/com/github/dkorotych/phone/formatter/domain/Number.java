@@ -12,6 +12,7 @@ import java.util.Optional;
 @Serdeable
 @Schema(description = "Information about phone number")
 public class Number implements Comparable<Number> {
+    @SuppressWarnings("java:S1700")
     @Schema(description = "Phone number formatted in E164 format")
     private String number;
 

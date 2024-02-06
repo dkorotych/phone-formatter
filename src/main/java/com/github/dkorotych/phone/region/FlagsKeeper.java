@@ -19,7 +19,7 @@ public class FlagsKeeper extends AbstractRegionMapper<Flag> {
     protected Supplier<Map<String, Flag>> getSupplier() {
         return () -> {
             final Set<String> regions = PhoneNumberUtil.getInstance().getSupportedRegions();
-            final Map<String, Flag> map = new HashMap<>(regions.size());
+            final Map<String, Flag> map = HashMap.newHashMap(regions.size());
             for (final String region : regions) {
                 final int[] codePoints = region.codePoints().
                         map(operand -> 127397 + operand).
