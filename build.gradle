@@ -31,7 +31,7 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("org.yaml:snakeyaml")
 
-    implementation("com.googlecode.libphonenumber:libphonenumber:8.13.29")
+    implementation("com.googlecode.libphonenumber:libphonenumber:8.13.30")
     implementation("io.sentry:sentry-logback:7.3.0")
 
     testImplementation("io.micronaut:micronaut-http-client")
