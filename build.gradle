@@ -32,7 +32,7 @@ dependencies {
     runtimeOnly("org.yaml:snakeyaml")
 
     implementation("com.googlecode.libphonenumber:libphonenumber:8.13.32")
-    implementation("io.sentry:sentry-logback:7.5.0")
+    implementation("io.sentry:sentry-logback:7.6.0")
 
     testImplementation("io.micronaut:micronaut-http-client")
     testImplementation("org.skyscreamer:jsonassert:1.5.1")
