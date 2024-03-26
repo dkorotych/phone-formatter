@@ -3,7 +3,7 @@
     {
       "number": "+380504185123",
       "valid": true,
-      "probability": 1.0,
+      "probability": 0.667,
       "format": {
         "e164": "+380504185123",
         "international": "+380 50 418 5123",
@@ -18,6 +18,28 @@
           "flag": {
             "code": "\uD83C\uDDFA\uD83C\uDDE6",
             "htmlCode": "&#127482;&#127462;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+383380504185123",
+      "valid": true,
+      "probability": 0.333,
+      "format": {
+        "e164": "+383380504185123",
+        "international": "+383 38 0504185123",
+        "rfc3966": "tel:+383-38-0504185123",
+        "national": "038 0504185123"
+      },
+      "region": {
+        "name": "XK",
+        "code": 383,
+        "country": {
+          "name": "Kosovo",
+          "flag": {
+            "code": "\uD83C\uDDFD\uD83C\uDDF0",
+            "htmlCode": "&#127485;&#127472;"
           }
         }
       }
