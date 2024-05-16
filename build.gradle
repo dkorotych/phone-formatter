@@ -29,8 +29,8 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("org.yaml:snakeyaml")
 
-    implementation("com.googlecode.libphonenumber:libphonenumber:8.13.36")
-    implementation("io.sentry:sentry-logback:7.8.0")
+    implementation("com.googlecode.libphonenumber:libphonenumber:8.13.37")
+    implementation("io.sentry:sentry-logback:7.9.0")
 
     testImplementation("io.micronaut:micronaut-http-client")
     testImplementation("org.skyscreamer:jsonassert:1.5.1")
