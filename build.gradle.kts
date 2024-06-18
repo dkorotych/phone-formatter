@@ -12,7 +12,6 @@ plugins {
 version = "0.1"
 group = "com.github.dkorotych.phone.formatter"
 val javaVersion = project.extra["javaVersion"]
-val micronautVersion = project.extra["micronautVersion"]
 
 repositories {
     mavenCentral()
@@ -26,20 +25,18 @@ dependencies {
     annotationProcessor("io.micronaut.serde:micronaut-serde-processor")
     implementation("io.micronaut.security:micronaut-security-jwt")
     implementation("io.micronaut.serde:micronaut-serde-jackson")
+    implementation(libs.libphonenumber)
+    implementation(libs.sentry)
     compileOnly("io.micronaut:micronaut-http-client")
     compileOnly("io.micronaut.openapi:micronaut-openapi-annotations")
     compileOnly("org.projectlombok:lombok")
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("org.yaml:snakeyaml")
-
-    implementation("com.googlecode.libphonenumber:libphonenumber:8.13.39")
-    implementation("io.sentry:sentry-logback:7.10.0")
-
     testImplementation("io.micronaut:micronaut-http-client")
-    testImplementation("org.skyscreamer:jsonassert:1.5.1")
-    testImplementation("org.assertj:assertj-core:3.26.0")
-    testImplementation("org.junit.jupiter:junit-jupiter-params:5.10.2")
-
+    testImplementation(libs.jsonassert)
+    testImplementation(libs.assertj)
+    testImplementation("org.junit.jupiter:junit-jupiter-params")
+    testImplementation(libs.beanmatchers)
     rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:2.12.0"))
     rewrite("org.openrewrite.recipe:rewrite-github-actions")
     rewrite("org.openrewrite.recipe:rewrite-logging-frameworks")
@@ -49,8 +46,7 @@ dependencies {
     rewrite("org.openrewrite.recipe:rewrite-migrate-java")
     rewrite("org.openrewrite.recipe:rewrite-micronaut")
     rewrite("org.openrewrite:rewrite-gradle")
-
-    aotPlugins(platform("io.micronaut.platform:micronaut-platform:${micronautVersion}"))
+    aotPlugins(platform("io.micronaut.platform:micronaut-platform:${project.extra["micronautVersion"]}"))
     aotPlugins("io.micronaut.security:micronaut-security-aot")
 }
 
