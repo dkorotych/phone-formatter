@@ -17,8 +17,9 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+import static java.util.Objects.requireNonNull;
 
 @MicronautTest
 class PhoneFormatterControllerTest {
@@ -27,12 +28,12 @@ class PhoneFormatterControllerTest {
     private PhoneFormatterControllerClient client;
 
     private static List<Path> getDirectoriesAsParameters(String path) throws URISyntaxException, IOException {
-        try (var list = Files.list(Paths.get(PhoneFormatterControllerTest.class.getResource(path).toURI()))) {
+        try (var list = Files.list(Paths.get(requireNonNull(PhoneFormatterControllerTest.class.getResource(path)).toURI()))) {
             return list.map(Path::toFile).
                     filter(File::isDirectory).
                     sorted(Comparator.comparing(File::getName)).
                     map(File::toPath).
-                    collect(Collectors.toList());
+                    toList();
         }
     }
 

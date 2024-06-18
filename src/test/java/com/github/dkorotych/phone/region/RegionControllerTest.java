@@ -18,8 +18,8 @@ import java.nio.file.Paths;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Locale;
+import java.util.Objects;
 import java.util.function.Supplier;
-import java.util.stream.Collectors;
 
 @MicronautTest
 class RegionControllerTest {
@@ -60,12 +60,13 @@ class RegionControllerTest {
     }
 
     private static List<File> getFilesAsParameters(String path) throws URISyntaxException, IOException {
-        return Files.list(Paths.get(RegionControllerTest.class.getResource(path).toURI())).
-                map(Path::toFile).
-                filter(File::isFile).
-                filter(file -> file.getName().endsWith(".json")).
-                sorted(Comparator.comparing(File::getName)).
-                collect(Collectors.toList());
+        try (var list = Files.list(Paths.get(Objects.requireNonNull(RegionControllerTest.class.getResource(path)).toURI()))) {
+            return list.map(Path::toFile).
+                    filter(File::isFile).
+                    filter(file -> file.getName().endsWith(".json")).
+                    sorted(Comparator.comparing(File::getName)).
+                    toList();
+        }
     }
 
     private String createLanguage(File file) {
