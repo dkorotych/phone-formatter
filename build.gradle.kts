@@ -7,6 +7,7 @@ plugins {
     id("org.openrewrite.rewrite") version "6.16.0"
     id("com.github.ben-manes.versions") version "0.51.0"
     id("org.sonarqube") version "5.0.0.4638"
+    jacoco
 }
 
 version = "0.1"
@@ -110,5 +111,16 @@ sonar {
         property("sonar.projectKey", "dkorotych_phone-formatter")
         property("sonar.organization", "dkorotych")
         property("sonar.host.url", "https://sonarcloud.io")
+    }
+}
+
+tasks.test {
+    finalizedBy(tasks.jacocoTestReport)
+}
+
+tasks.jacocoTestReport {
+    dependsOn(tasks.test)
+    reports {
+        xml.required.set(true)
     }
 }
