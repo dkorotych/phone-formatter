@@ -8,7 +8,6 @@ import io.micronaut.http.annotation.Get;
 import io.micronaut.http.annotation.PathVariable;
 import io.micronaut.security.annotation.Secured;
 import io.micronaut.security.rules.SecurityRule;
-import io.micronaut.validation.Validated;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
@@ -21,7 +20,6 @@ import java.util.Locale;
  */
 @Controller("/regions")
 @Secured(SecurityRule.IS_AUTHENTICATED)
-@Validated
 @RequiredArgsConstructor
 @Tag(name = "Support")
 public class RegionController {

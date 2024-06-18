@@ -1,3 +1,5 @@
+import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
+
 plugins {
     id("com.github.johnrengelman.shadow") version "8.1.1"
     id("io.micronaut.application") version "4.4.0"
@@ -9,6 +11,8 @@ plugins {
 
 version = "0.1"
 group = "com.github.dkorotych.phone.formatter"
+val javaVersion = project.extra["javaVersion"]
+val micronautVersion = project.extra["micronautVersion"]
 
 repositories {
     mavenCentral()
@@ -22,7 +26,6 @@ dependencies {
     annotationProcessor("io.micronaut.serde:micronaut-serde-processor")
     implementation("io.micronaut.security:micronaut-security-jwt")
     implementation("io.micronaut.serde:micronaut-serde-jackson")
-    implementation "io.micronaut.validation:micronaut-validation"
     compileOnly("io.micronaut:micronaut-http-client")
     compileOnly("io.micronaut.openapi:micronaut-openapi-annotations")
     compileOnly("org.projectlombok:lombok")
@@ -35,9 +38,7 @@ dependencies {
     testImplementation("io.micronaut:micronaut-http-client")
     testImplementation("org.skyscreamer:jsonassert:1.5.1")
     testImplementation("org.assertj:assertj-core:3.26.0")
-    testImplementation "org.glassfish.jaxb:jaxb-runtime:4.0.5"
     testImplementation("org.junit.jupiter:junit-jupiter-params:5.10.2")
-    testImplementation "com.sun.xml.ws:jaxws-rt:4.0.2"
 
     rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:2.12.0"))
     rewrite("org.openrewrite.recipe:rewrite-github-actions")
@@ -49,7 +50,7 @@ dependencies {
     rewrite("org.openrewrite.recipe:rewrite-micronaut")
     rewrite("org.openrewrite:rewrite-gradle")
 
-    aotPlugins platform("io.micronaut.platform:micronaut-platform:${micronautVersion}")
+    aotPlugins(platform("io.micronaut.platform:micronaut-platform:${micronautVersion}"))
     aotPlugins("io.micronaut.security:micronaut-security-aot")
 }
 
@@ -59,8 +60,8 @@ application {
 }
 
 java {
-    sourceCompatibility = JavaVersion.toVersion("${javaVersion}")
-    targetCompatibility = JavaVersion.toVersion("${javaVersion}")
+    sourceCompatibility = JavaVersion.toVersion("$javaVersion")
+    targetCompatibility = JavaVersion.toVersion("$javaVersion")
 }
 
 graalvmNative.toolchainDetection = false
@@ -86,47 +87,32 @@ micronaut {
     }
 }
 
-tasks.named("dockerfile") {
-    baseImage("eclipse-temurin:${javaVersion}-jre-jammy")
-}
 
-tasks.named("dockerfileNative") {
-    jdkVersion = "${javaVersion}"
+tasks.named<io.micronaut.gradle.docker.NativeImageDockerfile>("dockerfileNative") {
+    jdkVersion = "$javaVersion"
 }
 
 rewrite {
     activeRecipe("com.github.dkorotych.phone.formatter.CustomRecipes")
 }
 
-dependencyUpdates {
+tasks.named<DependencyUpdatesTask>("dependencyUpdates").configure {
     checkForGradleUpdate = true
     revision = "release"
     gradleReleaseChannel = "current"
-    resolutionStrategy {
-        componentSelection {
-            all { ComponentSelection selection ->
-                def candidate = selection.candidate
-                if (candidate.version.contains("alpha")) {
-                    selection.reject("Plugin ${candidate.displayName} reject because is a alpha release")
-                }
-                if (candidate.version.contains("beta")) {
-                    selection.reject("Plugin ${candidate.displayName} reject because is a beta release")
-                }
-                if (candidate.version.matches('.+-M\\d+$')) {
-                    selection.reject("Dependency ${candidate.displayName} reject because is a milestone release")
-                }
-                if (candidate.version.matches('.+-RC\\d+$')) {
-                    selection.reject("Dependency ${candidate.displayName} reject because is a release candidate")
-                }
-            }
-        }
+    rejectVersionIf {
+        val version = candidate.version
+        version.contains("alpha")
+                || version.contains("beta")
+                || ".+-M\\d+$".toRegex().matches(version)
+                || ".+-RC\\d+$".toRegex().matches(version)
     }
 }
 
 sonar {
     properties {
-        property "sonar.projectKey", "dkorotych_phone-formatter"
-        property "sonar.organization", "dkorotych"
-        property "sonar.host.url", "https://sonarcloud.io"
+        property("sonar.projectKey", "dkorotych_phone-formatter")
+        property("sonar.organization", "dkorotych")
+        property("sonar.host.url", "https://sonarcloud.io")
     }
 }

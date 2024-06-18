@@ -2,5 +2,5 @@ applicationType: default
 defaultPackage: com.github.dkorotych.phone.formatter
 testFramework: junit
 sourceLanguage: java
-buildTool: gradle
+buildTool: gradle_kotlin
 features: [ app-name, graalvm, gradle, http-client-test, java, java-application, junit, logback, lombok, micronaut-aot, micronaut-build, micronaut-http-validation, netty-server, openapi, openrewrite, readme, security-annotations, security-jwt, serialization-jackson, shade, static-resources, yaml, yaml-build ]

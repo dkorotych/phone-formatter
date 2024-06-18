@@ -8,7 +8,6 @@ import io.micronaut.http.HttpRequest;
 import io.micronaut.http.annotation.*;
 import io.micronaut.security.annotation.Secured;
 import io.micronaut.security.rules.SecurityRule;
-import io.micronaut.validation.Validated;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
@@ -16,7 +15,6 @@ import lombok.RequiredArgsConstructor;
 
 @Controller("/format")
 @Secured(SecurityRule.IS_AUTHENTICATED)
-@Validated
 @Tag(name = "Format")
 @RequiredArgsConstructor
 public class PhoneFormatterController {

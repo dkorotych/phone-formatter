@@ -1,7 +1,7 @@
 FROM gradle:jdk21-alpine AS builder
 WORKDIR /home/app
-COPY settings.gradle .
-COPY build.gradle .
+COPY settings.gradle.kts .
+COPY build.gradle.kts .
 COPY gradle.properties .
 COPY src/main ./src/main
 RUN gradle --no-daemon optimizedJitJarAll
