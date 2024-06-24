@@ -1,7 +1,7 @@
 [versions]
 libphonenumber = "8.13.39"
 sentry = "7.10.0"
-jsonassert = "1.5.1"
+jsonassert = "1.5.2"
 assertj = "3.26.0"
 bean-matchers = "0.14"
 
