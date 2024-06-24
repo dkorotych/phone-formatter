@@ -1,6 +1,7 @@
 FROM gradle:jdk21-alpine AS builder
 WORKDIR /home/app
 COPY settings.gradle.kts .
+COPY gradle/libs.versions.toml ./gradle/
 COPY build.gradle.kts .
 COPY gradle.properties .
 COPY src/main ./src/main
