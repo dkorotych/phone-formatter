@@ -6,7 +6,7 @@ plugins {
     id("io.micronaut.aot") version "4.4.0"
     id("org.openrewrite.rewrite") version "6.16.3"
     id("com.github.ben-manes.versions") version "0.51.0"
-    id("org.sonarqube") version "5.0.0.4638"
+    id("org.sonarqube") version "5.1.0.4882"
     jacoco
 }
 
