@@ -2,7 +2,7 @@
 libphonenumber = "8.13.40"
 sentry = "7.11.0"
 jsonassert = "1.5.3"
-assertj = "3.26.0"
+assertj = "3.26.3"
 bean-matchers = "0.14"
 
 [libraries]
