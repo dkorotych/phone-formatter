@@ -14,7 +14,6 @@ import java.net.URISyntaxException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Stream;
@@ -28,7 +27,7 @@ class PhoneFormatterControllerTest {
     private PhoneFormatterControllerClient client;
 
     private static List<Path> getDirectoriesAsParameters(String path) throws URISyntaxException, IOException {
-        try (var list = Files.list(Paths.get(requireNonNull(PhoneFormatterControllerTest.class.getResource(path)).toURI()))) {
+        try (var list = Files.list(Path.of(requireNonNull(PhoneFormatterControllerTest.class.getResource(path)).toURI()))) {
             return list.map(Path::toFile).
                     filter(File::isDirectory).
                     sorted(Comparator.comparing(File::getName)).

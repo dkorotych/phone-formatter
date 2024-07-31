@@ -14,7 +14,6 @@ import java.net.URISyntaxException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Locale;
@@ -60,7 +59,7 @@ class RegionControllerTest {
     }
 
     private static List<File> getFilesAsParameters(String path) throws URISyntaxException, IOException {
-        try (var list = Files.list(Paths.get(Objects.requireNonNull(RegionControllerTest.class.getResource(path)).toURI()))) {
+        try (var list = Files.list(Path.of(Objects.requireNonNull(RegionControllerTest.class.getResource(path)).toURI()))) {
             return list.map(Path::toFile).
                     filter(File::isFile).
                     filter(file -> file.getName().endsWith(".json")).
