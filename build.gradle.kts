@@ -38,7 +38,7 @@ dependencies {
     testImplementation(libs.assertj)
     testImplementation("org.junit.jupiter:junit-jupiter-params")
     testImplementation(libs.beanmatchers)
-    rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:2.20.0"))
+    rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:2.21.0"))
     rewrite("org.openrewrite.recipe:rewrite-github-actions")
     rewrite("org.openrewrite.recipe:rewrite-logging-frameworks")
     rewrite("org.openrewrite.recipe:rewrite-static-analysis")
