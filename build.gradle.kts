@@ -2,8 +2,8 @@ import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
 
 plugins {
     id("com.github.johnrengelman.shadow") version "8.1.1"
-    id("io.micronaut.application") version "4.4.3"
-    id("io.micronaut.aot") version "4.4.3"
+    id("io.micronaut.application") version "4.4.4"
+    id("io.micronaut.aot") version "4.4.4"
     id("org.openrewrite.rewrite") version "6.26.0"
     id("com.github.ben-manes.versions") version "0.51.0"
     id("org.sonarqube") version "5.1.0.4882"

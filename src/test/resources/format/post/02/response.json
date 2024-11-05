@@ -523,9 +523,9 @@
       "probability": 0.013,
       "format": {
         "e164": "+954185123",
-        "international": "+95 41 85 123",
-        "rfc3966": "tel:+95-41-85-123",
-        "national": "041 85 123"
+        "international": "+95 4185123",
+        "rfc3966": "tel:+95-4185123",
+        "national": "4185123"
       },
       "region": {
         "name": "MM",
@@ -826,14 +826,14 @@
       }
     },
     {
-      "number": "+570954185123",
+      "number": "+5754185123",
       "valid": false,
       "probability": 0.007,
       "format": {
-        "e164": "+570954185123",
-        "international": "+57 0954185123",
-        "rfc3966": "tel:+57-0954185123",
-        "national": "0954185123"
+        "e164": "+5754185123",
+        "international": "+57 54185123",
+        "rfc3966": "tel:+57-54185123",
+        "national": "54185123"
       },
       "region": {
         "name": "CO",
