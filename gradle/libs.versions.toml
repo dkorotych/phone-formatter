@@ -1,6 +1,6 @@
 [versions]
 libphonenumber = "8.13.49"
-sentry = "7.16.0"
+sentry = "7.18.0"
 jsonassert = "1.5.3"
 assertj = "3.26.3"
 bean-matchers = "0.14"
