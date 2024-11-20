@@ -443,7 +443,7 @@
     {
       "number": "+10954185123",
       "valid": false,
-      "probability": 0.166,
+      "probability": 0.164,
       "format": {
         "e164": "+10954185123",
         "international": "+1 0954185123",
@@ -1217,6 +1217,28 @@
           "flag": {
             "code": "\uD83C\uDDE8\uD83C\uDDEE",
             "htmlCode": "&#127464;&#127470;"
+          }
+        }
+      }
+    },
+    {
+      "number": "+2290954185123",
+      "valid": false,
+      "probability": 0.007,
+      "format": {
+        "e164": "+2290954185123",
+        "international": "+229 09 54 18 51 23",
+        "rfc3966": "tel:+229-09-54-18-51-23",
+        "national": "09 54 18 51 23"
+      },
+      "region": {
+        "name": "BJ",
+        "code": 229,
+        "country": {
+          "name": "Benin",
+          "flag": {
+            "code": "\uD83C\uDDE7\uD83C\uDDEF",
+            "htmlCode": "&#127463;&#127471;"
           }
         }
       }

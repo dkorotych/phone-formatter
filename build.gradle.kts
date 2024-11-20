@@ -1,12 +1,12 @@
 import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
 
 plugins {
-    id("com.github.johnrengelman.shadow") version "8.1.1"
-    id("io.micronaut.application") version "4.4.4"
-    id("io.micronaut.aot") version "4.4.4"
-    id("org.openrewrite.rewrite") version "6.27.1"
-    id("com.github.ben-manes.versions") version "0.51.0"
-    id("org.sonarqube") version "5.1.0.4882"
+    alias(libs.plugins.shadow)
+    alias(libs.plugins.micronaut.application)
+    alias(libs.plugins.micronaut.aot)
+    alias(libs.plugins.rewrite)
+    alias(libs.plugins.versions)
+    alias(libs.plugins.sonarqube)
     jacoco
 }
 
@@ -38,7 +38,7 @@ dependencies {
     testImplementation(libs.assertj)
     testImplementation("org.junit.jupiter:junit-jupiter-params")
     testImplementation(libs.beanmatchers)
-    rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:2.22.0"))
+    rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:${libs.versions.rewrite.get()}"))
     rewrite("org.openrewrite.recipe:rewrite-github-actions")
     rewrite("org.openrewrite.recipe:rewrite-logging-frameworks")
     rewrite("org.openrewrite.recipe:rewrite-static-analysis")
