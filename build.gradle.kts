@@ -102,7 +102,7 @@ tasks.named<DependencyUpdatesTask>("dependencyUpdates").configure {
         version.contains("alpha")
                 || version.contains("beta")
                 || ".+-M\\d+$".toRegex().matches(version)
-                || ".+-RC\\d+$".toRegex(RegexOption.IGNORE_CASE).matches(version)
+                || ".+-RC\\.?\\d+$".toRegex(RegexOption.IGNORE_CASE).matches(version)
     }
 }
 
