@@ -15,5 +15,6 @@ public class PingController {
     @Get("/ping")
     @Status(HttpStatus.OK)
     public void ping() {
+        // An empty method, status is enough.
     }
 }
