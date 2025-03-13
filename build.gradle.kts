@@ -1,4 +1,5 @@
 import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
+import io.micronaut.gradle.docker.NativeImageDockerfile
 
 plugins {
     alias(libs.plugins.shadow)
@@ -61,6 +62,7 @@ java {
 }
 
 graalvmNative.toolchainDetection = false
+
 micronaut {
     runtime("netty")
     testRuntime("junit5")
@@ -84,7 +86,7 @@ micronaut {
 }
 
 
-tasks.named<io.micronaut.gradle.docker.NativeImageDockerfile>("dockerfileNative") {
+tasks.named<NativeImageDockerfile>("dockerfileNative") {
     jdkVersion = "$javaVersion"
 }
 
