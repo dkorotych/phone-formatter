@@ -20,6 +20,5 @@ recipeList:
   - org.openrewrite.staticanalysis.CommonStaticAnalysis
   - org.openrewrite.staticanalysis.CodeCleanup
   - org.openrewrite.staticanalysis.JavaApiBestPractices
-  - org.openrewrite.java.security.JavaSecurityBestPractices
   - org.openrewrite.java.testing.cleanup.BestPractices
   - org.openrewrite.java.logging.slf4j.Slf4jBestPractices
