@@ -34,7 +34,7 @@ class CountryTest {
     }
 
     @Test
-     void bean() {
+    void bean() {
         BeanMatchers.registerValueGenerator(() -> {
             final String region = REGIONS[ThreadLocalRandom.current().nextInt(REGIONS.length)];
             return FLAGS_KEEPER.get(region);

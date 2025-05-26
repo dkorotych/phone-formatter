@@ -31,7 +31,7 @@ class RegionTest {
     }
 
     @Test
-     void bean() {
+    void bean() {
         MatcherAssert.assertThat(Region.class, allOf(
                 hasValidBeanConstructor(),
                 hasValidGettersAndSetters(),
