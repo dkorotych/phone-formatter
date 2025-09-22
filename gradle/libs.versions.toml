@@ -3,7 +3,7 @@ libphonenumber = "9.0.14"
 sentry = "8.21.1"
 rewrite = "3.14.1"
 jsonassert = "1.5.3"
-assertj = "3.27.4"
+assertj = "3.27.5"
 bean-matchers = "0.14"
 
 [libraries]
