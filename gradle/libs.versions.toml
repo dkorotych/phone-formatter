@@ -1,7 +1,7 @@
 [versions]
 libphonenumber = "9.0.16"
-sentry = "8.23.0"
-rewrite = "3.16.0"
+sentry = "8.24.0"
+rewrite = "3.17.0"
 jsonassert = "1.5.3"
 assertj = "3.27.6"
 bean-matchers = "0.14"
@@ -15,8 +15,8 @@ beanmatchers = { module = "com.google.code.bean-matchers:bean-matchers", version
 
 [plugins]
 shadow = { id = "com.gradleup.shadow", version = "8.3.9" }
-micronaut-application = { id = "io.micronaut.application", version = "4.5.5" }
+micronaut-application = { id = "io.micronaut.application", version = "4.6.0" }
 micronaut-aot = { id = "io.micronaut.aot", version = "4.6.0" }
-rewrite = { id = "org.openrewrite.rewrite", version = "7.18.0" }
+rewrite = { id = "org.openrewrite.rewrite", version = "7.19.0" }
 versions = { id = "com.github.ben-manes.versions", version = "0.53.0" }
 sonarqube = { id = "org.sonarqube", version = "7.0.0.6105" }
