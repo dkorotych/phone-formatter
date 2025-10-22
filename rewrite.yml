@@ -11,7 +11,7 @@ recipeList:
       packageEcosystem: gradle
       interval: weekly
   - org.openrewrite.gradle.UpdateGradleWrapper:
-      version: 8.x
+      version: 9.x
   - org.openrewrite.gradle.DependencyUseStringNotation
   - org.openrewrite.java.logging.slf4j.ParameterizedLogging
   - org.openrewrite.java.logging.PrintStackTraceToLogError
