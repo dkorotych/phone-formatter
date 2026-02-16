@@ -17,6 +17,6 @@ beanmatchers = { module = "com.google.code.bean-matchers:bean-matchers", version
 shadow = { id = "com.gradleup.shadow", version = "9.3.1" }
 micronaut-application = { id = "io.micronaut.application", version = "4.6.1" }
 micronaut-aot = { id = "io.micronaut.aot", version = "4.6.2" }
-rewrite = { id = "org.openrewrite.rewrite", version = "7.24.0" }
+rewrite = { id = "org.openrewrite.rewrite", version = "7.26.0" }
 versions = { id = "com.github.ben-manes.versions", version = "0.53.0" }
 sonarqube = { id = "org.sonarqube", version = "7.2.2.6593" }
