@@ -19,4 +19,4 @@ micronaut-application = { id = "io.micronaut.application", version = "5.0.0" }
 micronaut-aot = { id = "io.micronaut.aot", version = "5.0.0" }
 rewrite = { id = "org.openrewrite.rewrite", version = "7.34.0" }
 versions = { id = "com.github.ben-manes.versions", version = "0.54.0" }
-sonarqube = { id = "org.sonarqube", version = "7.3.0.8198" }
+sonarqube = { id = "org.sonarqube", version = "7.3.1.8318" }
