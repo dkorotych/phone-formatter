@@ -12,6 +12,7 @@ sentry = { module = "io.sentry:sentry-logback", version.ref = "sentry" }
 jsonassert = { module = "org.skyscreamer:jsonassert", version.ref = "jsonassert" }
 assertj = { module = "org.assertj:assertj-core", version.ref = "assertj" }
 beanmatchers = { module = "com.google.code.bean-matchers:bean-matchers", version.ref = "bean-matchers" }
+fastcsv = { module = "de.siegmar:fastcsv", version = "4.3.0" }
 
 [plugins]
 shadow = { id = "com.gradleup.shadow", version = "9.4.2" }

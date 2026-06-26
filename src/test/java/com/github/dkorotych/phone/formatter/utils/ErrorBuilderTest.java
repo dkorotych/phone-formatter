@@ -3,6 +3,10 @@ package com.github.dkorotych.phone.formatter.utils;
 import com.github.dkorotych.phone.formatter.domain.Error;
 import com.github.dkorotych.phone.formatter.domain.ErrorCode;
 import com.google.i18n.phonenumbers.NumberParseException;
+import de.siegmar.fastcsv.reader.CsvReader;
+import de.siegmar.fastcsv.reader.CsvRecord;
+import de.siegmar.fastcsv.reader.CsvRecordHandler;
+import de.siegmar.fastcsv.reader.FieldModifiers;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -10,11 +14,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.junit.jupiter.params.shadow.com.univocity.parsers.common.record.Record;
-import org.junit.jupiter.params.shadow.com.univocity.parsers.conversions.ObjectConversion;
-import org.junit.jupiter.params.shadow.com.univocity.parsers.csv.CsvParser;
-import org.junit.jupiter.params.shadow.com.univocity.parsers.csv.CsvParserSettings;
+import org.junit.platform.commons.util.StringUtils;
 
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
@@ -28,23 +30,28 @@ class ErrorBuilderTest {
     private ErrorBuilder errorBuilder;
 
     @BeforeAll
-    static void beforeAll() {
+    static void beforeAll() throws IOException {
         messages = new HashMap<>();
-        final CsvParser parser = new CsvParser(new CsvParserSettings());
         final InputStreamReader reader = new InputStreamReader(Objects.requireNonNull(ErrorBuilderTest.class.getResourceAsStream("/errors.csv")), StandardCharsets.UTF_8);
-        final List<Record> records = parser.parseAllRecords(reader);
-        for (Record line : records) {
-            final Locale locale = line.getValue(0, Locale.ENGLISH, new ObjectConversion<Locale>() {
-                @Override
-                protected Locale fromString(String s) {
-                    return Locale.forLanguageTag(s);
+        CsvRecordHandler handler = CsvRecordHandler.builder()
+                .fieldModifier(FieldModifiers.TRIM)
+                .build();
+        try (CsvReader<CsvRecord> csv = CsvReader.builder()
+                .build(handler, reader)) {
+            for (CsvRecord line : csv) {
+                Locale locale;
+                final String languageTag = line.getField(0);
+                if (StringUtils.isBlank(languageTag)) {
+                    locale = Locale.ENGLISH;
+                } else {
+                    locale = Locale.forLanguageTag(languageTag);
                 }
-            });
-            final String type = line.getString(1);
-            final String message = line.getString(2);
+                final String type = line.getField(1);
+                final String message = line.getField(2);
 
-            final Map<String, String> map = messages.computeIfAbsent(locale, tmp -> new HashMap<>());
-            map.put(type, message);
+                final Map<String, String> map = messages.computeIfAbsent(locale, _ -> new HashMap<>());
+                map.put(type, message);
+            }
         }
     }
 

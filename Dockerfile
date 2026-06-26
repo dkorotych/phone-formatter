@@ -1,4 +1,4 @@
-FROM gradle:jdk21-alpine AS builder
+FROM gradle:jdk25-alpine AS builder
 WORKDIR /home/app
 COPY settings.gradle.kts .
 COPY gradle/libs.versions.toml ./gradle/
@@ -7,7 +7,7 @@ COPY gradle.properties .
 COPY src/main ./src/main
 RUN gradle --no-daemon optimizedJitJarAll
 
-FROM bellsoft/liberica-openjre-alpine:21
+FROM bellsoft/liberica-openjre-alpine:25
 WORKDIR /home/app
 COPY --from=builder /home/app/build/libs/phone-formatter-0.1-all-optimized.jar ./application.jar
 EXPOSE 8080

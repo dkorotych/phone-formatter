@@ -1,11 +1,10 @@
 import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
-import io.micronaut.gradle.docker.NativeImageDockerfile
 
 plugins {
-    alias(libs.plugins.shadow)
     alias(libs.plugins.micronaut.application)
-    alias(libs.plugins.micronaut.aot)
+    alias(libs.plugins.shadow)
     alias(libs.plugins.rewrite)
+    alias(libs.plugins.micronaut.aot)
     alias(libs.plugins.versions)
     alias(libs.plugins.sonarqube)
     jacoco
@@ -23,7 +22,7 @@ dependencies {
     annotationProcessor("org.projectlombok:lombok")
     annotationProcessor("io.micronaut:micronaut-http-validation")
     annotationProcessor("io.micronaut.openapi:micronaut-openapi")
-    annotationProcessor("io.micronaut.security:micronaut-security-annotations")
+    annotationProcessor("io.micronaut.security:micronaut-security-processor")
     annotationProcessor("io.micronaut.serde:micronaut-serde-processor")
     implementation("io.micronaut.security:micronaut-security-jwt")
     implementation("io.micronaut.serde:micronaut-serde-jackson")
@@ -39,6 +38,7 @@ dependencies {
     testImplementation(libs.assertj)
     testImplementation("org.junit.jupiter:junit-jupiter-params")
     testImplementation(libs.beanmatchers)
+    testImplementation(libs.fastcsv)
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
     rewrite(platform("org.openrewrite.recipe:rewrite-recipe-bom:${libs.versions.rewrite.get()}"))
     rewrite("org.openrewrite.recipe:rewrite-github-actions")
@@ -62,7 +62,14 @@ java {
     targetCompatibility = JavaVersion.toVersion("$javaVersion")
 }
 
-graalvmNative.toolchainDetection = false
+graalvmNative {
+    toolchainDetection = false
+    binaries {
+        all {
+            buildArgs.add("-H:+SharedArenaSupport")
+        }
+    }
+}
 
 micronaut {
     runtime("netty")
@@ -84,11 +91,6 @@ micronaut {
         replaceLogbackXml = true
         configurationProperties.put("micronaut.security.jwks.enabled", "false")
     }
-}
-
-
-tasks.named<NativeImageDockerfile>("dockerfileNative") {
-    jdkVersion = "$javaVersion"
 }
 
 rewrite {
