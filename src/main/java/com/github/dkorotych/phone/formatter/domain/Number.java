@@ -1,10 +1,10 @@
 package com.github.dkorotych.phone.formatter.domain;
 
 import com.github.dkorotych.phone.region.domain.Region;
-import io.micronaut.core.annotation.NonNull;
 import io.micronaut.serde.annotation.Serdeable;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
+import org.jspecify.annotations.NonNull;
 
 import java.util.Comparator;
 import java.util.Optional;

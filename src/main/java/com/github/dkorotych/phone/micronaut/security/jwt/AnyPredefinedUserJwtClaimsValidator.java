@@ -4,7 +4,6 @@ import com.github.dkorotych.phone.micronaut.configuration.RuntimeConfiguration;
 import com.github.dkorotych.phone.micronaut.configuration.User;
 import com.nimbusds.jwt.JWTClaimsSet;
 import io.micronaut.context.env.Environment;
-import io.micronaut.core.annotation.NonNull;
 import io.micronaut.http.HttpRequest;
 import io.micronaut.security.authentication.AuthenticationException;
 import io.micronaut.security.token.Claims;
@@ -14,6 +13,7 @@ import io.micronaut.security.token.jwt.validator.JWTClaimsSetUtils;
 import io.sentry.Sentry;
 import jakarta.inject.Inject;
 import jakarta.inject.Singleton;
+import org.jspecify.annotations.NonNull;
 
 import java.text.ParseException;
 import java.util.*;
