@@ -78,7 +78,7 @@ class RegionControllerTest {
         try {
             JSONAssert.assertEquals(expected, actual, true);
         } catch (Throwable e) {
-            System.out.println("e = " + e);
+            IO.println("e = " + e);
             throw e;
         }
     }

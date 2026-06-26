@@ -23,7 +23,7 @@ public class Utilities {
                         }
                         builder.setRegion(region);
                         return builder.build();
-                    } catch (Exception e) {
+                    } catch (Exception _) {
                         return null;
                     }
                 });
@@ -40,7 +40,7 @@ public class Utilities {
                 filter(item -> {
                     try {
                         return StringUtils.hasText(item.getISO3Language());
-                    } catch (MissingResourceException ignored) {
+                    } catch (MissingResourceException _) {
                         return false;
                     }
                 }).
