@@ -8,6 +8,7 @@ import jakarta.inject.Singleton;
 
 @Singleton
 @Requires(env = Environment.TEST)
+@SuppressWarnings("unused")
 public class TestUserAuthenticationProvider extends PredefinedUserAuthenticationProvider {
 
     @Inject

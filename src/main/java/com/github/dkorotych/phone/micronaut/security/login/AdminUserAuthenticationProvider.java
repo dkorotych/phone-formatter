@@ -5,6 +5,7 @@ import jakarta.inject.Inject;
 import jakarta.inject.Singleton;
 
 @Singleton
+@SuppressWarnings("unused")
 public class AdminUserAuthenticationProvider extends PredefinedUserAuthenticationProvider {
     @Inject
     public AdminUserAuthenticationProvider(RuntimeConfiguration configuration) {

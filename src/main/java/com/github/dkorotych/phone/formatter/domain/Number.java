@@ -1,6 +1,7 @@
 package com.github.dkorotych.phone.formatter.domain;
 
 import com.github.dkorotych.phone.region.domain.Region;
+import io.micronaut.core.annotation.NonNull;
 import io.micronaut.serde.annotation.Serdeable;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
@@ -39,7 +40,8 @@ public class Number implements Comparable<Number> {
     private Region region;
 
     @Override
-    public int compareTo(Number o) {
+    @SuppressWarnings("NullableProblems")
+    public int compareTo(@NonNull Number o) {
         return Comparator.comparing(Number::isValid).
                 thenComparingDouble(Number::getProbability).
                 reversed().

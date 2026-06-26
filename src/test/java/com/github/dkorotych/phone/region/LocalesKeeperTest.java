@@ -20,6 +20,8 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import static java.util.Objects.requireNonNull;
+
 @MicronautTest
 class LocalesKeeperTest {
     private static Map<String, Locale> mapper;
@@ -28,8 +30,8 @@ class LocalesKeeperTest {
 
     @BeforeAll
     static void beforeAll(ObjectMapper objectMapper) throws IOException {
-        final InputStream stream = LocalesKeeperTest.class.getResourceAsStream("/region/locales.json");
-        mapper = objectMapper.readValue(stream, Argument.mapOf(String.class, String.class)).entrySet().stream().
+        final InputStream stream = requireNonNull(LocalesKeeperTest.class.getResourceAsStream("/region/locales.json"));
+        mapper = requireNonNull(objectMapper.readValue(stream, Argument.mapOf(String.class, String.class))).entrySet().stream().
                 map(entry -> {
                     final String key = entry.getKey();
                     final String value = entry.getValue();

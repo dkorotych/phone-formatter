@@ -24,10 +24,6 @@ class AuthenticationTest {
     @Inject
     private HttpClient formatClient;
 
-    @Client("/regions")
-    @Inject
-    private HttpClient regionsClient;
-
     private static Stream<Arguments> arguments() {
         final Stream.Builder<Arguments> builder = Stream.builder();
         for (String phone : Arrays.asList("+380505095210", "1-800-kodak")) {

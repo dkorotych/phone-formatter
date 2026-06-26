@@ -19,6 +19,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Stream;
 
+import static java.util.Objects.requireNonNull;
+
 @MicronautTest
 class FlagsKeeperTest {
     private static Map<String, Flag> mapper;
@@ -27,7 +29,7 @@ class FlagsKeeperTest {
 
     @BeforeAll
     static void beforeAll(ObjectMapper objectMapper) throws IOException {
-        final InputStream stream = FlagsKeeperTest.class.getResourceAsStream("/region/flags.json");
+        final InputStream stream = requireNonNull(FlagsKeeperTest.class.getResourceAsStream("/region/flags.json"));
         mapper = objectMapper.readValue(stream, Argument.mapOf(String.class, Flag.class));
     }
 

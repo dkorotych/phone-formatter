@@ -1,7 +1,7 @@
 package com.github.dkorotych.phone.formatter;
 
-import com.github.dkorotych.phone.formatter.domain.Number;
 import com.github.dkorotych.phone.formatter.domain.*;
+import com.github.dkorotych.phone.formatter.domain.Number;
 import com.github.dkorotych.phone.formatter.utils.ErrorBuilder;
 import com.github.dkorotych.phone.region.LocalesKeeper;
 import com.github.dkorotych.phone.region.SupportedRegionsKeeper;
@@ -68,7 +68,7 @@ public class PhoneFormatterFunction implements Function<Request, Response> {
                     map(number -> {
                         try {
                             return PHONE_NUMBER_UTIL.parse(number, null);
-                        } catch (NumberParseException ignored) {
+                        } catch (NumberParseException _) {
                         }
                         return null;
                     }).

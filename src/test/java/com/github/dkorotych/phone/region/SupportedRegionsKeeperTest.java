@@ -19,6 +19,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Stream;
 
+import static java.util.Objects.requireNonNull;
+
 @MicronautTest
 class SupportedRegionsKeeperTest {
     private static Map<String, Region> mapper;
@@ -27,7 +29,7 @@ class SupportedRegionsKeeperTest {
 
     @BeforeAll
     static void beforeAll(ObjectMapper objectMapper) throws IOException {
-        final InputStream stream = FlagsKeeperTest.class.getResourceAsStream("/region/regions.json");
+        final InputStream stream = requireNonNull(SupportedRegionsKeeperTest.class.getResourceAsStream("/region/regions.json"));
         mapper = objectMapper.readValue(stream, Argument.mapOf(String.class, Region.class));
     }
 

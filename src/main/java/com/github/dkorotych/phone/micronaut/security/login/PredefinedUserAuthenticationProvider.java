@@ -16,8 +16,10 @@ import java.util.Objects;
 public abstract class PredefinedUserAuthenticationProvider implements HttpRequestAuthenticationProvider<Object> {
     private final User user;
 
-    public AuthenticationResponse authenticate(@Nullable HttpRequest<Object> httpRequest,
-                                               @NonNull AuthenticationRequest<String, String> authenticationRequest) {
+    @Override
+    @SuppressWarnings("NullableProblems")
+    public @NonNull AuthenticationResponse authenticate(@Nullable HttpRequest<Object> httpRequest,
+                                                        @NonNull AuthenticationRequest<String, String> authenticationRequest) {
         if (Objects.equals(user.getIdentity(), authenticationRequest.getIdentity())
                 && Objects.equals(user.getSecret(), authenticationRequest.getSecret())) {
             return AuthenticationResponse.success(user.getIdentity(), user.getRoles());

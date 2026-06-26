@@ -11,6 +11,7 @@ import io.swagger.v3.oas.annotations.Hidden;
 @Controller
 @Secured(SecurityRule.IS_ANONYMOUS)
 @Hidden
+@SuppressWarnings("unused")
 public class PingController {
     @Get("/ping")
     @Status(HttpStatus.OK)

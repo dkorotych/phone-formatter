@@ -4,6 +4,7 @@ import com.github.dkorotych.phone.micronaut.configuration.RuntimeConfiguration;
 import com.github.dkorotych.phone.micronaut.configuration.User;
 import com.nimbusds.jwt.JWTClaimsSet;
 import io.micronaut.context.env.Environment;
+import io.micronaut.core.annotation.NonNull;
 import io.micronaut.http.HttpRequest;
 import io.micronaut.security.authentication.AuthenticationException;
 import io.micronaut.security.token.Claims;
@@ -18,6 +19,7 @@ import java.text.ParseException;
 import java.util.*;
 
 @Singleton
+@SuppressWarnings("unused")
 public class AnyPredefinedUserJwtClaimsValidator implements GenericJwtClaimsValidator<HttpRequest<?>> {
     private final Collection<User> users;
     private final String rolesName;
@@ -35,7 +37,8 @@ public class AnyPredefinedUserJwtClaimsValidator implements GenericJwtClaimsVali
     }
 
     @Override
-    public boolean validate(Claims claims, HttpRequest<?> request) {
+    @SuppressWarnings("NullableProblems")
+    public boolean validate(Claims claims, @NonNull HttpRequest<?> request) {
         return validate(JWTClaimsSetUtils.jwtClaimsSetFromClaims(claims));
     }
 

@@ -22,6 +22,7 @@ import java.util.Locale;
 @Secured(SecurityRule.IS_AUTHENTICATED)
 @RequiredArgsConstructor
 @Tag(name = "Support")
+@SuppressWarnings("unused")
 public class RegionController {
     private final SupportedRegionsKeeper keeper;
 

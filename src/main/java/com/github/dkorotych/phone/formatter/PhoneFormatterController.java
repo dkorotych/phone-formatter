@@ -17,6 +17,7 @@ import lombok.RequiredArgsConstructor;
 @Secured(SecurityRule.IS_AUTHENTICATED)
 @Tag(name = "Format")
 @RequiredArgsConstructor
+@SuppressWarnings("unused")
 public class PhoneFormatterController {
     private final PhoneFormatterFunction function;
 
