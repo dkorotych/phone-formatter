@@ -1,6 +1,6 @@
 [versions]
 libphonenumber = "9.0.33"
-sentry = "8.44.1"
+sentry = "8.46.0"
 rewrite = "3.33.0"
 jsonassert = "1.5.3"
 assertj = "3.27.7"
