@@ -1,7 +1,7 @@
 [versions]
-libphonenumber = "9.0.33"
+libphonenumber = "9.0.34"
 sentry = "8.46.0"
-rewrite = "3.33.0"
+rewrite = "3.34.0"
 jsonassert = "1.5.3"
 assertj = "3.27.7"
 bean-matchers = "0.14"
@@ -12,12 +12,12 @@ sentry = { module = "io.sentry:sentry-logback", version.ref = "sentry" }
 jsonassert = { module = "org.skyscreamer:jsonassert", version.ref = "jsonassert" }
 assertj = { module = "org.assertj:assertj-core", version.ref = "assertj" }
 beanmatchers = { module = "com.google.code.bean-matchers:bean-matchers", version.ref = "bean-matchers" }
-fastcsv = { module = "de.siegmar:fastcsv", version = "4.3.0" }
+fastcsv = { module = "de.siegmar:fastcsv", version = "4.3.1" }
 
 [plugins]
 shadow = { id = "com.gradleup.shadow", version = "9.4.3" }
-micronaut-application = { id = "io.micronaut.application", version = "5.0.1" }
-micronaut-aot = { id = "io.micronaut.aot", version = "5.0.1" }
-rewrite = { id = "org.openrewrite.rewrite", version = "7.35.0" }
+micronaut-application = { id = "io.micronaut.application", version = "5.0.2" }
+micronaut-aot = { id = "io.micronaut.aot", version = "5.0.2" }
+rewrite = { id = "org.openrewrite.rewrite", version = "7.36.0" }
 versions = { id = "com.github.ben-manes.versions", version = "0.54.0" }
 sonarqube = { id = "org.sonarqube", version = "7.3.1.8318" }
