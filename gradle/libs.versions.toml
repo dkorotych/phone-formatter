@@ -1,5 +1,5 @@
 [versions]
-libphonenumber = "9.0.35"
+libphonenumber = "9.0.36"
 sentry = "8.50.1"
 rewrite = "3.35.0"
 jsonassert = "1.5.3"
