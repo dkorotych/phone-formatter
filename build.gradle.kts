@@ -1,4 +1,5 @@
 import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
+import org.gradle.jvm.toolchain.JavaLanguageVersion
 
 plugins {
     alias(libs.plugins.micronaut.application)
@@ -60,8 +61,9 @@ application {
 }
 
 java {
-    sourceCompatibility = JavaVersion.toVersion("$javaVersion")
-    targetCompatibility = JavaVersion.toVersion("$javaVersion")
+    toolchain {
+        languageVersion = JavaLanguageVersion.of("$javaVersion")
+    }
 }
 
 graalvmNative {
